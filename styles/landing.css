@@ -50,3 +50,33 @@
     letter-spacing: var(--font-spacing-2);
   }
 }
+
+.landing-join {
+  padding: min(4rem, 5vw);
+  width: calc(100% - 10vw);
+  max-width: 1200px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  column-gap: 4rem;
+  row-gap: 2rem;
+  flex-wrap: wrap;
+  background: var(--black-100);
+  border-radius: 8px;
+  margin: 5vh auto;
+
+  & > * {
+    flex: 1 1 300px;
+    margin: 0;
+  }
+
+  & h2 {
+    font: var(--font-2-bold);
+    margin: 0;
+  }
+
+  & p {
+    font: var(--font-1);
+    color: var(--black-700);
+  }
+}

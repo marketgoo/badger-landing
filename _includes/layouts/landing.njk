@@ -12,7 +12,7 @@ css: /styles/landing.css
 
   <div class="landing-header-content">
     <p>{{ header.intro | md | safe}}</p>
-    <a href="#" class="button is-primary">{{ header.cta }}</a>
+    <a href="#" class="button is-primary is-responsive">{{ header.cta }}</a>
   </div>
 </header>
 
@@ -22,3 +22,32 @@ css: /styles/landing.css
   {{ block.description | md | safe }}
 </section>
 {% endfor %}
+
+<section class="landing-join">
+  <header>
+    <h2>{{ join.title | safe }}</h2>
+    {{ join.description | md | safe }}
+  </header>
+
+  <badger-subscribe>
+    <form method="post">
+      <div class="field">
+        <label for="email" class="field-label">
+          {{ join.email.label }}
+        </label>
+        <input required type="email" id="email" class="input field-input" placeholder="{{ join.email.placeholder }}">
+      </div>
+      <button type="submit" class="button is-primary is-responsive">{{ join.cta }}</button>
+    </form>
+    <template class="tmpl-success">
+      <div class="form-success">
+        {{ join.success | md | safe }}
+      </div>
+    </template>
+    <template class="tmpl-error">
+      <div class="form-error">
+        {{ join.error | md | safe }}
+      </div>
+    </template>
+  </badger-subscribe>
+</section>

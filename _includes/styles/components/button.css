@@ -56,7 +56,7 @@
   }
 
   &:focus-visible {
-    box-shadow: 0 0 0 4px var(--shadow-focus);
+    box-shadow: 0 0 0 2px var(--shadow-focus);
   }
 
   &:active {
@@ -69,7 +69,7 @@
     --background: var(--primary-500);
     --color-hover: var(--color);
     --background-hover: var(--primary-300);
-    --shadow-focus: var(--primary-100);
+    --shadow-focus: var(--primary-300);
     --color-active: var(--color);
     --background-active: var(--background-hover);
     --spinner-color: var(--color);
@@ -110,6 +110,12 @@
     &:hover {
       color: var(--accent-dark);
       background-color: var(--background-selected);
+    }
+  }
+  &.is-responsive {
+    @media (max-width: 450px) {
+      width: 100%;
+      display: flex;
     }
   }
 }

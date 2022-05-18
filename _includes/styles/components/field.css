@@ -1,0 +1,20 @@
+.field {
+  max-width: 100%;
+  margin: 4px 0;
+
+  &.is-row {
+    display: flex;
+    align-items: baseline;
+    column-gap: 1em;
+  }
+}
+.field-label {
+  color: var(--black-900);
+  display: flex;
+  justify-content: space-between;
+  font: var(--font-1-bold);
+  cursor: default;
+}
+.field-input {
+  margin: 4px 0;
+}

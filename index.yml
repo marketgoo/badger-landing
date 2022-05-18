@@ -19,3 +19,14 @@ steps:
   - title: Share with your clients
     description: |
       Your reports can generate a URL for your clients, where they can see the data with your comments.
+
+join:
+  title: Join for early access
+  description: |
+    We're gradually opening Badger early access to updates and be a part of building the next generation SEO reporting.
+  email:
+    label: Your email
+    placeholder: example@email.com
+  cta: Join to the waiting list
+  success: Thanks for joining to Badger!
+  error: Ooops, there's an error. [Refresh the page](/) and try it again

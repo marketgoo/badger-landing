@@ -85,7 +85,7 @@ html {
   --radius-small: 4px;
 
   /* Separators */
-  --separator: solid 1px var(--tone-200);
+  --separator: solid 1px var(--black-200);
 
   /* Transitions */
   --duration: 100ms;

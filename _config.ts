@@ -4,5 +4,6 @@ import basePath from "lume/plugins/base_path.ts";
 
 export default lume()
   .copy([".svg"])
+  .copy("scripts")
   .use(basePath())
   .use(postcss());
