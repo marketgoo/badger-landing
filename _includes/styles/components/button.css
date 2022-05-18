@@ -1,0 +1,115 @@
+.button {
+  --color: var(--black-700);
+  --color-hover: var(--black-900);
+  --color-active: var(--color-hover);
+  --color-selected: var(--color);
+  --color-unselected: var(--color);
+  --background: transparent;
+  --background-hover: var(--background);
+  --background-active: var(--black-200);
+  --background-selected: var(--background-active);
+  --background-unselected: var(--background);
+  --shadow-focus: transparent;
+  --border: var(--black-200);
+  --border-hover: var(--black-300);
+  --border-selected: var(--black-300);
+  --border-unselected: var(--black-200);
+  --spinner-color: var(--color);
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 44px;
+  min-width: 44px;
+  max-width: 100%;
+  border: none;
+  border-color: var(--border);
+  background: none;
+  color: var(--color);
+  background-color: var(--background);
+  cursor: pointer;
+  border-radius: var(--radius-small);
+  font: var(--font-1-bold);
+  padding: 0 1em;
+  transition-property: background-color, color, box-shadow;
+  transition-duration: var(--duration);
+  outline: 0;
+  white-space: nowrap;
+  text-decoration: none;
+  box-sizing: border-box;
+  vertical-align: middle;
+  flex: 0 0 auto;
+
+  &::-moz-focus-inner {
+    border: 0;
+  }
+
+  &:hover {
+    color: var(--color-hover);
+    background-color: var(--background-hover);
+    border-color: var(--border-hover);
+  }
+
+  &:hover svg > path {
+    stroke: var(--color-hover);
+  }
+
+  &:focus-visible {
+    box-shadow: 0 0 0 4px var(--shadow-focus);
+  }
+
+  &:active {
+    color: var(--color-active);
+    background-color: var(--background-active);
+  }
+
+  &.is-primary {
+    --color: var(--black-900);
+    --background: var(--primary-500);
+    --color-hover: var(--color);
+    --background-hover: var(--primary-300);
+    --shadow-focus: var(--primary-100);
+    --color-active: var(--color);
+    --background-active: var(--background-hover);
+    --spinner-color: var(--color);
+  }
+
+  &.is-secondary {
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  &.is-destructive {
+    --color: var(--error-500);
+    --color-hover: var(--error-700);
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  &.is-disabled,
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+    box-shadow: none;
+  }
+
+  &[aria-pressed="true"] {
+    color: var(--color-selected);
+    background-color: var(--background-selected);
+    border-color: var(--border-selected);
+    cursor: default;
+    pointer-events: none;
+  }
+
+  &[aria-pressed="false"] {
+    color: var(--color-unselected);
+    background-color: var(--background-unselected);
+    border-color: var(--border-unselected);
+    &:hover {
+      color: var(--accent-dark);
+      background-color: var(--background-selected);
+    }
+  }
+}

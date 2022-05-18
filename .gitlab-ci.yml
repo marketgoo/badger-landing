@@ -1,0 +1,12 @@
+image: denoland/deno
+
+stages:
+  - pages
+
+pages:
+  stage: pages
+  script: deno task build --dest=public --location=https://marketgoo.gitlab.io/badger-seo/landing/
+
+  artifacts:
+    paths:
+      - public

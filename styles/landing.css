@@ -1,0 +1,52 @@
+@import "styles/default.css";
+@import "styles/variables.css";
+@import "styles/components.css";
+
+.landing-header {
+  padding: 10vh 5vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+  & h1 {
+    font: var(--font-8-bold);
+    letter-spacing: var(--font-spacing-8);
+    flex: 0 0 auto;
+    margin: 0;
+
+    & strong {
+      background: linear-gradient(to left, var(--primary-500), var(--primary-700));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  & p {
+    font: var(--font-3);
+    letter-spacing: var(--font-spacing-2);
+    color: var(--black-700);
+    max-width: 20em;
+  }
+}
+
+.landing-step {
+  padding: 10vh 5vw;
+  max-width: 20em;
+  margin: 0 auto;
+
+  & h2 {
+    font: var(--font-0-bold);
+    letter-spacing: var(--font-spacing-1);
+    text-transform: uppercase;
+    color: var(--primary-700);
+    margin: 0;
+  }
+  & p {
+    font: var(--font-2-bold);
+    letter-spacing: var(--font-spacing-2);
+  }
+}

@@ -1,0 +1,24 @@
+---
+layout: ./base.njk
+css: /styles/landing.css
+---
+
+<div class="navbar">
+  <img src="/badger.svg" alt="Badger logo" class="logo">
+</div>
+
+<header class="landing-header">
+  <h1>{{ header.title | safe }}</h1>
+
+  <div class="landing-header-content">
+    <p>{{ header.intro | md | safe}}</p>
+    <a href="#" class="button is-primary">{{ header.cta }}</a>
+  </div>
+</header>
+
+{% for block in steps %}
+<section class="landing-step">
+  <h2>{{ block.title | safe }}</h2>
+  {{ block.description | md | safe }}
+</section>
+{% endfor %}
