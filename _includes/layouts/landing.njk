@@ -48,7 +48,7 @@ css: /styles/landing.css
     <template class="tmpl-success">
       <div class="form-success">
         {{ join.success | md | safe }}
-        {{ comp.fireworks() }}
+        {{ comp.fireworks() | safe }}
       </div>
     </template>
     <template class="tmpl-error">
