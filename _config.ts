@@ -6,4 +6,5 @@ export default lume()
   .copy([".svg"])
   .copy("scripts")
   .use(basePath())
-  .use(postcss());
+  .use(postcss())
+  .data("dev", true);

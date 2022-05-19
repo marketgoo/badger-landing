@@ -8,7 +8,11 @@
   {% if css %}
   <link rel="stylesheet" href="{{ css }}">
   {% endif %}
+
+  {% if not dev %}
   {% include "templates/posthog.njk" %}
+  {% endif %}
+
   <script src="/scripts/main.js" type="module"></script>
 </head>
 

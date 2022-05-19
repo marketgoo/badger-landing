@@ -20,6 +20,10 @@ css: /styles/landing.css
 <section class="landing-step">
   <h2>{{ block.title | safe }}</h2>
   {{ block.description | md | safe }}
+
+  {% if block.img %}
+    <img src="{{ block.img }}">
+  {% endif %}
 </section>
 {% endfor %}
 
