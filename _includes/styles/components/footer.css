@@ -1,0 +1,24 @@
+.footer {
+  font: var(--font-0);
+  background: var(--white);
+  padding: 2rem 5vw;
+  color: var(--black-700);
+  display: flex;
+  column-gap: 2em;
+  row-gap: 1em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  column-gap: 1em;
+
+  & a {
+    color: inherit;
+  }
+}

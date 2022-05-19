@@ -12,7 +12,7 @@ css: /styles/landing.css
 
   <div class="landing-header-content">
     <p>{{ header.intro | md | safe}}</p>
-    <a href="#" class="button is-primary is-responsive">{{ header.cta }}</a>
+    <a href="#subscribe" class="button is-primary is-responsive">{{ header.cta }}</a>
   </div>
 </header>
 
@@ -35,7 +35,7 @@ css: /styles/landing.css
     {{ join.description | md | safe }}
   </header>
 
-  <badger-subscribe>
+  <badger-subscribe id="subscribe">
     <form method="post">
       <div class="field">
         <label for="email" class="field-label">
@@ -48,6 +48,7 @@ css: /styles/landing.css
     <template class="tmpl-success">
       <div class="form-success">
         {{ join.success | md | safe }}
+        {{ comp.fireworks() }}
       </div>
     </template>
     <template class="tmpl-error">
