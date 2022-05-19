@@ -1,5 +1,3 @@
-const target = "https://hooks.zapier.com/hooks/catch/12547715/bf6gciw/";
-
 class Subscribe extends HTMLElement {
   connectedCallback() {
     const form = this.querySelector("form");
@@ -19,15 +17,10 @@ class Subscribe extends HTMLElement {
       }
 
       try {
-        await fetch(target, {
-          method: "POST",
-          body: JSON.stringify({
-            email,
-            date: new Date().toUTCString(),
-            location: document.location.href,
-          }),
+        // Set the event to posthog
+        posthog.capture("waiting_list_join", {
+          $set: { email },
         });
-
         this.showTemplate(".tmpl-success");
       } catch {
         this.showTemplate(".tmpl-error");
