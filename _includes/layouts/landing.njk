@@ -17,9 +17,11 @@ css: /styles/landing.css
 </header>
 
 {% for block in steps %}
-<section class="landing-step">
-  <h2>{{ block.title | safe }}</h2>
-  {{ block.description | md | safe }}
+<section class="landing-step {{ block.class }}">
+  <div class="landing-step-content">
+    <h2>{{ block.title | safe }}</h2>
+    {{ block.description | md | safe }}
+  </div>
 
   {% if block.img %}
     <img src="{{ block.img }}">
