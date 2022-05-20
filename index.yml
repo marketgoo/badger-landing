@@ -6,6 +6,14 @@ header:
     Connect data sources like Google Analytics, Search Console or Semrush in a single place to generate and share meaninful and custom reports to your clients & stakeholders.
   cta: Join to the waiting list
 
+menu:
+  - text: How it works?
+    href: "#step-1"
+  - text: About
+    href: "#"
+  - text: <strong>Join to the waiting list</strong>
+    href: "#subscribe"
+
 steps:
   - title: Connect your data sources
     class: is-connect
@@ -36,7 +44,7 @@ steps:
       Your reports have a public URL for your clients, where they can see the data with your comments.
 
 resume: |
-  **Badger** combine power and flexibility with guiding and easiness in order to create profesional SEO reports in minutes instead of hours. No more waste your time copy/pasting screenshots in a Doc or configure Google Data Studio.
+  **Badger** combine power and flexibility with guiding and easiness in order to create profesional SEO reports in minutes instead of hours. No more wasting your time copy/pasting screenshots in a Doc or configure Google Data Studio.
 
 join:
   title: Join for early access

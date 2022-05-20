@@ -1,0 +1,6 @@
+@import "styles/default.css";
+@import "styles/variables.css";
+
+img {
+  max-width: 100%;
+}

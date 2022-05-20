@@ -1,4 +1,36 @@
 .navbar {
   background: var(--white);
-  padding: 1rem 5vw;
+  padding: 1.5rem 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 2rem;
+  row-gap: 1rem;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.navbar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: .5rem;
+  column-gap: 1.5rem;
+
+  & a {
+    font: var(--font-1);
+    color: var(--black);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--black-500);
+    }
+  }
+
+  & a > strong {
+    text-decoration: underline;
+  }
 }

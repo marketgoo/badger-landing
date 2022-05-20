@@ -7,6 +7,9 @@ html {
   font: var(--font-1);
   color: var(--black-900);
 }
+body {
+  margin: 0;
+}
 a {
   color: var(--primary-700);
 }

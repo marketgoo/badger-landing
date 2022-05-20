@@ -6,14 +6,14 @@
   <title>{{ title }}</title>
 
   {% if css %}
-  <link rel="stylesheet" href="{{ css }}">
+  <link rel="stylesheet" href="{{ css }}?cache={{ cache }}">
   {% endif %}
 
   {% if not dev %}
   {% include "templates/posthog.njk" %}
   {% endif %}
 
-  <script src="/scripts/main.js" type="module"></script>
+  <script src="/scripts/main.js?cache={{ cache }}" type="module"></script>
 </head>
 
 <body>

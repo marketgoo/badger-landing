@@ -3,9 +3,17 @@ layout: ./base.njk
 css: /styles/landing.css
 ---
 
-<div class="navbar">
+<nav class="navbar">
   <img src="/badger.svg" alt="Badger logo" class="logo">
-</div>
+
+  <ul class="navbar-menu">
+    {% for item in menu %}
+    <li>
+      <a href="{{ item.href }}">{{ item.text | safe }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
 
 <header class="landing-header">
   <h1>{{ header.title | safe }}</h1>
@@ -17,7 +25,7 @@ css: /styles/landing.css
 </header>
 
 {% for block in steps %}
-<section class="landing-step {{ block.class }}">
+<section id="step-{{ loop.index }}" class="landing-step {{ block.class }}">
   <div class="landing-step-content">
     <h2>{{ block.title | safe }}</h2>
     {{ block.description | md | safe }}
