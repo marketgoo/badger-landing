@@ -1,6 +1,7 @@
 const config = {
   backend: {
     name: "git-gateway",
+    repo: "https://gitlab.com/marketgoo/badger-seo/landing",
     branch: "master",
   },
   media_folder: "img",
