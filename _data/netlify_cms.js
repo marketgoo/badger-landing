@@ -4,7 +4,7 @@ const config = {
     repo: "marketgoo/badger-seo/landing",
     branch: "master",
     oauth_type: "pkce",
-    app_id: "9037e271942a29264bc8671e55345e0a2cd7c2b5dfd6706a90110b9c20901dc0"
+    app_id: "9037e271942a29264bc8671e55345e0a2cd7c2b5dfd6706a90110b9c20901dc0",
   },
   media_folder: "img",
   collections: [],
@@ -61,13 +61,11 @@ config.collections.push({
             field("Success", "markdown"),
             field("Error", "markdown"),
           ],
-        })
+        }),
       ],
     },
   ],
 });
-
-
 
 function field(label, widget = "string", extra = {}) {
   const defaults = {};
