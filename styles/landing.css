@@ -157,3 +157,12 @@
     --border: var(--black-900);
   }
 }
+
+.landing-resume {
+  padding: 10vh 5vw;
+  margin: 0 auto;
+  max-width: 30em;
+  font: var(--font-4);
+  text-align: center;
+  color: var(--black-900);
+}

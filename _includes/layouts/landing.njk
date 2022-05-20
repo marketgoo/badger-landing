@@ -29,6 +29,10 @@ css: /styles/landing.css
 </section>
 {% endfor %}
 
+<section class="landing-resume">
+  {{ resume | md | safe }}
+</section>
+
 <section class="landing-join">
   <header>
     <h2>{{ join.title | safe }}</h2>
