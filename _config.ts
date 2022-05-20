@@ -12,6 +12,7 @@ site
   .use(postcss())
   .use(cms({
     previewStyle: "styles/admin.css",
+    netlifyIdentity: true,
   }))
   .data("dev", site.options.dev)
   .data("cache", Date.now());
