@@ -61,8 +61,28 @@ config.collections.push({
         }),
       ],
     },
+    {
+      label: "Privacy policy",
+      name: "privacy",
+      file: "/privacy.md",
+      fields: textPagesFields(),
+    },
+    {
+      label: "Terms of service",
+      name: "terms",
+      file: "/terms.md",
+      fields: textPagesFields(),
+    }
   ],
 });
+
+function textPagesFields() {
+  return [
+    field("Title"),
+    field("Url"),
+    field("Body", "markdown"),
+  ];
+}
 
 function field(label, widget = "string", extra = {}) {
   const defaults = {};
