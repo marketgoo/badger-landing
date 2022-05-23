@@ -72,7 +72,7 @@ config.collections.push({
       name: "terms",
       file: "/terms.md",
       fields: textPagesFields(),
-    }
+    },
   ],
 });
 
