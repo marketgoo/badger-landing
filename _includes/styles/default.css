@@ -13,3 +13,7 @@ body {
 a {
   color: var(--primary-700);
 }
+::selection {
+  background: var(--highlight-200);
+  color: var(--black-900);
+}
