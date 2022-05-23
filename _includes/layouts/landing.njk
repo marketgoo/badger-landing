@@ -3,17 +3,7 @@ layout: ./base.njk
 css: /styles/landing.css
 ---
 
-<nav class="navbar">
-  <img src="/badger.svg" alt="Badger logo" class="logo">
-
-  <ul class="navbar-menu">
-    {% for item in menu %}
-    <li>
-      <a href="{{ item.href }}">{{ item.text | safe }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-</nav>
+{% include "templates/navbar.njk" %}
 
 <header class="landing-header">
   <h1>{{ header.title | safe }}</h1>

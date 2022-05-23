@@ -1,20 +1,13 @@
 import lume from "lume/mod.ts";
 import postcss from "lume/plugins/postcss.ts";
-import basePath from "lume/plugins/base_path.ts";
 import cms from "lume/plugins/netlify_cms.ts";
 
-const site = lume();
-
-site
-  .copy([".png", ".svg"])
-  .copy("scripts")
-  .use(basePath())
+export default lume()
+  .copy("static", ".")
   .use(postcss())
   .use(cms({
     previewStyle: "styles/admin.css",
     netlifyIdentity: true,
   }))
-  .data("dev", site.options.dev)
+  .data("posthog", !!Deno.env.get("POSTHOG")) // To show the Posthog snippet
   .data("cache", Date.now());
-
-export default site;

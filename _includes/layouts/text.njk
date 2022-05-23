@@ -1,0 +1,16 @@
+---
+layout: ./base.njk
+css: /styles/texts.css
+---
+
+{% include "templates/navbar.njk" %}
+
+<article class="text">
+  <header class="text-header">
+    <h1>{{ title }}</h1>
+  </header>
+
+  <div class="text-content">
+    {{ content | safe }}
+  </div>
+</article>

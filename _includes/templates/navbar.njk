@@ -1,0 +1,13 @@
+<nav class="navbar">
+  <a href="/">
+    <img src="/badger.svg" alt="Badger logo">
+  </a>
+
+  <ul class="navbar-menu">
+    {% for item in menu %}
+    <li>
+      <a href="{{ item.href }}">{{ item.text | safe }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

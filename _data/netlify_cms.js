@@ -58,13 +58,11 @@ config.collections.push({
             field("Success", "markdown"),
             field("Error", "markdown"),
           ],
-        })
+        }),
       ],
     },
   ],
 });
-
-
 
 function field(label, widget = "string", extra = {}) {
   const defaults = {};
