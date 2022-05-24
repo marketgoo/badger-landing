@@ -19,6 +19,12 @@ a {
   color: var(--black-900);
 }
 
+hr {
+  border: 0;
+  border-bottom: 1px solid var(--black-200);
+  margin: 2em 0;
+}
+
 /* Hide custom elements while not defined */
 :not(:defined) {
   visibility: hidden;
