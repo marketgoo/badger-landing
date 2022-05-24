@@ -79,26 +79,20 @@
   }
 
   &.is-connect {
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     background: var(--black-100);
     box-sizing: border-box;
-
-    & img {
-      max-width: 400px;
-    }
 
     @media (max-width: 700px) {
       flex-wrap: wrap;
       width: 100%;
-
-      & img {
-        max-width: 20rem;
-      }
     }
 
     @media (min-width: 1250px) {
       border-radius: 8px;
+      padding-left: 3.5rem;
+      padding-right: 3.5rem;
     }
   }
 
