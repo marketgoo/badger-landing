@@ -7,7 +7,7 @@
       autocapture: false
     });
 
-    {% if environment == "prod" %}  
+    {% if environment != "prod" %}  
     // Set all captured events as test events
     posthog.register({ test: true });
     {% endif %}
