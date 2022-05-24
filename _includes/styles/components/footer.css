@@ -22,3 +22,36 @@
     color: inherit;
   }
 }
+
+.footer-cookies {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font: var(--font-0);
+  background: var(--white);
+  width: 20em;
+  max-width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px #0003;
+  padding: 1.5em;
+  border-top-left-radius: 8px;
+  color: var(--black-700);
+  animation: fadeIn 0.5s ease-in-out;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+
+  & p {
+    margin-top: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

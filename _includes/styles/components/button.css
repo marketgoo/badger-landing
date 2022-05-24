@@ -41,6 +41,11 @@
   vertical-align: middle;
   flex: 0 0 auto;
 
+  &.is-small {
+    font: var(--font-0-bold);
+    min-height: 40px;
+  }
+
   &::-moz-focus-inner {
     border: 0;
   }

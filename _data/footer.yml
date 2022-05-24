@@ -5,3 +5,7 @@ links:
   - text: Terms of Service
     href: /terms/
 
+cookies:
+  text: |
+    We use cookies to provide necessary website functionality, improve your experience and analyze our traffic. By using our website, you agree to our [Privacy Policy](/privacy/) and our [cookies usage](/cookies/)
+  button: Ok, got it!

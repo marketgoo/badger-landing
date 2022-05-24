@@ -8,3 +8,8 @@
     </ul>
   </nav>
 </footer>
+<badger-cookies class="footer-cookies">
+  {{ footer.cookies.text | md | safe }}
+
+  <button class="button is-secondary is-small">{{ footer.cookies.button }}</button>
+</badger-cookies>

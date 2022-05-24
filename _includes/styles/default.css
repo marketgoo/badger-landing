@@ -13,7 +13,13 @@ body {
 a {
   color: var(--primary-700);
 }
+
 ::selection {
   background: var(--highlight-200);
   color: var(--black-900);
+}
+
+/* Hide custom elements while not defined */
+:not(:defined) {
+  visibility: hidden;
 }
