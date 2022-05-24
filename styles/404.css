@@ -1,0 +1,14 @@
+@import "styles/default.css";
+@import "styles/variables.css";
+@import "styles/components.css";
+
+.error-404 {
+  padding: 1rem;
+  text-align: center;
+  font: var(--font-2);
+  margin-bottom: 4em;
+
+  & h2 {
+    font: var(--font-6-bold);
+  }
+}
