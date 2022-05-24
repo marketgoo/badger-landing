@@ -3,7 +3,7 @@ const config = {
     name: "git-gateway",
     branch: "master",
   },
-  media_folder: "img",
+  media_folder: "static/img",
   collections: [],
 };
 
@@ -29,6 +29,7 @@ config.collections.push({
             field("CTA"),
           ],
         }),
+        metasFields(),
         field("Menu", "list", {
           fields: [
             field("Text"),
@@ -116,8 +117,19 @@ function textPagesFields() {
   return [
     field("Title"),
     field("Url"),
+    metasFields(),
     field("Body", "markdown"),
   ];
+}
+
+function metasFields() {
+  return field("Metas", "object", {
+    fields: [
+      field("Title", { required: false }),
+      field("Description", { required: false }),
+      field("Image", { required: false }),
+    ],
+  });
 }
 
 function field(label, widget = "string", extra = {}) {
