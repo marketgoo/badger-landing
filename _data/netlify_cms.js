@@ -73,6 +73,42 @@ config.collections.push({
       file: "/terms.md",
       fields: textPagesFields(),
     },
+    {
+      label: "Cookies",
+      name: "cookies",
+      file: "/cookies.md",
+      fields: textPagesFields(),
+    },
+  ],
+});
+
+// Global data
+config.collections.push({
+  label: "Global data",
+  name: "global",
+  description: "Edit global data shared by all pages",
+  preview: false,
+  files: [
+    {
+      label: "Footer",
+      name: "footer",
+      file: "/_data/footer.yml",
+      fields: [
+        field("Copyright"),
+        field("Links", "list", {
+          fields: [
+            field("Text"),
+            field("Href"),
+          ],
+        }),
+        field("Cookies", "object", {
+          fields: [
+            field("Text", "markdown"),
+            field("Button"),
+          ],
+        }),
+      ],
+    },
   ],
 });
 
