@@ -10,9 +10,5 @@ export default lume()
     previewStyle: "styles/admin.css",
     netlifyIdentity: true,
   }))
-  // Show the Posthog code (POSTHOG=prod to remove the test flag)
-  .data(
-    "posthog",
-    Deno.env.get("POSTHOG") === "prod" ? "prod" : !!Deno.env.get("POSTHOG"),
-  )
+  .data("environment", Deno.env.get("ENV") === "prod" ? "prod" : "dev")
   .data("cache", Date.now());

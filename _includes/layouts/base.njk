@@ -11,10 +11,7 @@
   <link rel="stylesheet" href="{{ css }}?cache={{ cache }}">
   {% endif %}
 
-  {% if posthog %}
   {% include "templates/posthog.njk" %}
-  {% endif %}
-
   <script src="/scripts/main.js?cache={{ cache }}" type="module"></script>
 </head>
 
