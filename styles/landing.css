@@ -36,6 +36,7 @@
       background-color: var(--highlight-200);
       font-weight: inherit;
       color: var(--black-900);
+      padding: 0 .2em;
     }
   }
 
@@ -49,7 +50,7 @@
 }
 .landing-header-content {
   padding-bottom: 2.6rem;
-  background: url("/img/blob.svg") no-repeat top right;
+  /* background: url("/img/blob.svg") no-repeat top right; */
 }
 
 .landing-step {
@@ -151,6 +152,7 @@
 
   & strong {
     background-color: var(--highlight-200);
+    padding: 0 .2em;
   }
 }
 
