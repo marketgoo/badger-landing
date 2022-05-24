@@ -127,7 +127,7 @@ function metasFields() {
     fields: [
       field("Title", { required: false }),
       field("Description", { required: false }),
-      field("Image", { required: false }),
+      field("Image", "image", { required: false }),
     ],
   });
 }
