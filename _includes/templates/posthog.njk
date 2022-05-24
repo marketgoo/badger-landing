@@ -5,6 +5,8 @@
     autocapture: false
   });
 
+  {% if posthog != "prod" %}  
   // Set all captured events as test events
   posthog.register({ test: true });
+  {% endif %}
 </script>

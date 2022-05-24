@@ -3,5 +3,5 @@
   publish = "_site"
   command = """
     curl -fsSL https://deno.land/x/install/install.sh | sh && \
-    POSTHOG=true /opt/buildhome/.deno/bin/deno run -A https://deno.land/x/lume@v1.9.0/ci.ts --location=https://badger-landing.netlify.app/ \
+    POSTHOG=true /opt/buildhome/.deno/bin/deno run -A https://deno.land/x/lume@v1.9.0/ci.ts --location=https://getbadger.io/ \
   """
