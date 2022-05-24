@@ -10,16 +10,14 @@ header:
 menu:
   - text: How it works?
     href: "#step-1"
-  - text: About
-    href: "#"
   - text: <strong>Join to the waiting list</strong>
     href: "#subscribe"
 steps:
   - title: Connect your sources
     class: is-connect
     img: /img/connect.png
-    description: Connect your sources to Badger to start **collecting data**. The list
-      of available integrations is growing.
+    description: Connect your sources to Badger to start **collecting data**. The
+      list of available integrations is growing.
   - title: Generate your own charts
     class: is-chart
     img: /img/chart.png
@@ -30,8 +28,8 @@ steps:
     class: is-save
     img: /img/save.png
     description: >
-      Save your charts in the reports, add a title and **customize** what parts do
-      you want to include.
+      Save your charts in the reports, add a title and **customize** what parts
+      do you want to include.
   - title: Add annotations
     class: is-comment
     img: /img/comments.png
@@ -42,8 +40,8 @@ steps:
     class: is-report
     img: /img/public.png
     description: >
-      Your reports have a public URL **for your clients,** where they can see the
-      data with your comments.
+      Your reports have a public URL **for your clients,** where they can see
+      the data with your comments.
 resume: "**Badger** combines power and flexibility with guiding and easiness in
   order to create profesional SEO reports in minutes instead of hours. No more
   wasting your time copy/pasting screenshots in a Doc or configure Google Data
