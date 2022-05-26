@@ -128,6 +128,7 @@ function metasFields() {
       field("Title", { required: false }),
       field("Description", { required: false }),
       field("Image", "image", { required: false }),
+      field("Robots", "boolean", { required: false, default: true }),
     ],
   });
 }

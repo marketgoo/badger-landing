@@ -9,6 +9,7 @@ header:
   cta: Join to the waiting list
 metas:
   title: Badger - Automatize your SEO reports
+  robots: true
 menu:
   - text: How it works?
     href: "#step-1"

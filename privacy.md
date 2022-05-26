@@ -2,6 +2,8 @@
 layout: layouts/text.njk
 title: Privacy Policy
 url: /privacy/
+metas:
+  robots: false
 ---
 # Privacy Policy
 
