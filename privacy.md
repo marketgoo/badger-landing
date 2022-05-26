@@ -35,18 +35,18 @@ The personal data specified in the section above will be processed by Badger for
 
 ### Data Processed from Third Parties
 
-Badger might use the Google Analytics Reporting API to gather analytics data about your website and present them in an actionable way via charts and graphs inside your Badger dashboard and reports.
+Badger might use the Google Analytics Reporting API and the Google Search Console API to gather analytics data about your website and present them in an actionable way via charts and graphs inside your Badger dashboard and reports.
 
-Badger will ask you for read-only permission to access your Google Analytics data through the use of Google OAuth authentication. You can disable and effectively revoke this permission at any time, in which case Badger shall stop using your OAuth credentials immediately.
+Badger will ask you for read-only permission to access this data through the use of Google OAuth authentication. You can disable and effectively revoke this permission at any time, in which case Badger shall stop using your OAuth credentials immediately.
 
-Data collected from Google Analytics include the following items:
+Data collected from the aforementioned APIs include, but are not limited to the following items:
 
 * Your website Tracking ID and Property Number: Used to identify calls to Google API.
-* Your website data for the following metrics: Number of Page Views, Number of Users, Number of Sessions, Bounce Rate, Average Session Duration and Average Time On Page.
+* Your website data for metrics such as: Number of Page Views, Number of Users, Number of Sessions, Bounce Rate, Average Session Duration and Average Time On Page, Impressions, Clicks, Keyword Positions.
 
 ### Purposes of the Processing of Third Party Data
 
-Data collected from Third Party APIs such as Google Analytics API will be used exclusively for the purposes of aggregating this data into Badger dashboards and reports. Additionally, Badger might use this data from Google Analytics API to infer potential improvements and offer suggestions to improve your website based on such information or detect and warn about potential defects on your website.
+Data collected from Third Party APIs such as Google Analytics API and Google Search Console API will be used exclusively for the purposes of aggregating this data into Badger dashboards and reports. Additionally, Badger might use this data from Google Analytics API to infer potential improvements and offer suggestions to improve your website based on such information or detect and warn about potential defects on your website.
 
 Badger will not in any way disclose or otherwise share this data with additional third parties.
 
