@@ -1,164 +1,90 @@
-const config = {
+import t from "https://deno.land/x/netlify_cms_config@v0.1.0/mod.ts";
+
+// Defaults
+t.defaultRequired = false;
+t.defaults.object.collapsed = true;
+t.defaults.list.collapsed = true;
+t.defaults.list.minimize_collapsed = true;
+t.defaults.markdown.minimal = true;
+
+const metas = t.object("Metas", [
+  t.string("Title"),
+  t.string("Description"),
+  t.image("Image"),
+  t.boolean("Robots").default(true),
+]);
+
+const textPages = [
+  t.string("Title"),
+  t.string("Url"),
+  metas,
+  t.markdown("Body"),
+];
+
+const pages = t.files("Pages")
+  .description("Here you can edit your individual pages")
+  .sortableFields("title")
+  .preview(false)
+  .file("Landing", "/index.yml", [
+    t.string("Title"),
+    t.hidden("Layout"),
+    metas,
+    t.object("Header", [
+      t.string("Title"),
+      t.markdown("Intro"),
+      t.string("CTA"),
+    ]),
+    t.list("Menu", [
+      t.string("Text"),
+      t.string("Href"),
+    ]),
+    t.list("Steps", [
+      t.string("Title"),
+      t.markdown("Description"),
+      t.string("Class"),
+      t.image("Img"),
+    ]),
+    t.markdown("Resume"),
+    t.object("Join", [
+      t.string("Title"),
+      t.markdown("Description"),
+      t.object("Email", [
+        t.string("Label"),
+        t.string("Placeholder"),
+      ]),
+      t.string("CTA"),
+      t.markdown("Success"),
+      t.markdown("Error"),
+    ]),
+  ])
+  .file("Privacy policy", "/privacy.md", textPages)
+  .file("Terms of service", "/terms.md", textPages)
+  .file("Cookies", "/cookies.md", textPages);
+
+// Global data
+const data = t.files("Global data")
+  .description("Edit global data shared by all pages")
+  .preview(false)
+  .file("Footer", "/_data/footer.yml", [
+    t.string("Copyright"),
+    t.list("Links", [
+      t.string("Text"),
+      t.string("Href"),
+    ]),
+    t.object("Cookies", [
+      t.markdown("Text"),
+      t.string("Button"),
+    ]),
+  ]);
+
+export default {
   backend: {
     name: "git-gateway",
     branch: "master",
   },
   media_folder: "static/img",
-  collections: [],
+  collections: [
+    pages.toJSON(),
+    data.toJSON(),
+  ],
 };
-
-// Individual pages
-config.collections.push({
-  label: "Pages",
-  name: "pages",
-  description: "Here you can edit your individual pages",
-  sortable_fields: ["title"],
-  preview: false,
-  files: [
-    {
-      label: "Landing",
-      name: "landing",
-      file: "/index.yml",
-      fields: [
-        field("Title"),
-        field("layout", "hidden"),
-        field("Header", "object", {
-          fields: [
-            field("Title"),
-            field("Intro", "markdown"),
-            field("CTA"),
-          ],
-        }),
-        metasFields(),
-        field("Menu", "list", {
-          fields: [
-            field("Text"),
-            field("Href"),
-          ],
-        }),
-        field("Steps", "list", {
-          fields: [
-            field("Title"),
-            field("Description", "markdown"),
-            field("Class"),
-            field("Img", "image"),
-          ],
-        }),
-        field("Resume", "markdown"),
-        field("Join", "object", {
-          fields: [
-            field("Title"),
-            field("Description", "markdown"),
-            field("Email", "object", {
-              fields: [
-                field("Label"),
-                field("Placeholder"),
-              ],
-            }),
-            field("CTA"),
-            field("Success", "markdown"),
-            field("Error", "markdown"),
-          ],
-        }),
-      ],
-    },
-    {
-      label: "Privacy policy",
-      name: "privacy",
-      file: "/privacy.md",
-      fields: textPagesFields(),
-    },
-    {
-      label: "Terms of service",
-      name: "terms",
-      file: "/terms.md",
-      fields: textPagesFields(),
-    },
-    {
-      label: "Cookies",
-      name: "cookies",
-      file: "/cookies.md",
-      fields: textPagesFields(),
-    },
-  ],
-});
-
-// Global data
-config.collections.push({
-  label: "Global data",
-  name: "global",
-  description: "Edit global data shared by all pages",
-  preview: false,
-  files: [
-    {
-      label: "Footer",
-      name: "footer",
-      file: "/_data/footer.yml",
-      fields: [
-        field("Copyright"),
-        field("Links", "list", {
-          fields: [
-            field("Text"),
-            field("Href"),
-          ],
-        }),
-        field("Cookies", "object", {
-          fields: [
-            field("Text", "markdown"),
-            field("Button"),
-          ],
-        }),
-      ],
-    },
-  ],
-});
-
-function textPagesFields() {
-  return [
-    field("Title"),
-    field("Url"),
-    metasFields(),
-    field("Body", "markdown"),
-  ];
-}
-
-function metasFields() {
-  return field("Metas", "object", {
-    fields: [
-      field("Title", { required: false }),
-      field("Description", { required: false }),
-      field("Image", "image", { required: false }),
-      field("Robots", "boolean", { required: false, default: true }),
-    ],
-  });
-}
-
-function field(label, widget = "string", extra = {}) {
-  const defaults = {};
-
-  if (typeof widget === "object") {
-    extra = widget;
-    widget = "string";
-  }
-
-  if (widget === "list") {
-    defaults.collapsed = true;
-    defaults.minimize_collapsed = true;
-  } else if (widget === "object") {
-    defaults.collapsed = true;
-  } else if (widget === "markdown") {
-    defaults.minimal = true;
-  } else if (widget === "select" || widget === "boolean") {
-    defaults.required = false;
-  }
-
-  return {
-    label,
-    name: label.toLowerCase().replaceAll(" ", "_"),
-    widget,
-    ...defaults,
-    ...extra,
-  };
-}
-
-export default config;
