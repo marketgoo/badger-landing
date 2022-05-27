@@ -44,7 +44,9 @@ Badger will ask you for read-only permission to access your Google Analytics dat
 Data collected from Google Analytics and Google Search Console include, but are not limited to, the following items:
 
 * Your website Tracking ID and Property Number: Used to identify calls to Google API.
-* Your website data for metrics including: Number of Page Views, Number of Users, Number of Sessions, Bounce Rate, Average Session Duration, Average Time On Page, Keyword Position, Impressions, Clicks.
+* Your website data for metrics including: Number of Page Views, Number of Users, Number of Sessions, Bounce Rate, Average Session Duration, Average Time On Page, Keyword Position, Impressions, Clicks.Detailed information on the available data points is provided in the API documentation, available on this link for Google Analytics and on this link for Google Search Console
+
+Detailed information on the available data points is provided in the API documentation, available on [this link](https://developers.google.com/analytics/devguides/reporting/data/v1) for Google Analytics and [on this link](https://developers.google.com/webmaster-tools) for Google Search Console.
 
 ### Purposes of the Processing of Third Party Data
 
