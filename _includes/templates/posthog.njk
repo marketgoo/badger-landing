@@ -7,6 +7,11 @@
       autocapture: false
     });
 
+    // Additional event properties
+    posthog.register({
+      languages: navigator.languages
+    });
+
     {% if environment != "prod" %}  
     // Set all captured events as test events
     posthog.register({ test: true });
