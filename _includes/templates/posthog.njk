@@ -10,7 +10,7 @@
     // Additional event properties
     posthog.register({
       preferred_language: navigator.language,
-      preferred_languages: navigator.languages,
+      preferred_languages: [...navigator.languages],
     });
 
     {% if environment != "prod" %}  
