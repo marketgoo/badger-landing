@@ -12,6 +12,7 @@
       preferred_language: navigator.language,
       preferred_languages: [...navigator.languages],
     });
+    posthog.unregister("languages");
 
     {% if environment != "prod" %}  
     // Set all captured events as test events
