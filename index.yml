@@ -49,12 +49,11 @@ resume: "**Badger** combines power and flexibility with guidance and ease in
   wasting your time copy/pasting screenshots or configuring Google Data Studio."
 join:
   title: Join for early access
-  description: >
-    We're gradually opening Badger early access to updates and be a part of
-    building the next generation SEO reporting.
+  description: We're gradually opening up early access to Badger. Become a part of
+    building the next generation of SEO reporting!
   email:
     label: Your email
     placeholder: example@email.com
-  cta: Join to the waiting list
+  cta: Join the waiting list
   success: Thanks for joining to Badger!
-  error: Ooops, there's an error. [Refresh the page](/) and try it again
+  error: Ooops, there's an error. [Refresh the page](/) and try again
