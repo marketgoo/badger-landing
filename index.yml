@@ -56,4 +56,4 @@ join:
     placeholder: example@email.com
   cta: Join the waiting list
   success: Thanks for joining Badger!
-  error: Ooops, there's an error. [Refresh the page](/) and try again
+  error: Oops, there's an error. [Refresh the page](/) and try again
