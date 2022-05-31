@@ -3,7 +3,9 @@ import postcss from "lume/plugins/postcss.ts";
 import cms from "lume/plugins/netlify_cms.ts";
 import metas from "lume/plugins/metas.ts";
 
-export default lume()
+export default lume({
+  location: new URL("https://getbadger.io"),
+})
   .copy("static", ".")
   .ignore("README.md")
   .use(postcss())
