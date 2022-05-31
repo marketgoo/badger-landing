@@ -1,15 +1,15 @@
-title: Badger - Automatize your SEO reports
+title: Badger - Automate your SEO reports
 layout: layouts/landing.njk
-header:
-  title: Finally,<br>good SEO<br><strong>reports</strong><br>in minutes
-  intro: >
-    Connect data sources like Google Analytics or Search Console in a
-    single place to generate and share meaninful and **custom reports to your
-    clients & stakeholders.**
-  cta: Join to the waiting list
 metas:
   title: Badger - Automatize your SEO reports
   robots: true
+header:
+  title: Finally,<br>good SEO<br><strong>reports</strong><br>in minutes
+  intro: >
+    Connect data sources like Google Analytics or Search Console in a single
+    place to generate and share meaninful and **custom reports to your clients &
+    stakeholders.**
+  cta: Join to the waiting list
 menu:
   - text: How it works?
     href: "#step-1"
