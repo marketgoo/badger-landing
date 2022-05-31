@@ -33,7 +33,7 @@ steps:
     description: >
       Save your charts in the reports, add a title and **customize** what parts
       do you want to include.
-  - title: Add annotations
+  - title: Add annotations (Coming soon)
     class: is-comment
     img: /img/comments.png
     description: >

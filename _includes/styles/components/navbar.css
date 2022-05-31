@@ -50,8 +50,11 @@
     z-index: 1;
     position: fixed;
     top: 0;
+    right: 0;
     left: 0;
     width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
     height: 65px;
     box-shadow: 0 0 32px -16px #0004;
   }
