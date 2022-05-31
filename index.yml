@@ -10,9 +10,9 @@ header:
     clients & stakeholders.**
   cta: Join the waiting list
 menu:
-  - text: How it works?
+  - text: How it works
     href: "#step-1"
-  - text: <strong>Join to the waiting list</strong>
+  - text: <strong>Join the waiting list</strong>
     href: "#subscribe"
 steps:
   - title: Connect your sources
