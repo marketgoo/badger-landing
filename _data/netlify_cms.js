@@ -10,7 +10,7 @@ t.defaults.markdown.minimal = true;
 const metas = t.object("Metas", [
   t.string("Title"),
   t.string("Description"),
-  t.image("Image"),
+  t.image("Image").required(false),
   t.boolean("Robots").default(true),
 ]);
 
