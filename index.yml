@@ -32,19 +32,18 @@ steps:
     class: is-save
     img: /img/save.png
     description: Save your charts in the report, add a title and **customize** the
-      layout - or just use a ready-made template!
+      layout - or just use a ready made template!
   - title: Add annotations (Coming soon)
     class: is-comment
     img: /img/comments.png
-    description: Cut down on explanations and walkthroughs with clients. Just add
+    description: Cut down on explanations and walkthroughs with clients by adding
       notes to your charts to clarify or give an overview of the report. (Or
       **save them privately** only for you.)
   - title: Share with your clients
     class: is-report
     img: /img/public.png
     description: Your reports are shared via public URL, where **your clients can
-      easily see** their most valuable metrics, along with your comments. See
-      example.
+      easily see** their most valuable metrics, along with your comments.
 resume: "**Badger** combines power and flexibility with guidance and ease in
   order to create professional SEO reports in minutes instead of hours. No more
   wasting your time copy/pasting screenshots or configuring Google Data Studio."
