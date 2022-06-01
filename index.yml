@@ -3,11 +3,14 @@ layout: layouts/landing.njk
 metas:
   title: Badger - Automate your SEO reports
   robots: true
+  description: Connect data sources like Google Analytics or Search Console in a
+    single place to generate and share meaningful and custom reports with your
+    clients & stakeholders.
 header:
   title: Finally,<br>good SEO<br><strong>reports</strong><br>in minutes
-  intro: Connect data sources like Google Analytics or Search Console in a single
-    place to generate and share meaningful and **custom reports with your
-    clients & stakeholders.**
+  intro: Connect your SEO data sources in a single place to generate and
+    automatically share meaningful, **custom reports** that will **save you
+    hours** and **wow your clients**.
   cta: Join the waiting list
 menu:
   - text: How it works
@@ -15,7 +18,7 @@ menu:
   - text: <strong>Join the waiting list</strong>
     href: "#subscribe"
 steps:
-  - title: Connect your sources
+  - title: Connect your data sources
     class: is-connect
     img: /img/connect.png
     description: Connect your sources to Badger to start **collecting data**. The
@@ -35,15 +38,15 @@ steps:
   - title: Add annotations (Coming soon)
     class: is-comment
     img: /img/comments.png
-    description: >
-      You can include annotations with your charts to clarify some aspects to
-      your clients. Or **save them privately** only for you.
+    description: Cut down on explanations and walkthroughs with clients. Just add
+      notes to your charts to clarify or give an overview of the report. (Or
+      **save them privately** only for you.)
   - title: Share with your clients
     class: is-report
     img: /img/public.png
-    description: >
-      Your reports have a public URL **for your clients,** where they can see
-      the data with your comments.
+    description: Your reports are shared via public URL, where **your clients can
+      easily see** their most valuable metrics, along with your comments. See
+      example.
 resume: "**Badger** combines power and flexibility with guidance and ease in
   order to create professional SEO reports in minutes instead of hours. No more
   wasting your time copy/pasting screenshots or configuring Google Data Studio."
