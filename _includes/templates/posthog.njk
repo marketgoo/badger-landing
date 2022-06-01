@@ -11,11 +11,7 @@
     posthog.register({
       preferred_language: navigator.language,
       preferred_languages: [...navigator.languages],
+      test: {{ test }},
     });
-
-    {% if environment != "prod" %}  
-    // Set all captured events as test events
-    posthog.register({ test: true });
-    {% endif %}
   }
 </script>

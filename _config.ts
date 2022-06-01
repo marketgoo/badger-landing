@@ -14,5 +14,5 @@ export default lume({
     previewStyle: "styles/admin.css",
     netlifyIdentity: true,
   }))
-  .data("environment", Deno.env.get("ENV") === "prod" ? "prod" : "dev")
+  .data("test", Deno.env.get("ENV") !== "prod")
   .data("cache", Date.now());
