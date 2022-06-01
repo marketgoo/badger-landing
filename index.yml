@@ -23,12 +23,11 @@ steps:
     img: /img/connect.png
     description: Connect your sources to Badger to start **collecting data**. The
       list of available integrations is growing.
-  - title: Generate your own charts
+  - title: Customize your charts
     class: is-chart
     img: /img/chart.png
-    description: >
-      After connecting your sources, you can **select and filter the data** to
-      generate the exact chart that you need.
+    description: After connecting your sources, **select and filter the data** to
+      generate the **exact chart that you need**.
   - title: Create your reports
     class: is-save
     img: /img/save.png
