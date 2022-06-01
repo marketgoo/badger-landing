@@ -1,4 +1,4 @@
-import t from "https://deno.land/x/netlify_cms_config@v0.1.0/mod.ts";
+import t from "https://deno.land/x/netlify_cms_config@v0.1.1/mod.ts";
 
 // Defaults
 t.defaultRequired = false;
@@ -10,7 +10,7 @@ t.defaults.markdown.minimal = true;
 const metas = t.object("Metas", [
   t.string("Title"),
   t.string("Description"),
-  t.image("Image").required(false),
+  t.image("Image"),
   t.boolean("Robots").default(true),
 ]);
 
