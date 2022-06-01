@@ -29,12 +29,11 @@ steps:
     description: >
       After connecting your sources, you can **select and filter the data** to
       generate the exact chart that you need.
-  - title: Compose the reports
+  - title: Create your reports
     class: is-save
     img: /img/save.png
-    description: >
-      Save your charts in the reports, add a title and **customize** what parts
-      do you want to include.
+    description: Save your charts in the report, add a title and **customize** the
+      layout - or just use a ready-made template!
   - title: Add annotations (Coming soon)
     class: is-comment
     img: /img/comments.png
