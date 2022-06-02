@@ -190,7 +190,7 @@
 .landing-resume {
   padding: 10vh 5vw;
   margin: 0 auto;
-  max-width: 30em;
+  max-width: 24em;
   font: var(--font-4);
   letter-spacing: var(--font-spacing-4);
   text-align: center;

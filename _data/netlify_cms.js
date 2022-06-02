@@ -1,11 +1,10 @@
-import t from "https://deno.land/x/netlify_cms_config@v0.1.1/mod.ts";
+import t from "https://deno.land/x/netlify_cms_config@v0.2.0/mod.ts";
 
 // Defaults
 t.defaultRequired = false;
-t.defaults.object.collapsed = true;
-t.defaults.list.collapsed = true;
-t.defaults.list.minimize_collapsed = true;
-t.defaults.markdown.minimal = true;
+t.defaults.object.collapsed();
+t.defaults.list.collapsed().minimizeCollapsed();
+t.defaults.markdown.minimal();
 
 const metas = t.object("Metas", [
   t.string("Title"),
