@@ -18,21 +18,21 @@ menu:
   - text: <strong>Join the waiting list</strong>
     href: "#subscribe"
 steps:
-  - title: Connect your data sources
+  - title: One place for all your SEO data
     class: is-connect
     img: /img/connect.png
     description: Connect your sources to Badger to start **collecting data**. The
       list of available integrations is growing.
-  - title: Customize your charts
+  - title: Focus on what’s important
     class: is-chart
     img: /img/chart.png
     description: After connecting your sources, **select and filter the data** to
       generate the **exact chart that you need**.
-  - title: Create your reports
+  - title: Create reports in minutes
     class: is-save
     img: /img/save.png
-    description: Save your charts in the report, add a title and **customize** the
-      layout - or just use a ready made template!
+    description: Easily add charts to your report and **customize** the layout – or
+      use a ready-made template
   - title: Add annotations (Coming soon)
     class: is-comment
     img: /img/comments.png
