@@ -10,7 +10,7 @@ metas:
 header:
   title: Finally,<br>good SEO<br><strong>reports</strong><br>in minutes
   intro: Connect your SEO data sources in a single place to generate and share
-    meaningful, **custom reports** that will **save you hours** and **wow your
+    meaningful, custom reports that will **save you hours and wow your
     clients**.
   cta: Join the waiting list
 menu:
@@ -43,8 +43,8 @@ steps:
   - title: Share with clients
     class: is-report
     img: /img/public.png
-    description: Your reports are shared via a public URL, where **clients can
-      easily see** their most important metrics, along with your comments.
+    description: Your reports are **shared via a public URL**, where clients can
+      easily see their most important metrics, along with your comments.
 resume: No more copying and pasting screenshots. No more fiddling with Google
   Data Studio. Create tailored reports in minutes with **Badger**.
 join:
