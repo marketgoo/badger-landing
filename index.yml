@@ -44,9 +44,8 @@ steps:
     img: /img/public.png
     description: Your reports are shared via a public URL, where **clients can
       easily see** their most important metrics, along with your comments.
-resume: "**Badger** combines power and flexibility with guidance and ease in
-  order to create professional SEO reports in minutes instead of hours. No more
-  wasting your time copy/pasting screenshots or configuring Google Data Studio."
+resume: No more copying and pasting screenshots. No more fiddling with Google
+  Data Studio. Create tailored reports in minutes with **Badger**.
 join:
   title: Join for early access
   description: We're gradually opening up early access to Badger. Become a part of
