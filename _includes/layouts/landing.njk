@@ -58,3 +58,18 @@ css: /styles/landing.css
     </template>
   </badger-subscribe>
 </section>
+
+<section class="landing-faq">
+  <header>
+    <h2>{{ faq.title | safe }}</h2>
+  </header>
+
+  <div class="faq-questions">
+    {% for item in faq.questions %}
+    <details class="landing-faq-question">
+      <summary>{{ item.question | safe }}</summary>
+      <div class="landing-faq-answer">{{ item.answer | md | safe }}</div>
+    </details>
+    {% endfor %}
+  </div>
+</section>

@@ -57,3 +57,17 @@ join:
   cta: Join the waiting list
   success: Thanks for joining Badger!
   error: Oops, there's an error. [Refresh the page](/) and try again
+faq:
+  title: FAQs
+  questions:
+    - question: Is Badger available? Can I get access to it?
+      answer: Badger is not yet available, but you can be notified when you can access it by signing up to the waitlist. Once you add your name to the waitlist, you will get the option of joining the beta tester group and see it (and give your opinions) before anyone else.
+
+    - question: What integrations are available on Badger?
+      answer: Google Analytics and soon Google Search Console. Please sign up for the waitlist and join the beta tester group to tell us about what other integrations you’d expect to work with. We want you to have your most important SEO data sources available on Badger.
+
+    - question: What will Badger cost?
+      answer: Pricing plans have not yet been established, but you will be notified about pricing and when you are able to acquire Badger via email if you sign up to the waiting list. It’s important to note that we are focused on making Badger a high value yet affordable SEO Reports solution. 
+
+    - question: What about features like white label or scheduling automation (or others I want to see)?
+      answer: Please sign up for the waitlist and join the beta tester group to tell us about these and other features you’d expect to have. We want you to have your most important SEO data sources available on Badger.
