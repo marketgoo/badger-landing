@@ -34,10 +34,10 @@ steps:
     img: /img/save.png
     description: Easily add charts to your report and **customize** the layout – or
       use a ready-made template
-  - title: Add annotations (Coming soon)
+  - title: Add comments
     class: is-comment
     img: /img/comments.png
-    description: Cut down on explanations & walkthroughs with clients. **Add notes**
+    description: Cut down on explanations & walkthroughs with clients. **Add comments**
       to your charts, give an overview of the report or save private notes only
       for you.
   - title: Share with clients
