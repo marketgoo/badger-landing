@@ -16,8 +16,9 @@ header:
 menu:
   - text: How it works
     href: "#step-1"
-  - text: <strong>Join the waiting list</strong>
-    href: "#subscribe"
+  - text: Join the waiting list
+    class: button is-primary
+    href: "https://app.getbadger.io/"
 steps:
   - title: One place for all your SEO data
     class: is-connect
