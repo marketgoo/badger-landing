@@ -12,11 +12,11 @@ header:
   intro: Connect your SEO data sources in a single place to generate and share
     meaningful, custom reports that will **save you hours and wow your
     clients**.
-  cta: Join the waiting list
+  cta: Try it for free
 menu:
   - text: How it works
     href: "#step-1"
-  - text: Join the waiting list
+  - text: Try it for free
     class: button is-primary
     href: "https://app.getbadger.io/"
 steps:
@@ -48,6 +48,10 @@ steps:
       easily see their most important metrics, along with your comments.
 resume: No more copying and pasting screenshots. No more fiddling with Google
   Data Studio. Create tailored reports in minutes with **Badger**.
+pricing:
+  title: Try it 15 days **for free**,<br>and then only **$15/month** per project.
+  description: No credit card required for the trial period.
+  cta: Start your trial now
 join:
   title: Join for early access
   description: We're gradually opening up early access to Badger. Become a part of
@@ -55,7 +59,7 @@ join:
   email:
     label: Your email
     placeholder: example@email.com
-  cta: Join the waiting list
+  cta: Try it for free
   success: Thanks for joining Badger!
   error: Oops, there's an error. [Refresh the page](/) and try again
 faq:
