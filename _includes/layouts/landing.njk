@@ -45,6 +45,7 @@ try_url: "https://app.getbadger.io"
 <section class="landing-faq">
   <header>
     <h2>{{ faq.title | safe }}</h2>
+    {{ faq.description | md | safe }}
   </header>
 
   <div class="faq-questions">

@@ -236,8 +236,7 @@
   & h2 {
     font: var(--font-4-bold);
     letter-spacing: var(--font-spacing-4);
-    margin-top: 0;
-    text-align: center;
+    margin: 0;
   }
 
   @media (min-width: 800px) {

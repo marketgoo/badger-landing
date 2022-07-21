@@ -36,6 +36,7 @@ const pages = t.files("Pages")
     t.list("Menu", [
       t.string("Text"),
       t.string("Href"),
+      t.string("Class"),
     ]),
     t.list("Steps", [
       t.string("Title"),
@@ -44,16 +45,18 @@ const pages = t.files("Pages")
       t.image("Img"),
     ]),
     t.markdown("Resume"),
-    t.object("Join", [
+    t.object("Pricing", [
       t.string("Title"),
       t.markdown("Description"),
-      t.object("Email", [
-        t.string("Label"),
-        t.string("Placeholder"),
-      ]),
       t.string("CTA"),
-      t.markdown("Success"),
-      t.markdown("Error"),
+    ]),
+    t.object("FAQ", [
+      t.string("Title"),
+      t.markdown("Description"),
+      t.list("Questions", [
+        t.string("Question"),
+        t.markdown("Answer"),
+      ]),
     ]),
   ])
   .file("Privacy policy", "/privacy.md", textPages)
