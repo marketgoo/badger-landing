@@ -55,17 +55,8 @@ pricing:
 faq:
   title: FAQs
   questions:
-    - question: How can I access Badger?
-      answer: Badger isn’t available yet – but we can let you know when the beta
-        version is ready to try out! Just sign up the waitlist to join the beta
-        testing group, which will allow you to try it out (and give us your
-        feedback) before anyone else.
     - question: What integrations are available on Badger?
-      answer: At the moment, Google Analytics is the only integration, and Google
-        Search Console is coming soon. We plan to add plenty of other
-        integrations as Badger grows – and we’d love to know which SEO data
-        sources you’d like to see there! Join our beta testing group to let us
-        know.
+      answer: At the moment, Google Analytics and Google Search Console. We  plan to add plenty of other integrations as Badger grows – and we’d love to know which SEO data sources you’d like to see there! Sign up for the trial and let us know.
     - question: What about features like white label or scheduling automation (or
         others I want to see)?
       answer: Everybody’s needs are slightly different – and we plan to use your
