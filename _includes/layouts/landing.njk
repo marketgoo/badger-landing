@@ -1,7 +1,10 @@
 ---
 layout: ./base.njk
 css: /styles/landing.css
+body_class: has-navbar
 ---
+
+{% include "templates/navbar.njk" %}
 
 <header class="landing-header">
   <h1>{{ header.title | safe }}</h1>

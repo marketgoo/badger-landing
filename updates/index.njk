@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+title: Badger updates
+css: /styles/updates.css
+---
+<div class="updates">
+  <header class="updates-header">
+    <img src="/img/icon.svg" alt="Badger icon" width="60" height="60" class="updates-header-icon">
+    <h1 class="updates-header-title">Badger updates</h1>
+    <nav class="updates-header-nav">
+      <a href="/updates/feed.xml">Subscribe by RSS</a>
+    </nav>
+  </header>
+
+  {% for update in updates %}
+  <article class="update">
+    <header>
+      <h2>{{ update.title }}</h2>
+      <time datetime="{{ update.date }}">{{ update.date | date("HUMAN_DATE") }}</time>
+    </header>
+    <div class="update-content">
+      {{ update.content | md | safe }}
+    </div>
+    <footer>
+      <a href="mailto:feedback@getbadger.io" class="button is-secondary">
+        Send us feedback
+      </a>
+    </footer>
+  </article>
+  {% endfor %}
+</div>

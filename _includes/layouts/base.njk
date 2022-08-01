@@ -18,8 +18,7 @@
   <script src="/scripts/main.js?cache={{ cache }}" type="module"></script>
 </head>
 
-<body class="has-navbar">
-  {% include "templates/navbar.njk" %}
+<body class="{{ body_class }}">
   {{ content | safe }}
   {% include "templates/footer.njk" %}
 </body>
