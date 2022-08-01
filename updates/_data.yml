@@ -1,10 +1,2 @@
-updates:
-  - date: 2022-08-23
-    title: Fixed some UI issues in Safari
-    content: |
-      The chart didn't look well in Safari, specially for certain types of data. We have fix it and now it should look great. If this is not your case, please let us know.
-  - date: 2022-08-22
-    title: New Google Search Console connection!
-    content: |
-      Finally you can include the Search Result data from Google Search Console, useful to see how well the website is performing in SEO. Integration includes number of clicks, impressions, CTR and keyword positions, and can be grouped by date, pages and keywords.
-      ![](/img/updates/gsc.png)
+layout: layouts/update.njk
+type: update

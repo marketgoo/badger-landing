@@ -1,0 +1,39 @@
+---
+layout: layouts/base.njk
+title: Badger updates
+css: /styles/updates.css
+---
+
+<div class="updates">
+  <header class="updates-header">
+    <img src="/img/icon.svg" alt="Badger icon" width="60" height="60" class="updates-header-icon">
+    <div>
+      <nav class="updates-header-nav">
+        <a href="/">← Back to home</a>
+      </nav>
+      <h1 class="updates-header-title">
+        Badger updates
+        <a href="/updates/feed.xml" aria-label="Subscribe by RSS" title="Subscribe by RSS">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="13" r="2" fill="currentColor"></circle><path d="M14 13C14 6.925 9.075 2 3 2M9 13a6 6 0 0 0-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
+        </a>
+      </h1>
+    </div>
+  </header>
+
+  {% for page in search.pages("type=update", "date=desc", 10) %}
+  <article class="update">
+    <header>
+      <h2><a href="{{ page.data.url }}">{{ page.data.title }}</a></h2>
+      <time datetime="{{ page.data.date }}">{{ page.data.date | date("HUMAN_DATE") }}</time>
+    </header>
+    <div class="update-content">
+      {{ page.data.content | md | safe }}
+    </div>
+    <footer>
+      <a href="mailto:feedback@getbadger.io" class="button is-secondary">
+        Send us feedback
+      </a>
+    </footer>
+  </article>
+  {% endfor %}
+</div>

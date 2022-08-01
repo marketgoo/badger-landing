@@ -1,0 +1,25 @@
+---
+title: Badger updates
+description: Changelog and new features annoucements
+url: /updates/feed.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>{{ title }}</title>
+	<subtitle>{{ description }}</subtitle>
+	<link href="{{ url | url(true) }}" rel="self"/>
+	<link href="{{ "/updates/" | url(true) }}"/>
+	{% set pages = search.pages("type=update", "date=desc", 10) %}
+	{% set lastPage = pages | last %}
+	<updated>{{ lastPage.date | date("ATOM") }}</updated>
+	<id>{{ "/" | url(true) }}</id>
+	{%- for page in pages %}
+	<entry>
+		<title>{{ page.data.title }}</title>
+		<link href="{{ page.data.url | url(true) }}"/>
+		<updated>{{ page.data.date | date("ATOM") }}</updated>
+		<content type="html">{{ page.data.content | md | htmlUrl(true) }}</content>
+	</entry>
+	{%- endfor %}
+</feed>

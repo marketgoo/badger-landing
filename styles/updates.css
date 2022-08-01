@@ -24,15 +24,22 @@ body {
 .updates-header-title {
   font: var(--font-4-bold);
   letter-spacing: var(--font-spacing-4);
-  display: flex;
-  align-items: center;
   margin: 0;
+
+  & svg {
+    color: var(--black-500);
+  }
 }
 .updates-header-nav {
-  font: var(--font-0);
+  font: var(--font-1-bold);
 
   & a {
+    text-decoration: none;
     color: var(--black-700);
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 .updates {
@@ -53,6 +60,15 @@ body {
     font: var(--font-3-bold);
     letter-spacing: var(--font-spacing-3);
     margin: 0;
+
+    & a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
   & footer {
     margin-top: 2rem;
