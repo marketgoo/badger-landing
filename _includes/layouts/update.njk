@@ -22,7 +22,10 @@ css: /styles/updates.css
   <article class="update">
     <header>
       <h2>{{ title }}</h2>
-      <time datetime="{{ date }}">{{ date | date("HUMAN_DATE") }}</time>
+      <p>
+        By {{ author }} on
+        <time datetime="{{ date }}">{{ date | date("HUMAN_DATE") }}</time>
+      </p>
     </header>
     <div class="update-content">
       {{ content | md | safe }}

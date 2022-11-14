@@ -1,8 +1,17 @@
 ---
 title: New Google Search Console connection!
-date: 2022-08-22
+date: 2022-11-14T16:33:07.057Z
+author: Óscar Otero
 ---
 
-Finally you can include the Search Result data from Google Search Console, useful to see how well the website is performing in SEO. Integration includes number of clicks, impressions, CTR and keyword positions, and can be grouped by date, pages and keywords.
+Recently we have added the Google Search Console connection to Badger. In this
+first integration we only fetch the **search result** data, which includes the
+number of clicks, impressions, CTR and keyword positions of the website grouped
+by date, pages and keywords dimmensions.
 
-![](/img/updates/gsc.png)
+Google Search Console doesn't provide only search result data but many other
+interesting data like Discover, page indexing info, core web vitals etc. We are
+planning to iterate over this connection anytime soon in order to allow you to
+include this data in your reports. Stay tuned!
+
+![Search result screenshot](/img/updates/gsc.png)

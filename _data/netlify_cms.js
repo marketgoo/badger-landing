@@ -78,16 +78,16 @@ const data = t.files("Global data")
 
 // Updates
 const updates = t.folder("Updates", "updates", [
-    t.string("Title"),
-    t.datetime("Date"),
-    t.markdown("Body"),
-  ])
+  t.string("Title"),
+  t.string("Author"),
+  t.datetime("Date"),
+  t.markdown("Body"),
+])
   .description("Here you can edit your updates")
   .preview(false)
   .mediaFolder("/static/img/updates")
   .publicFolder("/img/updates")
   .create(true);
-
 
 export default {
   backend: {

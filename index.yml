@@ -16,8 +16,8 @@ header:
 menu:
   - text: How it works
     href: "#step-1"
-  - text: Updates
-    href: "/updates/"
+  # - text: Updates
+  #   href: "/updates/"
   - text: <strong>Join the waiting list</strong>
     href: "#subscribe"
 steps:
