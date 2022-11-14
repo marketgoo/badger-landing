@@ -24,6 +24,7 @@
   margin: 0;
   display: flex;
   flex-wrap: wrap;
+  align-items: baseline;
   row-gap: .5rem;
   column-gap: 1.5rem;
 

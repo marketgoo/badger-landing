@@ -1,4 +1,4 @@
-import t from "https://deno.land/x/netlify_cms_config@v0.2.0/mod.ts";
+import t from "https://deno.land/x/netlify_cms_config@v0.3.0/mod.ts";
 
 // Defaults
 t.defaultRequired = false;
@@ -76,14 +76,29 @@ const data = t.files("Global data")
     ]),
   ]);
 
+// Updates
+const updates = t.folder("Updates", "updates", [
+    t.string("Title"),
+    t.datetime("Date"),
+    t.markdown("Body"),
+  ])
+  .description("Here you can edit your updates")
+  .preview(false)
+  .mediaFolder("/static/img/updates")
+  .publicFolder("/img/updates")
+  .create(true);
+
+
 export default {
   backend: {
     name: "git-gateway",
     branch: "master",
   },
   media_folder: "static/img",
+  public_folder: "/img",
   collections: [
     pages.toJSON(),
+    updates.toJSON(),
     data.toJSON(),
   ],
 };
