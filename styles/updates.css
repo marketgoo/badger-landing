@@ -70,6 +70,9 @@ body {
       }
     }
   }
+  & header p {
+    margin-top: .25em;
+  }
   & footer {
     margin-top: 2rem;
   }
@@ -77,10 +80,11 @@ body {
 .update-content {
   margin-top: 2rem;
   font: var(--font-1);
+  line-height: 1.6;
 
   & img {
     max-width: 100%;
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
 
   & > :last-child,
