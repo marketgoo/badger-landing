@@ -18,7 +18,8 @@ menu:
     href: "#step-1"
   # - text: Updates
   #   href: "/updates/"
-  - text: <strong>Join the waiting list</strong>
+  - text: Join the waiting list
+    class: button is-secondary
     href: "#subscribe"
 steps:
   - title: One place for all your SEO data

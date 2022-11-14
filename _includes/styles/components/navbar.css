@@ -28,7 +28,7 @@
   row-gap: .5rem;
   column-gap: 1.5rem;
 
-  & a {
+  & a:not(.button) {
     font: var(--font-1);
     color: var(--black);
     text-decoration: none;

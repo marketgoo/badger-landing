@@ -25,18 +25,13 @@ css: /styles/updates.css
     <header>
       <h2><a href="{{ page.data.url }}">{{ page.data.title }}</a></h2>
       <p>
-        By {{ author }} on
-        <time datetime="{{ date }}">{{ date | date("HUMAN_DATE") }}</time>
+        By {{ page.data.author }} on
+        <time datetime="{{ page.data.date }}">{{ date | date("HUMAN_DATE") }}</time>
       </p>
     </header>
     <div class="update-content">
       {{ page.data.content | md | safe }}
     </div>
-    <footer>
-      <button data-feedback-fish class="button is-secondary">
-        Give us feedback
-      </button>
-    </footer>
   </article>
   {% endfor %}
 </div>
