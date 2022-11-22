@@ -2,6 +2,7 @@
 layout: ./base.njk
 css: /styles/landing.css
 body_class: has-navbar
+try_url: "https://app.getbadger.io"
 ---
 
 {% include "templates/navbar.njk" %}
@@ -11,7 +12,7 @@ body_class: has-navbar
 
   <div class="landing-header-content">
     <p>{{ header.intro | md | safe}}</p>
-    <a href="#subscribe" class="button is-primary is-responsive">{{ header.cta }}</a>
+    <a href="{{ try_url }}" class="button is-primary is-responsive">{{ header.cta }}</a>
   </div>
 </header>
 
@@ -32,39 +33,22 @@ body_class: has-navbar
   {{ resume | md | safe }}
 </section>
 
-<section class="landing-join">
+<section class="landing-pricing">
   <header>
-    <h2>{{ join.title | safe }}</h2>
-    {{ join.description | md | safe }}
+    <h2>{{ pricing.title | md(true) | safe }}</h2>
+    {{ pricing.description | md | safe }}
   </header>
-
-  <badger-subscribe id="subscribe">
-    <form method="post">
-      <div class="field">
-        <label for="email" class="field-label">
-          {{ join.email.label }}
-        </label>
-        <input required type="email" id="email" class="input field-input" placeholder="{{ join.email.placeholder }}">
-      </div>
-      <button type="submit" class="button is-primary is-responsive">{{ join.cta }}</button>
-    </form>
-    <template class="tmpl-success">
-      <div class="form-success">
-        {{ join.success | md | safe }}
-        {{ comp.fireworks() | safe }}
-      </div>
-    </template>
-    <template class="tmpl-error">
-      <div class="form-error">
-        {{ join.error | md | safe }}
-      </div>
-    </template>
-  </badger-subscribe>
+  <p class="landing-pricing-footer">
+    <a href="{{ try_url }}" class="button is-primary">
+      {{ pricing.cta }}
+    </a>
+  </p>
 </section>
 
 <section class="landing-faq">
   <header>
     <h2>{{ faq.title | safe }}</h2>
+    {{ faq.description | md | safe }}
   </header>
 
   <div class="faq-questions">

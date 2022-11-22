@@ -199,6 +199,34 @@
   padding-bottom: 100px;
 }
 
+.landing-pricing {
+  padding: 10vh 5vw;
+  width: calc(100% - 10vw);
+  max-width: calc(1400px - 10vw);
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+  background: var(--black-900);
+  color: var(--white);
+  border-radius: var(--radius);
+
+  & h2 {
+    font: var(--font-5-bold);
+    letter-spacing: var(--font-spacing-5);
+    margin: 0;
+
+    & strong {
+      color: var(--primary-500);
+    }
+  }
+  & header p {
+    font: var(--font-1);
+    letter-spacing: var(--font-spacing-2);
+    color: var(--black-300);
+    margin: .5em 0 0;
+  }
+}
+
 .landing-faq {
   padding: 10vh 5vw;
   max-width: 1400px;
@@ -208,8 +236,7 @@
   & h2 {
     font: var(--font-4-bold);
     letter-spacing: var(--font-spacing-4);
-    margin-top: 0;
-    text-align: center;
+    margin: 0;
   }
 
   @media (min-width: 800px) {

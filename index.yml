@@ -12,15 +12,15 @@ header:
   intro: Connect your SEO data sources in a single place to generate and share
     meaningful, custom reports that will **save you hours and wow your
     clients**.
-  cta: Join the waiting list
+  cta: Try it for free
 menu:
   - text: How it works
     href: "#step-1"
   # - text: Updates
   #   href: "/updates/"
-  - text: Join the waiting list
-    class: button is-secondary
-    href: "#subscribe"
+  - text: Try it for free
+    class: button is-primary
+    href: https://app.getbadger.io/
 steps:
   - title: One place for all your SEO data
     class: is-connect
@@ -40,9 +40,9 @@ steps:
   - title: Add comments
     class: is-comment
     img: /img/comments.png
-    description: Cut down on explanations & walkthroughs with clients. **Add comments**
-      to your charts, give an overview of the report or save private notes only
-      for you.
+    description: Cut down on explanations & walkthroughs with clients. **Add
+      comments** to your charts, give an overview of the report or save private
+      notes only for you.
   - title: Share with clients
     class: is-report
     img: /img/public.png
@@ -50,27 +50,20 @@ steps:
       easily see their most important metrics, along with your comments.
 resume: No more copying and pasting screenshots. No more fiddling with Google
   Data Studio. Create tailored reports in minutes with **Badger**.
-join:
-  title: Join for early access
-  description: We're gradually opening up early access to Badger. Become a part of
-    building the next generation of SEO reporting!
-  email:
-    label: Your email
-    placeholder: example@email.com
-  cta: Join the waiting list
-  success: Thanks for joining Badger!
-  error: Oops, there's an error. [Refresh the page](/) and try again
+pricing:
+  title: Try it 15 days **for free**,<br>and then only **$4.99/month** per project.
+  description: No credit card required for the trial period.
+  cta: Start your trial now
 faq:
   title: FAQs
   questions:
-    - question: How can I access Badger?
-      answer: Badger isn’t available yet – but we can let you know when the beta version is ready to try out! Just sign up the waitlist to join the beta testing group, which will allow you to try it out (and give us your feedback) before anyone else.
-
     - question: What integrations are available on Badger?
-      answer: At the moment, Google Analytics is the only integration, and Google Search Console is coming soon. We plan to add plenty of other integrations as Badger grows – and we’d love to know which SEO data sources you’d like to see there! Join our beta testing group to let us know.
-
-    - question: What will Badger cost?
-      answer: We haven’t finalized our pricing plans yet, but we’re committed to making Badger an affordable, high-value product. If you sign up to the waitlist, you’ll be the first to know about prices.
-
-    - question: What about features like white label or scheduling automation (or others I want to see)?
-      answer: Everybody’s needs are slightly different – and we want to accommodate as many as possible! To let us know what you’d like to see in Badger, sign up to the waitlist and share your thoughts.
+      answer: At the moment, Google Analytics and Google Search Console. We  plan to add plenty of other integrations as Badger grows – and we’d love to know which SEO data sources you’d like to see there! Sign up for the trial and let us know.
+    - question: What about features like white label or scheduling automation (or
+        others I want to see)?
+      answer: Everybody’s needs are slightly different – and we plan to use your
+        feedback to keep improving Badger! To let us know what you’d like to see
+        in Badger, sign up to the trial and you can share your thoughts directly
+        with us.
+  description: Do you have any question? Don't hesitate to contact us at
+    [hello@getbadger.io](mailto:hello@getbadger.io)
