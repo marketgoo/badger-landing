@@ -27,7 +27,7 @@
   flex-wrap: wrap;
   align-items: baseline;
   row-gap: .5rem;
-  column-gap: 1.5rem;
+  column-gap: 8px;
   font: var(--font-1);
 
   & a:not(.button) {

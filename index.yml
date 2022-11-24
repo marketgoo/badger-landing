@@ -15,9 +15,13 @@ header:
   cta: Try it for free
 menu:
   - text: How it works
+    class: button
     href: "#step-1"
   # - text: Updates
   #   href: "/updates/"
+  - text: Login
+    class: button is-secondary
+    href: https://app.getbadger.io/
   - text: Try it for free
     class: button is-primary
     href: https://app.getbadger.io/
