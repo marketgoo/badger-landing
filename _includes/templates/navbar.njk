@@ -3,8 +3,15 @@
     <img src="/badger.svg" alt="Badger logo">
   </a>
 
-  <ul class="navbar-menu">
-    {% for item in menu %}
+  <ul class="navbar-menu has-links">
+    {% for item in menu.links %}
+    <li>
+      <a class="{{ item.class }}" href="{{ item.href }}">{{ item.text | safe }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  <ul class="navbar-menu has-ctas">
+    {% for item in menu.ctas %}
     <li>
       <a class="{{ item.class }}" href="{{ item.href }}">{{ item.text | safe }}</a>
     </li>

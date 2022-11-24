@@ -24,24 +24,24 @@
   margin: 0;
   display: flex;
   align-items: baseline;
-  flex-wrap: wrap;
   align-items: baseline;
   row-gap: .5rem;
-  column-gap: 8px;
+  column-gap: 4px;
   font: var(--font-1);
 
-  & a:not(.button) {
-    font: var(--font-1);
-    color: var(--black);
-    text-decoration: none;
-
-    &:hover {
-      color: var(--black-500);
+  @media (max-width: 560px) {
+    &.has-ctas {
+      display: none;
     }
   }
 
-  & a > strong {
-    text-decoration: underline;
+  &.has-links {
+    margin-left: auto;
+
+    & a {
+      color: var(--black-700);
+      font-weight: var(--bold);
+    }
   }
 }
 
