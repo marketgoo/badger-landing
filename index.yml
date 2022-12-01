@@ -6,7 +6,7 @@ metas:
   description: Connect data sources like Google Analytics or Search Console in a
     single place to generate and share meaningful and custom reports with your
     clients & stakeholders.
-  image: /static/img/connect.png
+  image: /img/connect.png
 header:
   title: Finally,<br>good SEO<br><strong>reports</strong><br>in minutes
   intro: Connect your SEO data sources in a single place to generate and share
