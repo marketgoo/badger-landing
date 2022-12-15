@@ -25,8 +25,6 @@ So if would like to get started, just [click here](https://app.getbadger.io/) t
 
 By joining we invite you to co-create with us and collaborate on defining the future of the solution.
 
-If you have any questions don't hesitate to reach out! We’ll be happy to get your thoughts at [hello@getbadger.io](mailto:hello@getbadger.io) and at Twitter @getbadger.io.
-
 Thanks so much.
 
 (One more thing: we’ve never liked it when companies push up their prices when they start to grow. That’s why **by signing up now we offer you lifetime pricing respect**.)
