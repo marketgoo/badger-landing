@@ -26,17 +26,18 @@
   align-items: baseline;
   align-items: baseline;
   row-gap: .5rem;
-  column-gap: 4px;
   font: var(--font-1);
 
   @media (max-width: 560px) {
     &.has-ctas {
+      column-gap: 4px;
       display: none;
     }
   }
 
   &.has-links {
     margin-left: auto;
+    column-gap: 2rem;
 
     & a {
       color: var(--black-700);

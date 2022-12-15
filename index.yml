@@ -17,8 +17,8 @@ menu:
   links:
     - text: How it works
       href: "#step-1"
-    # - text: Updates
-    #   href: "/updates/"
+    - text: Updates
+      href: "/updates/"
   ctas:
     - text: Log in
       class: button is-secondary
