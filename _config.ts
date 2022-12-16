@@ -17,4 +17,13 @@ export default lume({
     netlifyIdentity: true,
   }))
   .data("test", Deno.env.get("ENV") !== "prod")
-  .data("cache", Date.now());
+  .data("cache", Date.now())
+  .preprocess([".md"], (page) => {
+    const content = page.data.content as string;
+    // Search the first markdown image and use it as metas.image
+    const match = content.match(/\!\[.*\]\(([^\s]+)[^\)]*\)/);
+
+    if (match) {
+      page.data.metas!.image = match[1];
+    }
+  });
