@@ -1,6 +1,6 @@
 ---
 title: "December Feature Announcement: SEMRush Integration & More"
-author: Óscar Otero
+author: David Roch
 date: 2023-01-03T10:56:53.807Z
 ---
 Hi there.
@@ -23,4 +23,4 @@ Go ahead and [try these new improvements](app.getbadger.io) for yourself. And d
 
 Thanks so much.
 
-**Óscar and the Badger team.**
+**David and the Badger team**
