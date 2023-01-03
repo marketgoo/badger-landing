@@ -1,12 +1,26 @@
 ---
-title: First version of the Semrush integration
+title: "December Feature Announcement: SEMRush Integration & More"
 author: Óscar Otero
 date: 2023-01-03T10:56:53.807Z
 ---
-We have been working hard during the ending of 2022 to have a first version of Semrush integration in 2023. And we've done it 🎉.
+Hi there.
 
-The Semrush integration is provided **out of the box** for all projects, **for free and without need to have a Semrush account.** We are using the API (updated every 15th day of the month) to extract some interesting info. And we wanted to start, in this first version, showing a table with the 10 best keywords. For now it is limited to only US results, but we want to include other countries coming soon.
+Our December cycle is finished and we are happy to share the new improvements in Badger.
+
+We have been working hard during the past few weeks to have a first version of SEMRush integration in 2023. And we've done it 🎉.
+
+The SEMRush integration is provided **out of the box** for all projects, **included in your subscription and without a need to have a SEMRush account.** 
 
 ![Semrush table with the list of 10 best ranked keywords.](/img/updates/semrush-keywords.jpg)
 
-Plese, let us know what do you think and which other info do you like to see in Badger.
+As requested by our first users we’ll be adding valuable information from SEMRush, starting with the 10 best keywords for your client’s website. This is a great opportunity to showcase the work and results in your ongoing reports.
+
+Also, we have developed a new method to extract faster data form Google Analytics and Google Search Console. Some users with big websites were experiencing during the onboarding long waiting times to have their dashboards ready, so we decided to prioritise improving this experience. 
+
+Finally, we have fixed a few issues that were brought up during the beta testing phase of the product.
+
+Go ahead and [try these new improvements](app.getbadger.io) for yourself. And don't hesitate to tell us what you think.
+
+Thanks so much.
+
+**Óscar and the Badger team.**
