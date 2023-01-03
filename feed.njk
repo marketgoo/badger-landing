@@ -16,10 +16,10 @@ url: /updates/feed.xml
 	<id>{{ "/" | url(true) }}</id>
 	{%- for page in pages %}
 	<entry>
-		<title>{{ page.data.title }}</title>
-		<link href="{{ page.data.url | url(true) }}"/>
-		<updated>{{ page.data.date | date("ATOM") }}</updated>
-		<content type="html">{{ page.data.content | md | htmlUrl(true) }}</content>
+		<title>{{ page.title }}</title>
+		<link href="{{ page.url | url(true) }}"/>
+		<updated>{{ page.date | date("ATOM") }}</updated>
+		<content type="html">{{ page.content | md | htmlUrl(true) }}</content>
 	</entry>
 	{%- endfor %}
 </feed>

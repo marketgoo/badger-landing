@@ -23,14 +23,14 @@ css: /styles/updates.css
   {% for page in search.pages("type=update", "date=desc", 10) %}
   <article class="update">
     <header>
-      <h2><a href="{{ page.data.url }}">{{ page.data.title }}</a></h2>
+      <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
       <p>
-        By {{ page.data.author }} on
-        <time datetime="{{ page.data.date }}">{{ date | date("HUMAN_DATE") }}</time>
+        By {{ page.author }} on
+        <time datetime="{{ page.date }}">{{ page.date | date("HUMAN_DATE") }}</time>
       </p>
     </header>
     <div class="update-content">
-      {{ page.data.content | md | safe }}
+      {{ page.content | md | safe }}
     </div>
   </article>
   {% endfor %}

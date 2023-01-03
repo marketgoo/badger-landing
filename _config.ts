@@ -6,6 +6,8 @@ import date from "lume/plugins/date.ts";
 
 export default lume({
   location: new URL("https://getbadger.io"),
+}, {
+  search: { returnPageData: true },
 })
   .copy("static", ".")
   .ignore("README.md")
