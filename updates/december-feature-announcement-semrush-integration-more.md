@@ -11,7 +11,7 @@ We have been working hard during the past few weeks to have a first version of S
 
 The SEMRush integration is provided **out of the box** for all projects, **included in your subscription and without a need to have a SEMRush account.** 
 
-![Semrush table with the list of 10 best ranked keywords.](/img/updates/semrush-keywords.jpg)
+![Semrush table with the list of 10 best ranked keywords.](/img/updates/semrush-keywords.jpg "Top organic keywords")
 
 As requested by our first users we’ll be adding valuable information from SEMRush, starting with the 10 best keywords for your client’s website. This is a great opportunity to showcase the work and results in your ongoing reports.
 
