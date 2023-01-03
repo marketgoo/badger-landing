@@ -15,7 +15,7 @@ The SEMRush integration is provided **out of the box** for all projects, **in
 
 As requested by our first users we’ll be adding valuable information from SEMRush, starting with the 10 best keywords for your client’s website. This is a great opportunity to showcase the work and results in your ongoing reports.
 
-Also, we have developed a new method to extract faster data form Google Analytics and Google Search Console. Some users with big websites were experiencing during the onboarding long waiting times to have their dashboards ready, so we decided to prioritise improving this experience. 
+Also, **we have developed a new method to extract faster data form Google Analytics and Google Search Console**. Some users with big websites were experiencing during the onboarding long waiting times to have their dashboards ready, so we decided to prioritise improving this experience. 
 
 Finally, we have fixed a few issues that were brought up during the beta testing phase of the product.
 
