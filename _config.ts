@@ -3,6 +3,7 @@ import postcss from "lume/plugins/postcss.ts";
 import cms from "lume/plugins/netlify_cms.ts";
 import metas from "lume/plugins/metas.ts";
 import date from "lume/plugins/date.ts";
+import md_image from "https://deno.land/x/lume_markdown_plugins@v0.2.0/image.ts";
 
 export default lume({
   location: new URL("https://getbadger.io"),
@@ -11,6 +12,7 @@ export default lume({
 })
   .copy("static", ".")
   .ignore("README.md")
+  .use(md_image())
   .use(postcss())
   .use(date())
   .use(metas())
@@ -19,13 +21,4 @@ export default lume({
     netlifyIdentity: true,
   }))
   .data("test", Deno.env.get("ENV") !== "prod")
-  .data("cache", Date.now())
-  .preprocess([".md"], (page) => {
-    const content = page.data.content as string;
-    // Search the first markdown image and use it as metas.image
-    const match = content.match(/\!\[.*\]\(([^\s]+)[^\)]*\)/);
-
-    if (match) {
-      page.data.metas!.image = match[1];
-    }
-  });
+  .data("cache", Date.now());
