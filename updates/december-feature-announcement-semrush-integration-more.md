@@ -19,7 +19,7 @@ Also, **we have developed a new method to extract faster data form Google Analyt
 
 Finally, we have fixed a few issues that were brought up during the beta testing phase of the product.
 
-Go ahead and [try these new improvements](app.getbadger.io) for yourself. And don't hesitate to tell us what you think.
+Go ahead and [try these new improvements](https://app.getbadger.io) for yourself. And don't hesitate to tell us what you think.
 
 Thanks so much.
 
