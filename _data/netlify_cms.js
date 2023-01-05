@@ -83,6 +83,7 @@ const data = t.files("Global data")
 const updates = t.folder("Updates", "updates", [
   t.string("Title"),
   t.string("Author"),
+  t.boolean("Draft"),
   t.datetime("Date"),
   t.markdown("Body"),
 ])
