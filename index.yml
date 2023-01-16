@@ -7,12 +7,16 @@ metas:
     single place to generate and share meaningful and custom reports with your
     clients & stakeholders.
   image: /img/connect.png
+
 header:
   title: Finally,<br>good SEO<br><strong>reports</strong><br>in minutes
   intro: Connect your SEO data sources in a single place to generate and share
     meaningful, custom reports that will **save you hours and wow your
     clients**.
   cta: Try it for free
+  demo: Schedule a demo
+  calendly_url: https://calendly.com/drochmarketgoo/60min
+
 menu:
   links:
     - text: How it works
@@ -59,11 +63,24 @@ pricing:
   title: Try it 15 days **for free**,<br>and then only **$4.99/month** per project.
   description: No credit card required for the trial period.
   cta: Start your trial now
+demo:
+  title: Do you want to request a demo?
+  img: /img/david-roch.jpg
+  description: |
+    Hi, I'm David Roch, head of product of Badger and will be happy to contact with you and bla bla bla.
+    - After you request the demo, we will contact you
+    - Then we will do a thing
+    - And then will do another thing
+    - **Zero commitment**
+  cta: Schedule a demo now
 faq:
   title: FAQs
   questions:
     - question: What integrations are available on Badger?
       answer: At the moment, Google Analytics and Google Search Console. We  plan to add plenty of other integrations as Badger grows – and we’d love to know which SEO data sources you’d like to see there! Sign up for the trial and let us know.
+    - question: I want to request a demo before
+      answer: |
+        No problem, just <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/drochmarketgoo/60min'});return false;">Schedule a demo</a> with us.
     - question: What about features like white label or scheduling automation (or
         others I want to see)?
       answer: Everybody’s needs are slightly different – and we plan to use your

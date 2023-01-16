@@ -32,6 +32,8 @@ const pages = t.files("Pages")
       t.string("Title"),
       t.markdown("Intro"),
       t.string("CTA"),
+      t.string("demo"),
+      t.string("calendly_url"),
     ]),
     t.list("Menu", [
       t.string("Text"),
@@ -49,6 +51,12 @@ const pages = t.files("Pages")
       t.string("Title"),
       t.markdown("Description"),
       t.string("CTA"),
+    ]),
+    t.object("Demo", [
+      t.string("Title"),
+      t.markdown("Description"),
+      t.string("CTA"),
+      t.image("Img"),
     ]),
     t.object("FAQ", [
       t.string("Title"),

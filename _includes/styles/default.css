@@ -29,3 +29,8 @@ hr {
 :not(:defined) {
   visibility: hidden;
 }
+
+/** Hack to fix the scrollbar in the calendly popup */
+.calendly-overlay .calendly-popup {
+  max-height: 700px;
+}
