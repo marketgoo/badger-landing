@@ -244,7 +244,7 @@
 
   @media (min-width: 800px) {
     display: grid;
-    grid-template-columns: minmax(auto, 25%) minmax(auto, 550px);
+    grid-template-columns: minmax(auto, 35%) minmax(auto, 550px);
     column-gap: 2rem;
     justify-content: center;
   }

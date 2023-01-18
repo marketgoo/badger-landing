@@ -14,8 +14,8 @@ header:
     meaningful, custom reports that will **save you hours and wow your
     clients**.
   cta: Try it for free
-  demo: Schedule a demo
-  calendly_url: https://calendly.com/drochmarketgoo/60min
+  demo: Schedule a demo now
+  calendly_url: https://calendly.com/drochmarketgoo/badgerproductdemo
 
 menu:
   links:
@@ -65,13 +65,8 @@ pricing:
   cta: Start your trial now
 demo:
   title: Do you want to request a demo?
-  img: /img/david-roch.jpg
   description: |
-    Hi, I'm David Roch, Head of Product of Badger and will be happy to contact with you and bla bla bla.
-    - After you request the demo, we will contact you
-    - Then we will do a thing
-    - And then will do another thing
-    - **Zero commitment**
+    Let us give you a walkthrough the product and answer any question you may have. **Zero commitment.**
   cta: Schedule a demo now
 faq:
   title: FAQs

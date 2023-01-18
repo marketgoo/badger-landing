@@ -57,10 +57,9 @@ try_url: "https://app.getbadger.io"
     <h2>{{ demo.title | md(true) | safe }}</h2>
   </header>
   <div class="landing-demo-content">
-    <img src="{{ demo.img }}" class="landing-demo-avatar" alt="David Roch portrait">
     {{ demo.description | md | safe }}
 
-    <button class="button is-primary" onclick="Calendly.initPopupWidget({url: '{{ header.calendly_url }}'});">{{ header.demo }}</button>
+    <button class="button is-primary" onclick="Calendly.initPopupWidget({url: '{{ header.calendly_url }}'});">{{ demo.cta }}</button>
   </div>
 </section>
 
