@@ -56,7 +56,6 @@ const pages = t.files("Pages")
       t.string("Title"),
       t.markdown("Description"),
       t.string("CTA"),
-      t.image("Img"),
     ]),
     t.object("FAQ", [
       t.string("Title"),

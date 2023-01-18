@@ -33,4 +33,5 @@ hr {
 /** Hack to fix the scrollbar in the calendly popup */
 .calendly-overlay .calendly-popup {
   max-height: 700px;
+  width: 100%;
 }
