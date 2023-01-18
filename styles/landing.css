@@ -227,6 +227,36 @@
   }
 }
 
+.landing-demo {
+  padding: 5vh 5vw;
+  width: calc(100% - 10vw);
+  max-width: calc(1400px - 10vw);
+  background: var(--black-200);
+  box-sizing: border-box;
+  margin: 10px auto 0 auto;
+  border-radius: var(--radius);
+
+  & h2 {
+    font: var(--font-4-bold);
+    letter-spacing: var(--font-spacing-4);
+    margin: 0 0 1em 0;
+  }
+
+  @media (min-width: 800px) {
+    display: grid;
+    grid-template-columns: minmax(auto, 35%) minmax(auto, 550px);
+    column-gap: 2rem;
+    justify-content: center;
+  }
+}
+.landing-demo-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 1rem;
+}
+
 .landing-faq {
   padding: 10vh 5vw;
   max-width: 1400px;

@@ -1,6 +1,8 @@
 ---
 layout: ./base.njk
-css: /styles/landing.css
+css:
+  - https://assets.calendly.com/assets/external/widget.css
+  - /styles/landing.css
 body_class: has-navbar
 try_url: "https://app.getbadger.io"
 ---
@@ -13,6 +15,11 @@ try_url: "https://app.getbadger.io"
   <div class="landing-header-content">
     <p>{{ header.intro | md | safe}}</p>
     <a href="{{ try_url }}" class="button is-primary is-responsive">{{ header.cta }}</a>
+
+    <!-- Calendly link widget begin -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <button class="button is-secondary" onclick="Calendly.initPopupWidget({url: '{{ header.calendly_url }}'});">{{ header.demo }}</button>
+    <!-- Calendly link widget end -->
   </div>
 </header>
 
@@ -43,6 +50,17 @@ try_url: "https://app.getbadger.io"
       {{ pricing.cta }}
     </a>
   </p>
+</section>
+
+<section class="landing-demo">
+  <header>
+    <h2>{{ demo.title | md(true) | safe }}</h2>
+  </header>
+  <div class="landing-demo-content">
+    {{ demo.description | md | safe }}
+
+    <button class="button is-primary" onclick="Calendly.initPopupWidget({url: '{{ header.calendly_url }}'});">{{ demo.cta }}</button>
+  </div>
 </section>
 
 <section class="landing-faq">

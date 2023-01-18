@@ -9,9 +9,9 @@
   <meta name="google-site-verification" content="IJ3PZ2iLpcLv-1arm84keiu1PVGjqXbLBzaasPKuI9o">
   <link rel="canonical" href="{{ url | url(true) }}">
 
-  {% if css %}
-  <link rel="stylesheet" href="{{ css }}?cache={{ cache }}">
-  {% endif %}
+  {% for href in css %}
+  <link rel="stylesheet" href="{{ href }}?cache={{ cache }}">
+  {% endfor %}
 
   {% if not disable_posthog %}
   {% include "templates/posthog.njk" %}
