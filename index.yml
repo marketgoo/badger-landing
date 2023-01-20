@@ -10,9 +10,7 @@ metas:
 
 header:
   title: Finally,<br>good SEO<br><strong>reports</strong><br>in minutes
-  intro: Connect your SEO data sources in a single place to generate and share
-    meaningful, custom reports that will **save you hours and wow your
-    clients**.
+  intro: Connect all your SEO data in one place—and generate custom reports that **save you hours and wow your clients!**.
   cta: Try it for free
   demo: Schedule a demo now
   calendly_url: https://calendly.com/drochmarketgoo/badgerproductdemo
@@ -60,14 +58,14 @@ steps:
 resume: No more copying and pasting screenshots. No more fiddling with Google
   Data Studio. Create tailored reports in minutes with **Badger**.
 pricing:
-  title: Try it 15 days **for free**,<br>and then only **$4.99/month** per project.
-  description: No credit card required for the trial period.
-  cta: Start your trial now
+  title: Try it **free for 15 days**,<br>and then for **$4.99/month** per project.
+  description: No credit card required for the trial.
+  cta: Start free trial
 demo:
-  title: Do you want to request a demo?
+  title: Want to see it in action?
   description: |
-    Let us give you a walkthrough the product and answer any question you may have. **Zero commitment.**
-  cta: Schedule a demo now
+    Schedule a call with our team—and we’ll be happy to walk you through it! Plus: **zero commitment from your side.**
+  cta: Schedule a free demo
 faq:
   title: FAQs
   questions:
@@ -79,5 +77,5 @@ faq:
         feedback to keep improving Badger! To let us know what you’d like to see
         in Badger, sign up to the trial and you can share your thoughts directly
         with us.
-  description: Do you have any question? Don't hesitate to contact us at
-    [hello@getbadger.io](mailto:hello@getbadger.io)
+  description: Any question? Get in touch at
+    [hello@getbadger.io](mailto:hello@getbadger.io) and we'll be delighted to help!
