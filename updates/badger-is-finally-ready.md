@@ -5,7 +5,7 @@ date: 2022-12-15T12:46:30.348Z
 ---
 Hi there.
 
-I am are super excited to announce that Badger is finally ready :)
+I am super excited to announce that Badger is finally ready :)
 
 As people who have worked in SEO for years, we lost track of the time we’ve spent preparing reports for clients. That’s why we created Badger.
 
