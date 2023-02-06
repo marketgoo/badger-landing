@@ -19,7 +19,7 @@ Our vision is ambitious.
 
 We see Badger becoming the go-to place for handling all your client digital marketing. From reporting to internal analysis, including auditing and client acquisition tools.
 
-**Hope you join us and become part of this journey.**
+### **Hope you join us and become part of this journey.**
 
 So if would like to get started, just [click here](https://app.getbadger.io/) to access the first version of the product. 
 
