@@ -42,6 +42,7 @@ try_url: "https://app.getbadger.io"
   {{ resume | md | safe }}
 </section>
 
+{% if pricing %}
 <section class="landing-pricing">
   <header>
     <h2>{{ pricing.title | md(true) | safe }}</h2>
@@ -53,6 +54,7 @@ try_url: "https://app.getbadger.io"
     </a>
   </p>
 </section>
+{% endif %}
 
 <section class="landing-demo">
   <header>

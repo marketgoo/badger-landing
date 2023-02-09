@@ -57,10 +57,10 @@ steps:
       easily see their most important metrics, along with your comments.
 resume: No more copying and pasting screenshots. No more fiddling with Google
   Data Studio. Create tailored reports in minutes with **Badger**.
-pricing:
-  title: Try it **free for 15 days**,<br>and then for **$4.99/month** per project.
-  description: No credit card required for the trial.
-  cta: Start free trial
+# pricing:
+#   title: Try it **free for 15 days**,<br>and then for **$4.99/month** per project.
+#   description: No credit card required for the trial.
+#   cta: Start free trial
 demo:
   title: Want to see it in action?
   description: |
