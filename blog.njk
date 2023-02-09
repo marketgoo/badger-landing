@@ -1,0 +1,34 @@
+---
+layout: layouts/blog.njk
+title: Badger news
+css: 
+  - /styles/blog.css
+---
+
+<div class="blog">
+  <header class="blog-header">
+    <div>
+      <nav class="blog-header-nav">
+        <a href="/">← Back to home</a>
+      </nav>
+      <h1 class="blog-header-title">
+        {{ title }}
+      </h1>
+    </div>
+  </header>
+
+  {% for page in search.pages("type=post", "date=desc", 10) %}
+  <article class="post">
+    <header>
+      <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+      <p>
+        By {{ page.author }} on
+        <time datetime="{{ page.date }}">{{ page.date | date("HUMAN_DATE") }}</time>
+      </p>
+    </header>
+    <div class="post-content">
+      {{ page.excerpt | md | safe }}
+    </div>
+  </article>
+  {% endfor %}
+</div>

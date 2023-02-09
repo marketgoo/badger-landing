@@ -1,0 +1,24 @@
+---
+layout: layouts/blog.njk
+css: 
+  - /styles/blog.css
+---
+
+<div class="blog">
+  <article class="post-body">
+    <header class="post-header">
+        <nav class="post-header-nav">
+          <a href="/blog/">← Back to blog</a>
+        </nav>
+        <h1 class="post-title">{{ title }}</h1>
+        <p>
+          By {{ author }} on
+          <time datetime="{{ date }}">{{ date | date("HUMAN_DATE") }}</time>
+        </p>
+    </header>
+
+    <div class="post-content">
+      {{ content | md | safe }}
+    </div>
+  </article>
+</div>

@@ -1,0 +1,5 @@
+layout: layouts/post.njk
+type: post
+metas:
+  title: "=title"
+  description: "=excerpt"

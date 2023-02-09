@@ -100,6 +100,21 @@ const updates = t.folder("Updates", "updates", [
   .publicFolder("/img/updates")
   .create(true);
 
+// Posts
+const posts = t.folder("Posts", "blog", [
+  t.string("Title"),
+  t.string("Author"),
+  t.boolean("Draft"),
+  t.datetime("Date"),
+  t.markdown("Excerpt"),
+  t.markdown("Body"),
+])
+  .description("Here you can edit your posts")
+  .preview(false)
+  .mediaFolder("/static/img/blog")
+  .publicFolder("/img/blog")
+  .create(true);
+
 export default {
   backend: {
     name: "git-gateway",
@@ -110,6 +125,7 @@ export default {
   collections: [
     pages.toJSON(),
     updates.toJSON(),
+    posts.toJSON(),
     data.toJSON(),
   ],
 };
