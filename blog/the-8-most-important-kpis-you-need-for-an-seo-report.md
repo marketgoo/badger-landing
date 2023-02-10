@@ -4,7 +4,7 @@ author: "Gus "
 draft: true
 date: 2023-02-10T15:12:27.525Z
 ---
-Understanding your data is one of the first steps to navigating through the sea of data. Today, we're going to dive into the most important KPIs you need to include in your SEO report. 
+#### Understanding your data is one of the first steps to navigating through the sea of data. Today, we're going to dive into the most important KPIs you need to include in your SEO report. 
 
 Measuring the performance of your SEO efforts is crucial. But with so many metrics to choose from, it can be overwhelming to know where to start. These KPIs can be easily tracked with Badger.  Whether you're an agency, freelancer or in-house marketer, this article will provide you with the essential KPIs you need to accurately assess the success of your SEO campaigns. So, let's get started!
 
@@ -21,6 +21,6 @@ You should have some clear objectives in your mind. What are your main goals and
 
 All these KPIs can be found in Badger's integrated data sources. 
 
-![](https://lh4.googleusercontent.com/IbQL4_FAe9WWZayGTSrVMupulLAshFwQDU5uYSynqKhpmhqaDj96ii7Nx2ObDZ4bngusrfd-dE7y64baRHBHk985VWeDo6TO5X6hmq1m663hggIdMSP9PrSabVxKH7Marp6naHYq-XReNuxKVYh8kBk)
+![seo tools](https://lh4.googleusercontent.com/IbQL4_FAe9WWZayGTSrVMupulLAshFwQDU5uYSynqKhpmhqaDj96ii7Nx2ObDZ4bngusrfd-dE7y64baRHBHk985VWeDo6TO5X6hmq1m663hggIdMSP9PrSabVxKH7Marp6naHYq-XReNuxKVYh8kBk)
 
 Go ahead and try!! And don't hesitate to tell us what you think.
