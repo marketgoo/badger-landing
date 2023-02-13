@@ -33,19 +33,29 @@ body {
 .post-header {
   margin: 0;
   display: grid;
-  row-gap: .1rem;
+  row-gap: 1rem;
   margin-bottom: 5vh;
+  text-align: center;
 
   & p {
-    margin-top: .25em;
-    font: var(--font-0);
+    font: var(--font-1);
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: 1px;
+    background: var(--black-200);
+    margin: clamp(2rem, 5vw, 4rem) auto;
   }
 }
 .post-title {
-  font: var(--font-5-bold);
-  letter-spacing: var(--font-spacing-5);
-  max-width: 20em;
-  margin: 0;
+  font: var(--font-7-bold);
+  letter-spacing: var(--font-spacing-7);
+  max-width: 15em;
+  margin: 0 auto;
   color: var(--black-900);
 }
 .post-header-nav {
@@ -53,7 +63,7 @@ body {
 
   & a {
     text-decoration: none;
-    color: var(--black-700);
+    /* color: var(--black-700); */
 
     &:hover {
       text-decoration: underline;
@@ -71,13 +81,18 @@ body {
   row-gap: 2rem;
 }
 .post-body {
-  padding: 2rem;
+  padding: clamp(2rem, 5vw, 4rem);
   background: var(--white);
   border-radius: var(--radius);
   color: var(--black-700);
 }
+.post-excerpt {
+  font: var(--font-4);
+  letter-spacing: var(--font-spacing-4);
+  color: var(--primary-700);
+}
 .post {
-  padding: 2rem;
+  padding: clamp(2rem, 5vw, 4rem);
   background: var(--white);
   border-radius: var(--radius);
   color: var(--black-700);
@@ -119,16 +134,37 @@ body {
   }
 }
 .post-content {
-  font: var(--font-1);
+  font: var(--font-2);
+  letter-spacing: var(--font-spacing-2);
   line-height: 1.6;
+  max-width: 960px;
+  margin: 0 auto;
+
+  & h2 {
+    font: var(--font-3-bold);
+    letter-spacing: var(--font-spacing-3);
+    border-bottom: solid 1px var(--black-200);
+    color: var(--black-900);
+    padding-bottom: .3em;
+    margin: 3em 0 0;
+  }
+  & h3 {
+    font: var(--font-2-bold);
+    color: var(--black-900);
+    margin: 3em 0 0;
+  }
 
   & img {
     max-width: 100%;
-    margin: 1rem 0;
+    margin: 2em auto;
+    display: block;
   }
 
   & > :last-child,
   & > :last-child > :last-child {
     margin-bottom: 0;
+  }
+  & > :first-child {
+    margin-top: 0;
   }
 }

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@400;700&display=swap");
 
 html {
+  --primary-900: hsl(150, 70%, 25%);
   --primary-700: hsl(150, 70%, 35%);
   --primary-500: hsl(150, 70%, 50%);
   --primary-300: hsl(150, 70%, 70%);
@@ -45,7 +46,8 @@ html {
   --bold: 600;
   --font-size-0: clamp(0.85rem, 0.5vw, 0.85rem);
   --font-size-1: clamp(1rem, 1vw, 1rem);
-  --font-size-2: clamp(1.125rem, 2vw, 1.25rem);
+  --font-size-2: clamp(1.1rem, 1.5vw, 1.25rem);
+  --font-spacing-2: -0.0075em;
   --font-size-3: clamp(1.25rem, 3vw, 1.5rem);
   --font-spacing-3: -0.01em;
   --font-size-4: clamp(1.4rem, 5vw, 2rem);

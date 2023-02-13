@@ -18,6 +18,7 @@ css:
     </header>
 
     <div class="post-content">
+      <div class="post-excerpt">{{ excerpt | md | safe }}</div>
       {{ content | md | safe }}
     </div>
   </article>
