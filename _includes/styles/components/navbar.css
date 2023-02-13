@@ -42,6 +42,11 @@
     & a {
       color: var(--black-700);
       font-weight: var(--bold);
+
+      &.is-selected {
+        text-decoration: none;
+        color: var(--black-600);
+      }
     }
   }
 }

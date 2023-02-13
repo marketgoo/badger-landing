@@ -1,6 +1,17 @@
 ---
 layout: layouts/blog.njk
 title: Badger news
+menu:
+  links:
+    - text: Blog
+      href: "/blog"
+      class: is-selected
+    - text: Updates
+      href: "/updates/"
+  ctas:
+    - text: Try Badger for free
+      class: button is-primary
+      href: https://app.getbadger.io/
 css: 
   - /styles/blog.css
 ---
@@ -8,9 +19,6 @@ css:
 <div class="blog">
   <header class="blog-header">
     <div>
-      <nav class="blog-header-nav">
-        <a href="/">← Back to home</a>
-      </nav>
       <h1 class="blog-header-title">
         {{ title }}
       </h1>
