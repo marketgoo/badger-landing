@@ -18,6 +18,9 @@
     top: 0;
   }
 }
+.navbar-logo img {
+  display: block;
+}
 .navbar-menu {
   list-style: none;
   padding: 0;
