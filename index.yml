@@ -19,6 +19,8 @@ menu:
   links:
     - text: How it works
       href: "#step-1"
+    - text: Blog
+      href: "/blog/"
     - text: Updates
       href: "/updates/"
   ctas:
