@@ -32,7 +32,7 @@ This measures the average number of pages visitors view on your website during a
 
 ![pages per session](/img/blog/google-analytics-pages-per-session-1.webp "Pages Per Session SEO KPI")
 
-This metric can provide valuable insight into how engaged and interested your visitors are with your content and how well your website serves their needs. High pages per session value can indicate that your website is providing valuable and relevant content to your visitors and that they are exploring multiple pages on your site. This shows that your SEO efforts effectively drive relevant traffic to your site. 
+This metric can provide valuable insight into how engaged and interested your visitors are with your content and how well your website serves their needs.  A high number of pages per session value can indicate that your website is providing valuable and relevant content to your visitors and that they are exploring multiple pages on your site. This shows that your SEO efforts effectively drive relevant traffic to your site. 
 
 To see this metric, go to **Acquisition>All Traffic>Channels.** 
 
