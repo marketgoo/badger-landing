@@ -3,6 +3,7 @@ title: The 8 Most Important KPIs you Need for an SEO report
 author: "Gustavo "
 draft: false
 date: 2023-02-10T15:12:27.525Z
+url: important/kpis/seo/report/
 excerpt: >
   Understanding your data is one of the first steps to navigating the sea of
   data. Today, we'll dive into the most important KPIs you need to include in
