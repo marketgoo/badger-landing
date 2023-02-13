@@ -40,6 +40,7 @@
   box-sizing: border-box;
   vertical-align: middle;
   flex: 0 0 auto;
+  column-gap: .5em;
 
   &.is-small {
     font: var(--font-0-bold);
@@ -121,6 +122,22 @@
     @media (max-width: 450px) {
       width: 100%;
       display: flex;
+    }
+  }
+
+  &.is-social {
+    --background-hover: var(--black-200);
+    font: var(--font-0-bold);
+    text-transform: uppercase;
+    padding: .5em;
+
+    & svg {
+      stroke-width: 0;
+      fill: var(--black-500);
+      display: block;
+    }
+    &:hover svg {
+      fill: var(--black-900);
     }
   }
 }
