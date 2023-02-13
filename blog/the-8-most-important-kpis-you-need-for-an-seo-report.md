@@ -3,20 +3,20 @@ title: The 8 Most Important KPIs you Need for an SEO report
 author: "Gustavo "
 draft: false
 date: 2023-02-10T15:12:27.525Z
-excerpt: |
-  Understanding your data is one of the first steps to navigating the sea of data. Today, we'll dive into the most important KPIs you need to include in your SEO report. 
+excerpt: >
+  Understanding your data is one of the first steps to navigating the sea of
+  data. Today, we'll dive into the most important KPIs you need to include in
+  your SEO report.
 ---
-
-
 Measuring the performance of your SEO efforts is crucial. But with so many metrics to choose from, it can be overwhelming to know where to start. These KPIs can be easily tracked with Badger. Whether you're an agency, freelancer, or in-house marketer, this article will provide you with the essential KPIs you need to assess your SEO campaigns' success accurately. So, let's get started!
 
-## Organic Traffic 
+## Organic Traffic
 
 This KPI measures the traffic that comes to your website from organic search results. 
 
 ![organic traffic](/img/blog/organic-traffic.webp "Organic Traffic SEO KPI")
 
- A high number of sessions can indicate that your SEO efforts are driving more organic traffic to your site. I usually 
+ A high number of sessions can indicate that your SEO efforts are driving more organic traffic to your site.
 
 ## **Bounce Rate**
 
@@ -24,9 +24,7 @@ This measures the percentage of visitors who leave your website after only visit
 
 ![bounce rate](/img/blog/google-analytics-organic-traffic-1.webp "Bounce Rate SEO KPI")
 
-
-
-To view the bounce rate in Google Analytics, go to Acquisition>All Traffic>Channels. In the fourth column, you can see the overall bounce rate for each Channel (Organic, Paid, etc.)
+To view the bounce rate in Google Analytics, go to Acquisition>All Traffic>Channels. In the fourth column, you can see the overall bounce rate for each Channel (Organic, Paid, etc.).
 
 ## Pages per Session
 
@@ -36,7 +34,7 @@ This measures the average number of pages visitors view on your website during a
 
 This metric can provide valuable insight into how engaged and interested your visitors are with your content and how well your website serves their needs. High pages per session value can indicate that your website is providing valuable and relevant content to your visitors and that they are exploring multiple pages on your site. This shows that your SEO efforts effectively drive relevant traffic to your site. 
 
-To see this metric, go to Acquisition>All Traffic>Channels. 
+To see this metric, go to **Acquisition>All Traffic>Channels.** 
 
 ## Average Page Load Time
 
@@ -72,4 +70,6 @@ To find your keywords go to **search results>keywords** or top organic keywords 
 
 You should have some clear objectives in your mind. What are your main goals, and what are your KPIs? Do you want to increase organic traffic or sales?
 
-Connect your sources to Badger and start collecting data! The list of available integrations is growing. Go ahead and try!! And don't hesitate to tell us what you think.
+Connect your sources to Badger and start collecting data! The list of available integrations is growing. 
+
+Go ahead and [try](https://getbadger.io/)!! And don't hesitate to tell us what you think.
