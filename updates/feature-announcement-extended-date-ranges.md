@@ -1,7 +1,7 @@
 ---
 title: "Feature Announcement: Extended Date Ranges"
 author: David Roch
-draft: true
+draft: false
 date: 2023-02-14T13:57:21.983Z
 ---
 Hey there!
