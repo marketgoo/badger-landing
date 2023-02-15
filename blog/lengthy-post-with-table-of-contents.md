@@ -2,7 +2,9 @@
 title: Lengthy post with Table of Contents
 author: Gustavo Sucre
 draft: true
+show_toc: true
 date: 2023-02-15T09:03:02.089Z
+excerpt: ""
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non odio euismod lacinia at. Nunc mi ipsum faucibus vitae aliquet nec. Quis commodo odio aenean sed adipiscing diam donec. Nisl purus in mollis nunc sed.
 
