@@ -145,5 +145,5 @@
 .button-group {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 8px;
 }
