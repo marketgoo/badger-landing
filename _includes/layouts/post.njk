@@ -15,7 +15,6 @@ css:
           By {{ author }} on
           <time datetime="{{ date }}">{{ date | date("HUMAN_DATE") }}</time>
         </p>
-
     </header>
 
     <div class="post-share button-group">
@@ -27,9 +26,33 @@ css:
       </a>
     </div>
 
-    <div class="post-content">
+    <div class="post-content {% if show_toc %}has-toc{% endif %}">
+      {% if show_toc %}
+        <nav class="post-toc">
+          <ol>
+            {% for item in toc %}
+            <li>
+              <a href="#{{ item.slug }}">{{ item.text }}</a>
+              {% if item.children.length %}
+              <ul>
+                {% for child in item.children %}
+                <li>
+                  <a href="#{{ child.slug }}">{{ child.text }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ol>
+        </nav>
+      {% endif %}
+
       <div class="post-excerpt">{{ excerpt | md | safe }}</div>
-      {{ content | md | safe }}
+      
+      <div>
+        {{ content | md | safe }}
+      </div>
     </div>
   </article>
 </div>

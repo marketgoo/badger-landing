@@ -105,6 +105,7 @@ const posts = t.folder("Posts", "blog", [
   t.string("Title"),
   t.string("Author"),
   t.boolean("Draft"),
+  t.boolean("Show TOC"),
   t.datetime("Date"),
   t.string("URL"),
   t.markdown("Excerpt"),

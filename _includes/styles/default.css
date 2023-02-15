@@ -6,6 +6,7 @@ html {
   -webkit-font-smoothing: antialiased;
   font: var(--font-1);
   color: var(--black-900);
+  scroll-padding-top: 6rem;
 }
 body {
   margin: 0;
