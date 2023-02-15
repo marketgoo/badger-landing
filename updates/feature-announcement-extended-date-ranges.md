@@ -14,7 +14,7 @@ We have just included **new date ranges in our graphs**. Now, beyond current and
 
 With these new date ranges, you'll be able to dive deeper into your data and gain insights that you might have missed before.
 
-This new feature is going to be a game-changer for all of our users who want to analyze their data over longer periods. A feature that was **highly requested** by the community.
+This new feature will be a game-changer for all of our users who want to analyze their data over longer periods. A feature that was **highly requested** by the community.
 
 ![](/img/updates/screenshot-2023-02-14-at-15.04.46.png)
 
