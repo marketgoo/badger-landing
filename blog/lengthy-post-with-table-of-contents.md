@@ -1,23 +1,12 @@
 ---
 title: Lengthy post with Table of Contents
 author: Gustavo Sucre
-draft: true
+draft: false
 show_toc: true
 date: 2023-02-15T09:03:02.089Z
 excerpt: ""
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non odio euismod lacinia at. Nunc mi ipsum faucibus vitae aliquet nec. Quis commodo odio aenean sed adipiscing diam donec. Nisl purus in mollis nunc sed.
-
-
-
-Contents
-
-* [Sed euismod nisi porta lorem mollis ](https://write.superblog.ai/sites/supername/badger/posts/lengthy-post-with-table-of-contents-cle5g04bn374291jqfi19q7xbd#sed-euismod-nisi-porta-lorem-mollis)
-* [Vitae purus faucibus ornare suspendisse sed](https://write.superblog.ai/sites/supername/badger/posts/lengthy-post-with-table-of-contents-cle5g04bn374291jqfi19q7xbd#vitae-purus-faucibus-ornare-suspendisse-sed)
-* [Et sollicitudin ac orci phasellus](https://write.superblog.ai/sites/supername/badger/posts/lengthy-post-with-table-of-contents-cle5g04bn374291jqfi19q7xbd#et-sollicitudin-ac-orci-phasellus)
-* [Sem integer vitae justo eget magna fermentum iaculis eu](https://write.superblog.ai/sites/supername/badger/posts/lengthy-post-with-table-of-contents-cle5g04bn374291jqfi19q7xbd#sem-integer-vitae-justo-eget-magna-fermentum-iaculis-eu)
-* [Ipsum dolor sit amet consectetur](https://write.superblog.ai/sites/supername/badger/posts/lengthy-post-with-table-of-contents-cle5g04bn374291jqfi19q7xbd#ipsum-dolor-sit-amet-consectetur)
-* [Viverra justo ](https://write.superblog.ai/sites/supername/badger/posts/lengthy-post-with-table-of-contents-cle5g04bn374291jqfi19q7xbd#viverra-justo)
 
 Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Quis viverra nibh cras pulvinar mattis nunc sed blandit. Vitae nunc sed velit dignissim sodales ut eu sem. 
 
