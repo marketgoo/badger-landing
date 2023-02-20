@@ -4,7 +4,7 @@ author: Gustavo Sucre
 draft: false
 show_toc: true
 date: 2023-02-15T09:03:02.089Z
-url: /data-visualization-seo-seporting-guide/?d
+url: /data-visualization-seo-seporting-guide/
 excerpt: ""
 ---
 If content is an essential part of SEO, data is literally king in the world of SEO Reporting. 
