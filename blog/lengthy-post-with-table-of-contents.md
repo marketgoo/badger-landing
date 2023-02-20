@@ -5,7 +5,10 @@ draft: false
 show_toc: true
 date: 2023-02-15T09:03:02.089Z
 url: /data-visualization-seo-seporting-guide/
-excerpt: ""
+excerpt: With the significant influence of artificial intelligence on content,
+  comprehending data has become a crucial aspect of modern SEO. Especially when
+  providing it as a service, you want to give your client the best possible
+  report.
 ---
 If content is an essential part of SEO, data is literally king in the world of SEO Reporting. 
 
