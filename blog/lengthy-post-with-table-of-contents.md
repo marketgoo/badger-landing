@@ -1,7 +1,7 @@
 ---
 title: "Data Visualization in SEO Reporting: The Guide in 2023"
 author: Gustavo Sucre
-draft: true
+draft: false
 show_toc: true
 date: 2023-02-15T09:03:02.089Z
 url: /data-visualization-seo-seporting-guide/
