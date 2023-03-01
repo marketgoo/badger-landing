@@ -9,6 +9,8 @@ states:
   - Released
 ---
 
+<script defer src="https://feedback.fish/ff.js?pid=b1ed2a984df38a"></script>
+
 <div class="roadmap">
   <header class="roadmap-header">
     <img src="/img/icon.svg" alt="Badger icon" width="60" height="60" class="roadmap-header-icon">
@@ -30,9 +32,18 @@ states:
         {% for feat in features %}
           {% if feat.state == state %}
           <li class="feature">
-              <h3 class="feature-title">{{ feat.title }}</h3>
-              <div class="feature-description">{{ feat.description | md | safe }}</div>
-            </a>
+            <h3 class="feature-title">{{ feat.title }}</h3>
+            <div class="feature-description">{{ feat.description | md | safe }}</div>
+            <p class="feature-footer">
+            <button
+              class="button is-secondary"
+              data-feedback-fish
+              data-feedback-fish-type="Roadmap feedback"
+              data-feedback-fish-feature="{{ feat.title }}"
+            >
+              Send feedback
+            </button>
+            </p>
           </li>
           {% endif %}
         {% endfor %}
