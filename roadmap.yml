@@ -1,0 +1,16 @@
+title: Roadmap
+layout: layouts/roadmap.njk
+
+features:
+  - title: Bounce rate info from Google Analytics
+    state: Upcoming
+    description: |
+      Add Bounce Rate metrics in addition to the existing Users and Sessions.
+  - title: Date comparison
+    state: Building
+    description: |
+      Ability to compare and show the difference between two date ranges. For example, the current month with the last month, or the last 3 months with the previous 3 months.
+  - title: PDF download
+    state: Released
+    description: |
+      [Release notes](https://getbadger.io/updates/feature-announcement-pdf-report-download/)

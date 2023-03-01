@@ -84,7 +84,19 @@ const data = t.files("Global data")
       t.markdown("Text"),
       t.string("Button"),
     ]),
+  ])
+  .file("Roadmap", "/roadmap.yml", [
+    t.string("Title"),
+    t.hidden("Layout"),
+    t.list("Features", [
+      t.string("Title"),
+      t.select("State", ["Backlog", "Upcoming", "Building", "Released"]),
+      t.markdown("Description"),
+    ])
+    .summary("[{{fields.state}}] - {{fields.title}}")
+    .minimizeCollapsed(false),
   ]);
+  
 
 // Updates
 const updates = t.folder("Updates", "updates", [
