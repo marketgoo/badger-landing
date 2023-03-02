@@ -1,16 +1,46 @@
 title: Roadmap
 layout: layouts/roadmap.njk
-
 features:
   - title: Bounce rate info from Google Analytics
-    state: Upcoming
+    state: Backlog
     description: |
       Add Bounce Rate metrics in addition to the existing Users and Sessions.
   - title: Date comparison
     state: Building
-    description: |
-      Ability to compare and show the difference between two date ranges. For example, the current month with the last month, or the last 3 months with the previous 3 months.
+    description: >
+      Ability to compare and show the difference between two date ranges. For
+      example, the current month with the last month, or the last 3 months with
+      the previous 3 months.
   - title: PDF download
     state: Released
-    description: |
-      [Release notes](https://getbadger.io/updates/feature-announcement-pdf-report-download/)
+    description: >
+      [Release
+      notes](https://getbadger.io/updates/feature-announcement-pdf-report-download/)
+  - title: Reorder blocks in the reports
+    state: Upcoming
+    description: The blocks in the reports are ordered by the creation date. This
+      new feature will allow to move the block to different positions.
+  - title: Change the default order of the rows of the tables
+    state: Backlog
+    description: We should be able to sort the data in the tables by clicking in the
+      column header.
+  - title: Edit the title of blocks
+    state: Backlog
+    description: The titles of blocks are not editable, we should include this
+      functionality.
+  - title: Custom logo
+    state: Upcoming
+    description: Allow to upload a custom logo to use in the public reports and PDFs.
+  - title: Send reports by email
+    state: Upcoming
+    description: It would be great to be able to send a report by email from Badger.
+  - title: Extended date ranges
+    state: Released
+    description: "[Release
+      notes](https://getbadger.io/updates/feature-announcement-extended-date-ra\
+      nges/)"
+  - title: Basic Semrush integration
+    state: Released
+    description: "[Release
+      notes](https://getbadger.io/updates/december-feature-announcement-semrush\
+      -integration-more/)"
