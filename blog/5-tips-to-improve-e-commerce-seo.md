@@ -17,15 +17,18 @@ Let's face it - the online marketplace is complex. With millions of online store
 
 And just like how a good makeover can make a big difference in how people perceive you, optimizing your product pages can make a big difference in how the search engines perceive your website. So, put on your SEO glasses and work on those product pages!
 
-## Keyword cannibalization will destroy your SEO efforts
+## Product cannibalization will destroy your SEO efforts
 
-Keyword cannibalization - the silent killer of SEO efforts. It's like having multiple dogs fighting over the same scrap of food.
+Keyword cannibalization - the silent killer of SEO efforts. It's like having multiple dogs fighting over the same scrap of food. Instead of working together to achieve a common goal, they fight for dominance. And when that happens, search engines get confused, and your rankings suffer.
 
-When multiple pages on your e-commerce site target the same keyword, it's like sending those badgers into battle. Instead of working together to achieve a common goal, they fight for dominance. And when that happens, search engines get confused, and your rankings suffer.
+So here's the deal: 
 
-So here's the deal: Cluster your topics to avoid keyword cannibalization. 
+1. Make sure that your products have a clear distinction in terms of their features, pricing, and target audience. This will help to avoid confusion among customers and [minimize the likelihood of cannibalization.](https://rockcontent.com/blog/product-cannibalization/)
+2. Implement pricing strategies: Use pricing strategies that encourage customers to choose one product over another, such as bundling products, offering discounts, or using [dynamic pricing](https://www.omniaretail.com/the-ultimate-guide-to-dynamic-pricing#:~:text=Dynamic%20pricing%20is%20a%20pricing,gets%20confused%20with%20personalized%20pricing.).
+3. Don't target the same keyword with a money page and blog post. You'll miss out on sales if the blog post ranks on page 1 and the money page is nowhere to be found. The website will target specific keywords and ensure each page has unique, high-quality content relevant to its intended keyword.
+4. Use the [Table of Contents](https://getbadger.io/data-visualization-seo-seporting-guide/) when writing articles!
 
-Don't target the same keyword with a money page and blog post. You'll miss out on sales if the blog post ranks on page 1 and the money page is nowhere to be found. The website will target specific keywords and ensure each page has unique, high-quality content relevant to its intended keyword. Use the [Table of Contents](https://getbadger.io/data-visualization-seo-seporting-guide/)!
+
 
 ![image of an seo table of contents ](/img/blog/badger-foto-1.png)
 
@@ -41,7 +44,10 @@ Afterward, your followers expect quality content and an active conversation with
 
 Instagram is a highly visual platform, so it’s an intelligent channel to use if you sell products that you can showcase with photos and...mmm...**video content!!**
 
-## Leverage Local SEO
+Read[ here ](https://www.yieldify.com/blog/best-social-media-platforms-for-e-commerce/) the best social media platforms for Ecommerce.
+
+## \
+Leverage Local SEO
 
 Why is local SEO so important? It helps you reach your target audience - the people most likely to become your customers. Optimizing your website, Google My Business profile, and other online listings with relevant keywords can increase your chances of appearing in local search results and attracting more local customers.
 Local SEO also helps build trust and credibility with your customers. 
@@ -50,7 +56,7 @@ When your business appears at the top of local search results, it gives people c
 
 #### How do you apply local SEO to your business?
 
-It all starts with claiming and optimizing your Google My Business profile. This is the first place people will look when searching for your business, so ensure it's up-to-date with accurate information and keywords.
+It all starts with claiming and optimizing you[r Google My Business profile](https://www.shopify.com/retail/google-business-profile). This is the first place people will look when searching for your business, so ensure it's up-to-date with accurate information and keywords.
 
 Finally, make sure your website is optimized for local search. This means including your city or region, title tags, and meta descriptions in your website content. You can also create location-specific landing pages for each business location to help boost your local search presence.
 
@@ -86,4 +92,4 @@ By optimizing your e-commerce website for mobile, you'll provide a better user e
 
 Remember!! SEO is an ongoing process, so regularly review your website's performance and adjust your strategy accordingly. By staying on top of the latest SEO trends and best practices, you can stay ahead of the competition and continue to grow your business.
 
-Now it's time to put these tips into action and take your e-commerce business to the next level! Go ahead and [try Badge](https://getbadger.io/)r! And don't hesitate to tell us what you think.
+Now it's time to take your e-commerce business to the next level! Go ahead and [try Badge](https://getbadger.io/)r! And don't hesitate to tell us what you think.
