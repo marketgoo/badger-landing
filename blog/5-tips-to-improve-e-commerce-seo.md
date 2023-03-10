@@ -28,8 +28,6 @@ So here's the deal:
 3. Don't target the same keyword with a money page and blog post. You'll miss out on sales if the blog post ranks on page 1 and the money page is nowhere to be found. The website will target specific keywords and ensure each page has unique, high-quality content relevant to its intended keyword.
 4. Use the [Table of Contents](https://getbadger.io/data-visualization-seo-seporting-guide/) when writing articles!
 
-
-
 ![image of an seo table of contents ](/img/blog/badger-foto-1.png)
 
 ## **Use social media to drive traffic to your E-commerce site** 
@@ -46,8 +44,7 @@ Instagram is a highly visual platform, so it’s an intelligent channel to use i
 
 Read[ here ](https://www.yieldify.com/blog/best-social-media-platforms-for-e-commerce/) the best social media platforms for Ecommerce.
 
-## \
-Leverage Local SEO
+## Leverage Local SEO
 
 Why is local SEO so important? It helps you reach your target audience - the people most likely to become your customers. Optimizing your website, Google My Business profile, and other online listings with relevant keywords can increase your chances of appearing in local search results and attracting more local customers.
 Local SEO also helps build trust and credibility with your customers. 
