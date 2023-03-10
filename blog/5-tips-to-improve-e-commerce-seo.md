@@ -46,7 +46,7 @@ Local SEO also helps build trust and credibility with your customers.
 
 When your business appears at the top of local search results, it gives people confidence that you are a reputable and trustworthy business. This can encourage people to visit your store and make a purchase.
 
-#### So, how do you apply local SEO to your business?
+#### How do you apply local SEO to your business?
 
 It all starts with claiming and optimizing your Google My Business profile. This is the first place people will look when searching for your business, so ensure it's up-to-date with accurate information and keywords.
 
