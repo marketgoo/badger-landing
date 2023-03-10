@@ -79,7 +79,7 @@ Mobile users have big thumbs, so make sure your buttons are big enough to tap wi
 
 Large images can slow down your website's load time, so optimize your images for mobile. Use smaller file sizes, and compress images where possible.
 
-**Test, Test, Test:**
+##### **Test, Test, Test:**
 
 Finally, ensure you test your website on multiple devices and browsers. This will help you identify any issues or bugs that need to be fixed.
 
