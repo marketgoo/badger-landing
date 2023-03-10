@@ -1,7 +1,7 @@
 ---
 title: 5 Tips to Improve E-commerce SEO
 author: Gustavo Sucre
-draft: false
+draft: true
 show_toc: true
 date: 2023-03-09T14:36:04.053Z
 url: /tips-improve-ecommerce-seo/
@@ -21,9 +21,11 @@ And just like how a good makeover can make a big difference in how people percei
 
 Keyword cannibalization - the silent killer of SEO efforts. It's like having multiple dogs fighting over the same scrap of food.
 
-So here's the deal: when multiple pages on your e-commerce site target the same keyword, it's like sending those badgers into battle. Instead of working together to achieve a common goal, they fight for dominance. And when that happens, search engines get confused, and your rankings suffer.
+When multiple pages on your e-commerce site target the same keyword, it's like sending those badgers into battle. Instead of working together to achieve a common goal, they fight for dominance. And when that happens, search engines get confused, and your rankings suffer.
 
-Don't target the same keyword with a money page and blog post. You'll miss out on sales if the blog post ranks on page 1 and the money page is nowhere to be found.website will target specific keywords and ensuring each page has unique, high-quality content relevant to its intended keyword. Use the [Table of Contents](https://getbadger.io/data-visualization-seo-seporting-guide/)!
+So here's the deal: Cluster your topics to avoid keyword cannibalization. 
+
+Don't target the same keyword with a money page and blog post. You'll miss out on sales if the blog post ranks on page 1 and the money page is nowhere to be found. The website will target specific keywords and ensure each page has unique, high-quality content relevant to its intended keyword. Use the [Table of Contents](https://getbadger.io/data-visualization-seo-seporting-guide/)!
 
 ![image of an seo table of contents ](/img/blog/badger-foto-1.png)
 
