@@ -1,7 +1,7 @@
 ---
 title: 5 Tips to Improve E-commerce SEO
 author: Gustavo Sucre
-draft: true
+draft: false
 show_toc: true
 date: 2023-03-09T14:36:04.053Z
 url: /tips-improve-ecommerce-seo/
@@ -92,4 +92,4 @@ By optimizing your e-commerce website for mobile, you'll provide a better user e
 
 Remember!! SEO is an ongoing process, so regularly review your website's performance and adjust your strategy accordingly. By staying on top of the latest SEO trends and best practices, you can stay ahead of the competition and continue to grow your business.
 
-Now it's time to take your e-commerce business to the next level! Go ahead and [try Badge](https://getbadger.io/)r! And don't hesitate to tell us what you think.
+Now it's time to take your e-commerce business to the next level! Go ahead and [try Badge](https://getbadger.io/)r. Don't hesitate to tell us what you think and send us your SEO report!
