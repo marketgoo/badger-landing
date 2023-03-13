@@ -87,7 +87,7 @@ Finally, ensure you test your website on multiple devices and browsers. This wil
 2. Test all the functionalities of your e-commerce website, such as adding products to the cart, checking out, and making payments. Make sure that everything is working smoothly and as expected.
 3. Identify and fix issues: Make a list of any issues or bugs that you encounter during testing and prioritize them based on their severity. Work with your development team to fix these issues and test again to ensure that everything is working correctly.
 
-Google Search Console allows you to Test[ how easily a visitor can use your page on a mobile device.](https://search.google.com/test/mobile-friendly) Just enter a page URL to see how your page scores. Don't leave it up to chance!
+Google Search Console allows you to test[ how easily a visitor can use your page on a mobile device.](https://search.google.com/test/mobile-friendly) Just enter a page URL to see how your page scores. Don't leave it up to chance!
 
 ## Conclusion
 
