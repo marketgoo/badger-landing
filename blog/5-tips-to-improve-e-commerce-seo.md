@@ -42,7 +42,7 @@ Afterward, your followers expect quality content and an active conversation with
 
 Instagram is a highly visual platform, so it’s an intelligent channel to use if you sell products that you can showcase with photos and...mmm...**video content!!**
 
-Read[ here ](https://www.yieldify.com/blog/best-social-media-platforms-for-e-commerce/) the best social media platforms for Ecommerce.
+Read[ here ](https://www.yieldify.com/blog/best-social-media-platforms-for-e-commerce/)the best social media platforms for Ecommerce.
 
 ## Leverage Local SEO
 
@@ -81,9 +81,13 @@ Large images can slow down your website's load time, so optimize your images for
 
 ##### **Test, Test, Test:**
 
-Finally, ensure you test your website on multiple devices and browsers. This will help you identify any issues or bugs that need to be fixed.
+Finally, ensure you test your website on multiple devices and browsers. This will help you identify any issues or bugs that need to be fixed: 
 
-By optimizing your e-commerce website for mobile, you'll provide a better user experience for your customers, which can lead to increased conversions and sales. So, what are you waiting for? Get mobile-optimized and watch your e-commerce business soar to new heights!
+1. Make sure that your website is responsive and adapts to different screen sizes. 
+2. Test all the functionalities of your e-commerce website, such as adding products to the cart, checking out, and making payments. Make sure that everything is working smoothly and as expected.
+3. Identify and fix issues: Make a list of any issues or bugs that you encounter during testing and prioritize them based on their severity. Work with your development team to fix these issues and test again to ensure that everything is working correctly.
+
+Google Search Console allows you to Test[ how easily a visitor can use your page on a mobile device.](https://search.google.com/test/mobile-friendly) Just enter a page URL to see how your page scores. Don't leave it up to chance!
 
 ## Conclusion
 
