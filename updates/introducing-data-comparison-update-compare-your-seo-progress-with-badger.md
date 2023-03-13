@@ -6,7 +6,7 @@ date: 2023-03-13T12:35:31.863Z
 When was the last time you presented an SEO report to your client? Did you get the chance to compare data from the previous month?
 
 \
-Badger is excited to announce a new update to its **data comparison feature.** Users can now easily compare data from the current month with the previous month, allowing for a more comprehensive website performance analysis.
+Badger is excited to announce a new update to its **data comparison feature.** You can now easily compare data from the current month with the previous month, allowing for a more comprehensive website analysis.
 
 \
 The new update to the data comparison feature takes things one step further.
@@ -15,15 +15,15 @@ Start comparing data from the previous month to quickly identify changes in webs
 
 To use the new data comparison feature:
 
-1) Choose the metrics  
+1. Choose the metrics  
 
 ![image of badger, an seo reporting tool showing features](/img/updates/choose-the-metrics.png)
 
-2) Select the date range you want to compare
+2. Select the date range you want to compare
 
 ![](/img/updates/date-range.png)
 
-3) Click "compare to the previous month."
+3. Click "compare to the previous month."
 
 ![](/img/updates/efa84fc1-33f3-4a0a-bbf4-85facf83b431.png)
 
