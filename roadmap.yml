@@ -1,10 +1,6 @@
 title: Roadmap
 layout: layouts/roadmap.njk
 features:
-  - title: Bounce rate info from Google Analytics
-    state: Backlog
-    description: |
-      Add Bounce Rate metrics in addition to the existing Users and Sessions.
   - title: Edit the title of blocks
     state: Backlog
     description: The titles of blocks are not editable, we should include this
@@ -16,10 +12,10 @@ features:
   - title: Send reports by email
     state: Upcoming
     description: It would be great to be able to send a report by email from Badger.
-  - title: Add Bounce rates from Google Analytics
-    description: Besides users and sessions, bounce rates is a very important metric
-      that should be available in the reports.
+  - title: Bounce rate info from Google Analytics
     state: Upcoming
+    description: |
+      Add Bounce Rate metrics in addition to the existing Users and Sessions.
   - title: Custom logo
     state: Building
     description: Allow to upload a custom logo to use in the public reports and PDFs.
