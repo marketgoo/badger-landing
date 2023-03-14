@@ -24,11 +24,10 @@ features:
     description: The blocks in the reports are ordered by the creation date. This
       new feature will allow to move the block to different positions.
   - title: Date comparison
-    state: Building
-    description: >
-      Ability to compare and show the difference between two date ranges. For
-      example, the current month with the last month, or the last 3 months with
-      the previous 3 months.
+    state: Released
+    description: "[Release
+      notes.](https://getbadger.io/updates/introducing-data-comparison-update-c\
+      ompare-your-seo-progress-with-badger/)"
   - title: PDF download
     state: Released
     description: >
