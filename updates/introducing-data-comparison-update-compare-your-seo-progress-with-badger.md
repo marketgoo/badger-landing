@@ -23,7 +23,7 @@ To use the new data comparison feature:
 
 3. Click "compare to the previous month."
 
-![](/img/updates/efa84fc1-33f3-4a0a-bbf4-85facf83b431.png)
+![](/img/updates/efa84fc1-33f3-4a0a-bbf4-85facf83b431.png){main}
 
 Badger will then generate a comprehensive report highlighting any changes in performance and providing actionable insights to improve website performance.
 
