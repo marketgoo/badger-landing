@@ -93,4 +93,6 @@ Google Search Console allows you to test[ how easily a visitor can use your pag
 
 Remember!! SEO is an ongoing process, so regularly review your website's performance and adjust your strategy accordingly. By staying on top of the latest SEO trends and best practices, you can stay ahead of the competition and continue to grow your business.
 
+![ecommerce seo](/img/blog/ecommerce-seo.png){main}
+
 Now it's time to take your e-commerce business to the next level! Go ahead and [try Badge](https://getbadger.io/)r. Don't hesitate to tell us what you think and send us your SEO report!
