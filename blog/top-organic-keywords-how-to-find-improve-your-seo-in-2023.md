@@ -57,7 +57,15 @@ But not all keywords are created equal, so it's essential to prioritize your lis
 
 And finally, don't forget to use keyword research tools to help you refine your list and discover new opportunities. Plenty of great tools exist, like Google Keyword Planner and SEMrush. 
 
-Did you know that Badger connects an SEMrush account for free and provides an overview of your organic keywords? It's true! Check out our[ guide to data visualization and SEO reporting ](https://getbadger.io/data-visualization-seo-seporting-guide/)to learn more about this feature.
+Did you know that Badger connects your SEMrush account for free and provides an overview of your organic keywords? It's true! Check out our[ guide to data visualization and SEO reporting ](https://getbadger.io/data-visualization-seo-seporting-guide/)to learn more about this feature. 
+
+To connect the SEMrush account to Badger, follow these simple steps: 
+
+1. **Log in to [Badger](https://getbadger.io/)**
+2. **Navigate to "Project Settings,"** 
+3. **Click on "Connected Tools," and select "SEMrush."**
+
+
 
 ## Analyzing competitor's keywords in 2023
 
