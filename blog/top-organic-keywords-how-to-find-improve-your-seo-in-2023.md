@@ -10,6 +10,8 @@ excerpt: "If you're a marketer or SEO professional, you've probably heard the
   algorithms and user behavior constantly evolving, you might wonder: is the
   keyword still relevant in 2023?"
 ---
+![badger's venn diagram on SEO ](/img/blog/organic-keywords.png)
+
 Hi, everyone!
 
 In this blog post, we'll tackle this question head-on and explore everything you need about organic keywords. We'll discuss their importance in modern SEO strategies, their role in driving traffic and conversions, and how to effectively incorporate them into your website and content. 
@@ -35,13 +37,13 @@ Historically, organic keywords have been essential for SEO for several reasons:
 
 ## **Types of organic keywords**
 
-* Short-tail keywords: Also known as head keywords, these are short and general keywords that contain one or two words. They typically have a high search volume but also high competition. Examples include "shoes" or "digital marketing".
-* Long-tail keywords are longer and more specific phrases containing three or more words. They have a lower search volume but also lower competition. Examples include "black leather dress shoes for men" or "digital marketing agency in New York City".
-* Branded keywords: These are keywords that include a brand name or a specific product or service associated with a brand. For example, "Nike shoes" or "McDonald's burgers".
-* Non-branded keywords do not include any brand name or specific product or service associated with a brand. For example, "running shoes" or "fast food restaurants".
-* Product keywords: These are specific to a product or service. For example, "blue suede shoes" or "content marketing services".
-* Informational keywords: These are keywords that are used to find information on a particular topic. For example, "how to make sushi" or "history of Rome".
-* Transactional keywords: These are keywords that indicate a user is ready to make a purchase or take a specific action. For example, "buy black leather dress shoes for men" or "sign up for a digital marketing course".
+* **Short-tail keywords:** Also known as head keywords, these are short and general keywords that contain one or two words. They typically have a high search volume but also high competition. Examples include "shoes" or "digital marketing".
+* **Long-tail keywords** are longer and more specific phrases containing three or more words. They have a lower search volume but also lower competition. Examples include "black leather dress shoes for men" or "digital marketing agency in New York City".
+* **Branded keywords:** These are keywords that include a brand name or a specific product or service associated with a brand. For example, "Nike shoes" or "McDonald's burgers".
+* **Non-branded keywords** do not include any brand name or specific product or service associated with a brand. For example, "running shoes" or "fast food restaurants".
+* **Product keywords:** These are specific to a product or service. For example, "blue suede shoes" or "content marketing services".
+* **Informational keywords:** These are keywords that are used to find information on a particular topic. For example, "how to make sushi" or "history of Rome".
+* **Transactional keywords:** These are keywords that indicate a user is ready to make a purchase or take a specific action. For example, "buy black leather dress shoes for men" or "sign up for a digital marketing course".
 
 ## ​​How to do keyword research in 2023?
 
@@ -76,6 +78,10 @@ Exploring low-volume keywords can be a viable strategy for success. Although low
 **2- Evaluate relevance and intent**
 
 **3- Pay attention to the keywords that relate to your business**
+
+**4- Satisfying, [helpful content](https://www.wordstream.com/blog/ws/2023/01/05/seo-trends)**
+
+
 
 ## Long-tail vs. short-tail keywords
 
