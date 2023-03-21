@@ -10,7 +10,7 @@ excerpt: "If you're a marketer or SEO professional, you've probably heard the
   algorithms and user behavior constantly evolving, you might wonder: is the
   keyword still relevant in 2023?"
 ---
-![badger's venn diagram on SEO ](/img/blog/organic-keywords.png)
+![badger's venn diagram on SEO ](/img/blog/seo-keywords.png)
 
 Hi, everyone!
 
@@ -80,8 +80,6 @@ Exploring low-volume keywords can be a viable strategy for success. Although low
 **3- Pay attention to the keywords that relate to your business**
 
 **4- Satisfying, [helpful content](https://www.wordstream.com/blog/ws/2023/01/05/seo-trends)**
-
-
 
 ## Long-tail vs. short-tail keywords
 
