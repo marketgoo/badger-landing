@@ -1,7 +1,7 @@
 ---
 title: "Top Organic Keywords: How To Find & Improve Your SEO in 2023 "
 author: Gustavo Sucre
-draft: true
+draft: false
 show_toc: true
 date: 2023-03-21T11:03:07.423Z
 url: /top-organic-keywords/
@@ -12,26 +12,26 @@ excerpt: "If you're a marketer or SEO professional, you've probably heard the
 ---
 Hi, everyone!
 
-In this blog post, we'll tackle this question head-on and explore everything you need about organic keywords. We'll discuss their importance in modern SEO strategies, their role in driving traffic and conversions, and how to effectively incorporate them into your website and content. So, whether you're a seasoned SEO pro or just starting out, let's dive in and discover the power of organic keywords.
+In this blog post, we'll tackle this question head-on and explore everything you need about organic keywords. We'll discuss their importance in modern SEO strategies, their role in driving traffic and conversions, and how to effectively incorporate them into your website and content. 
 
 In 2023, organic search is expected to continue to be a significant source of website traffic, and ranking for relevant keywords can make all the difference in your online visibility and success. This guide will provide valuable insights to enhance your keyword research efforts and drive more traffic to your website.
+
+![top organic keywords in google's search bar](/img/blog/tok.png)
 
 ## What are organic keywords?
 
 Organic keywords are the search terms or phrases people use to find information, products, or services on search engines like Google, Bing, or Yahoo. These keywords are considered "organic" because they do not result from paid advertising or sponsored content.
 
-In other words, organic keywords are the words or phrases people naturally type into search engines when looking for something. For example, if someone is looking for a pizza restaurant in New York City, they might use organic keywords such as "best pizza in NYC" or "pizza restaurant.. near me."
-
-Organic keywords are essential for businesses and website owners because they can help improve their search engine rankings and attract more site traffic.
+In other words, organic keywords are the words or phrases people naturally type into search engines when looking for something. For example, if someone is looking for an SEO reporting tool, you might use  "seo reporting tools" or "reporting tools for seo" or "why badger is the most important tool for seo reports".
 
 ## Why are organic keywords important for SEO?
 
 Historically, organic keywords have been essential for SEO for several reasons:
 
-* Visibility: Businesses and website owners can improve their visibility on search engines by targeting relevant organic keywords. When people search for those keywords, their website is more likely to appear on the first page of search results, increasing the chances of attracting clicks and traffic.
-* Relevance: Organic keywords help businesses and website owners create content relevant to their target audience. By understanding what potential customers are searching for, they can create content that addresses their needs and interests and provide value to their audience.
-* Competition: Organic keywords also help businesses and website owners stay competitive. By researching and targeting keywords their competitors use, businesses can improve their search engine rankings and attract potential customers searching for the same products or services.
-* Cost-effectiveness: Unlike paid advertising, organic keywords are free to use. Google is your major source. 
+* **Visibility:** Businesses and website owners can improve their visibility on search engines by targeting relevant organic keywords. When people search for those keywords, their website is more likely to appear on the first page of search results, increasing the chances of attracting clicks and traffic.
+* **Relevance:** Organic keywords help businesses and website owners create content relevant to their target audience. By understanding what potential customers are searching for, they can create content that addresses their needs and interests and provide value to their audience.
+* **Competition:** Organic keywords also help businesses and website owners stay competitive. By researching and targeting keywords their competitors use, businesses can improve their search engine rankings and attract potential customers searching for the same products or services.
+* **Cost-effectiveness:** Unlike paid advertising, organic keywords are free to use. Google will always be your major source. 
 
 ## **Types of organic keywords**
 
@@ -53,7 +53,9 @@ Now that you have a solid list of keywords, it's time to analyze your competitor
 
 But not all keywords are created equal, so it's essential to prioritize your list. Focus on the terms with the highest search volume, the lowest competition, and the most relevance to your business.
 
-And finally, don't forget to use keyword research tools to help you refine your list and discover new opportunities. Plenty of great tools exist, like Google Keyword Planner and SEMrush. Did you know that Badger connects your SEMrush account for free to give you an overview of your organic keywords?
+And finally, don't forget to use keyword research tools to help you refine your list and discover new opportunities. Plenty of great tools exist, like Google Keyword Planner and SEMrush. 
+
+Did you know that Badger connects an SEMrush account for free and provides an overview of your organic keywords? It's true! Check out our[ guide to data visualization and SEO reporting ](https://getbadger.io/data-visualization-seo-seporting-guide/)to learn more about this feature.
 
 ## Analyzing competitor's keywords in 2023
 
@@ -61,8 +63,7 @@ And finally, don't forget to use keyword research tools to help you refine your 
 2. Use this information to improve your own SEO strategy. Look for opportunities to create content that targets similar keywords but offers a unique perspective or added value to your pain points. You can also identify gaps in your competitor's content strategy and target keywords they may overlook.
 3. It's important to note that simply targeting the exact keywords as your competitors are not enough to guarantee SEO success. You should always focus on creating high-quality, engaging content that provides value to your target audience.
 
-## \
-Identifying high-volume, low-competition keywords
+## Identifying high-volume, low-competition keywords
 
 Yup, identifying high-volume, low-competition keywords is still important in 2023 for SEO keyword research. These keywords can help a website rank higher in search engine results pages (SERPs).
 
@@ -82,16 +83,16 @@ Long-tail and short-tail keywords are still a thing in SEO in 2023. Still, the w
 
 In today's SEO landscape, a balanced approach is recommended. Short-tail keywords are still crucial for capturing overall search traffic, but long-tail keywords can provide valuable opportunities for niche targeting and higher conversion rates. It will always depend on your niche.
 
+![badger seo organic keywords](/img/blog/badger.png)
+
 ## Keyword mapping and organization
 
 \
 Once you have a list of keywords, you should categorize them based on relevance to different sections of your website or product categories.
 
 1. **Assign Keywords to Pages:** Assign the target keywords to the pages on your website based on relevance and search intent. The home page should target broad keywords related to your business, while other pages should target more specific long-tail keywords.
-2. **Optimize Published Content:** After assigning the keywords to the relevant pages, optimize the content accordingly. Include the target keyword in the page title, meta description, headings, and throughout the content naturally.
+2. **Optimize Published Content:** After assigning the keywords to the relevant pages, optimize the content accordingly. Include the target keyword in the page title, meta description, headings, and throughout the content naturally. What's stopping you from monitoring your content performance?
 3. **Track and Refine:** Monitor your keyword performance regularly using tools like Google Search Console or other SEO analytics tools to see how well your pages rank for their target keywords. Adjust your keyword mapping and content as needed to improve rankings and traffic.
-
-
 
 ## Analyzing and tracking keyword performance with GA4
 
