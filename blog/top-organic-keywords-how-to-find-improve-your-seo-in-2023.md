@@ -122,4 +122,4 @@ Mastering organic keywords is vital to boosting your SEO game in 2023.
 
 Understanding organic keywords, their different types, and how to research and analyze them will give you an edge over competitors. Don't be scared, you can create a keyword mapping and organization plan by identifying high-volume, low-competition keywords and using a strategic mix of long-tail and short-tail keywords. And with the superpower of Google Analytics 4 (GA4), you can easily track and evaluate your keyword performance to keep your SEO efforts on track. Remember these tips to stay ahead of the ever-changing SEO landscape and optimize your website for success.
 
-Stay in touch and try[ Badger](https://login.getbadger.io/u/login?state=hKFo2SBva3QwYWxWSXZ6ZWFpSlZyWVIxcnRmN2Y2QzF6eEFGLaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIC1oYUJ2Q2dqR2ZFd3BsQ0traUc0Ny1LdUZESFNmZVhIo2NpZNkgMTJtMUJLTHp6dDJQRWZ6RmFVRnhWM0NHSUM3c1FnTDU)!
+Stay in touch and try [Badger](https://app.getbadger.io/)!
