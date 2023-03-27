@@ -1,6 +1,6 @@
 ---
 title: 5 Customizable SEO Report Templates for Agencies and Freelancers
-author: Gustavo Sucre
+author: gus
 draft: true
 date: 2023-02-10T12:03:37.589Z
 ---

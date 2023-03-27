@@ -1,6 +1,6 @@
 ---
 title: The 8 Most Important KPIs you Need for an SEO report
-author: Gustavo Sucre
+author: gus
 draft: false
 date: 2023-02-10T15:12:27.525Z
 show_toc: true

@@ -11,8 +11,10 @@ css:
           <a href="/blog/">← Back to blog</a>
         </nav>
         <h1 class="post-title">{{ title }}</h1>
-        <p>
-          By {{ author }} on
+        <p class="post-author">
+          {% set by = people[author] %}
+          <img src="{{ by.avatar }}" alt="{{ by.name }}" class="post-author-avatar" />
+          <strong>By {{ by.name }}</strong>
           <time datetime="{{ date }}">{{ date | date("HUMAN_DATE") }}</time>
         </p>
     </header>

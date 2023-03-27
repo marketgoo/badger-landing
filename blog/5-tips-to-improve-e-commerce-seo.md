@@ -1,6 +1,6 @@
 ---
 title: 5 Tips to Improve E-commerce SEO
-author: Gustavo Sucre
+author: gus
 draft: false
 show_toc: true
 date: 2023-03-09T14:36:04.053Z

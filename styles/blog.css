@@ -103,6 +103,37 @@ body {
   letter-spacing: var(--font-spacing-4);
   color: var(--primary-700);
 }
+.post-author {
+  display: grid;
+  grid-template-areas: "avatar name" "avatar time";
+  grid-template-columns: 4em auto;
+  justify-content: center;
+  column-gap: 1em;
+  row-gap: .2em;
+  text-align: left;
+
+  & img {
+    grid-area: avatar;
+    width: 4em;
+    height: 4em;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px var(--black-200);
+  }
+  & strong {
+    grid-area: name;
+    font: var(--font-1-bold);
+    color: var(--black-900);
+    align-self: end;
+  }
+  & time {
+    grid-area: time;
+    font: var(--font-0);
+    color: var(--black-700);
+    align-self: start;
+  }
+}
+
 .post {
   padding: clamp(2rem, 5vw, 4rem);
   background: var(--white);

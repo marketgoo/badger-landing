@@ -30,7 +30,7 @@ css:
     <header>
       <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
       <p>
-        By {{ page.author }} on
+        By {{ people[page.author].name }} on
         <time datetime="{{ page.date }}">{{ page.date | date("HUMAN_DATE") }}</time>
       </p>
     </header>

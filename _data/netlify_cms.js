@@ -115,7 +115,16 @@ const updates = t.folder("Updates", "updates", [
 // Posts
 const posts = t.folder("Posts", "blog", [
   t.string("Title"),
-  t.string("Author"),
+  t.select("Author", [
+    {
+      label: "Gustavo Sucre",
+      value: "gus",
+    },
+    {
+      label: "David Roch",
+      value: "david",
+    },
+  ]),
   t.boolean("Draft"),
   t.boolean("Show TOC"),
   t.datetime("Date"),

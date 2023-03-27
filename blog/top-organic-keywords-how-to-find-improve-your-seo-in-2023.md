@@ -1,6 +1,6 @@
 ---
 title: "Top Organic Keywords: How To Find & Improve Your SEO in 2023 "
-author: Gustavo Sucre
+author: gus
 draft: false
 show_toc: true
 date: 2023-03-21T11:03:07.423Z
