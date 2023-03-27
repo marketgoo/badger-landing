@@ -1,7 +1,7 @@
 ---
 title: "Acquiring Organic Leads: 3 Hacks SEO Agencies Most Use "
 author: Gustavo Sucre
-draft: true
+draft: false
 show_toc: true
 date: 2023-03-27T07:51:40.982Z
 url: /acquiring-organic-leads/
@@ -15,7 +15,9 @@ Here are three hacks that SEO agencies most use to acquire organic leads:
 
 ## Create High-Quality Content
 
-Creating high-quality content is the foundation of successful inbound marketing and essential for generating those organic leads. Producing engaging and informative content that resonates with your target audience can help build brand awareness and attract potential clients. This type of content attracts visitors to your website, establishes your agency as a thought leader, builds trust and authority with potential clients, and drives conversions.
+Creating high-quality content is the foundation of successful inbound marketing and essential for generating those organic leads. Producing engaging and informative content that resonates with your target audience can help build brand awareness and attract potential clients. This is the type of content that attracts visitors to your website, establishes your agency as a leader, builds **trust and authority** with potential clients, and drives conversions.
+
+![trust and authority venn diagram ](/img/blog/positive-image.png)
 
 **Pro tip:** Inject humor into the content to create a powerful engagement.
 
@@ -36,7 +38,7 @@ Building a community is not just a buzzword but a crucial aspect that SEO agenci
 
 ## Consistency
 
-Firstly, consistency builds trust (yup, we're back at trust again). When potential clients visit your website, they want to see that your agency is committed to providing quality content and good services. 
+Firstly, consistency builds **trust** (yup, we're back at trust again). When potential clients visit your website, they want to see that your agency is committed to providing quality content and good services. 
 
 Secondly, consistency improves visibility. Search engines like Google reward websites that consistently produce high-quality content by ranking them higher in search engine results pages (SERPs). Regularly publish optimized content to improve your website's visibility, attract organic traffic, and generate more leads.
 
