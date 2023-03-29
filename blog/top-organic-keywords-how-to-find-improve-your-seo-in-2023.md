@@ -1,5 +1,5 @@
 ---
-title: "Top Organic Keywords: How To Find & Improve Your SEO in 2023 "
+title: "Top Organic Keywords: How To Get More Traffic in 2023 "
 author: gus
 draft: false
 show_toc: true
