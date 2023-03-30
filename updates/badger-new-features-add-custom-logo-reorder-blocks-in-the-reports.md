@@ -1,7 +1,7 @@
 ---
 title: Badger new features -  Add Custom Logo & Reorder Blocks in the Reports
 author: Gustavo Sucre
-draft: true
+draft: false
 date: 2023-03-30T11:55:49.606Z
 ---
 Great news! Badger has just released two new features that will make your SEO reporting experience even better.
