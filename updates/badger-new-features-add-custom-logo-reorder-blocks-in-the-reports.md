@@ -20,4 +20,4 @@ These features were highly requested by our users, and we're excited to finally 
 
 As always, if you have any questions or feedback, our support team is here to help. We're committed to providing our users with the best possible experience, and we can't wait to see how you use these new features to create even better reports!
 
-Start a trial for free!
+[Start a trial](https://app.getbadger.io/) for free!
