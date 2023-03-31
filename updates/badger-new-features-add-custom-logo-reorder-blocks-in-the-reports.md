@@ -4,7 +4,7 @@ author: Gustavo Sucre
 draft: false
 date: 2023-03-30T11:55:49.606Z
 ---
-Great news! Badger has just released two new features that will make your SEO reporting experience even better.
+Great news! [Badger](https://getbadger.io/) has just released two new features that will make your SEO reporting experience even better.
 
 First up, we've added the **custom logo feature.** 
 
