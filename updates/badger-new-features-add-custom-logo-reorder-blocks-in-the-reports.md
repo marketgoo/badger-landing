@@ -8,7 +8,7 @@ Great news! Badger has just released two new features that will make your SEO re
 
 First up, we've added the **custom logo feature.** 
 
-Now you can add your logo to your reports and give them a personalized touch that will make your brand stand out. It's a great way to make your reports look more professional and impress your clients.
+Now you can add your logo to your reports and give them a personalized touch to make your brand stand out. It's a great way to make your reports look more professional and impress your clients.
 
 Secondly, you can now **reorder the blocks in your reports.** 
 
