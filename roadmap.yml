@@ -5,6 +5,9 @@ features:
     state: Backlog
     description: The titles of blocks are not editable, we should include this
       functionality.
+  - title: AI powered comments
+    state: Backlog
+    description: Use AI to generate comments and report summaries.
   - title: Change the default order of the rows of the tables
     state: Upcoming
     description: We should be able to sort the data in the tables by clicking in the
