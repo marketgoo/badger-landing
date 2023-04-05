@@ -1,12 +1,16 @@
 ---
 title: How to Create a White-Label SEO Report with Badger
 author: gus
-draft: true
+draft: false
 show_toc: true
 date: 2023-04-05T13:57:21.858Z
 url: /white-label-seo-report/
+excerpt: In SEO projects, reports are valuable for gaining insights into a
+  client's progress, highlighting key successes, and identifying improvement
+  areas. White-label SEO reports have become an essential component of tracking
+  and presenting data in a structured, comprehensive manner
 ---
-In SEO projects, reports are valuable for gaining insights into a client's progress, highlighting key successes, and identifying improvement areas. White-label SEO reports have become an essential component of tracking and presenting data in a structured, comprehensive manner. 
+![white label seo report ](/img/blog/badger-ultim.png)
 
 That is why [Badger ](https://login.getbadger.io/u/login?state=hKFo2SB2YlZNVkprcXdkMU5kNV95QWVaWHYzN2lZZDBJVFhRZKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFBuV2JrdWFKWVNYRXZIMmZYTTlQZDJCNWxYNGgxQ3Vzo2NpZNkgMTJtMUJLTHp6dDJQRWZ6RmFVRnhWM0NHSUM3c1FnTDU)exists. After all, clients want to know what they're investing in and how their SEO campaigns are progressing.
 
@@ -28,8 +32,7 @@ Badger's white-label capabilities can help businesses and digital agencies creat
 
 Badger's SEO reporting tool also offers a wide range of data visualizations and metrics that can be tailored to meet each client's specific needs. Agencies can include data on website traffic, keyword rankings, backlinks, and other metrics that showcase the website's performance in search engine results pages (SERPs).
 
-## \
-Step-by-step instructions to start using  Badger
+## Step-by-step instructions to start using Badger
 
 1. **Sign up for your free account:** Go to the Badger website and sign up for a free account. You will need to provide some basic information, such as your name, email address, and company name.
 2. **Connect your data sources:** Once you have signed up, connect your data sources to Badger. This could include Google Analytics, Google Search Console, and other SEO tools. Badger integrates with a wide range of data sources, so you can choose the ones that are most relevant to your clients.
@@ -59,7 +62,9 @@ Finally, personalize the report by including insights and recommendations that a
 
 In summary, adding valuable insights and recommendations to your white-label SEO report can provide your clients with more value and demonstrate your expertise. By starting with a summary, explaining the data, providing actionable recommendations, including visualizations, and personalizing the report, you can create a report that stands out and helps your clients improve their SEO performance.
 
-## Best practices for presenting and sharing white-label SEO reports with clients using Badger
+![seo white label reports sample](/img/blog/sample-report-beyondeducation.es-badger-badger.gif)
+
+## Best practices for white-label SEO reports using Badger
 
 When it comes to presenting and sharing white-label SEO reports with clients using Badger, there are two main options: sharing a link or downloading a PDF. Here are some best practices to consider for each option:
 
@@ -80,8 +85,9 @@ When it comes to presenting and sharing white-label SEO reports with clients usi
 **Keep it concise:** While it is important to include valuable insights and recommendations in the report, make sure to keep it concise and easy to read. Use visualizations and bullet points to highlight the most important findings.**\
 Schedule follow-up meetings:** After sending the PDF of the report to the client, schedule a follow-up meeting to discuss the insights and recommendations provided in the report and to answer any questions they may have.
 
-## \
-Ways to maintain and update your SEO report  for clients 
+![SEO white label reports on pdf](/img/blog/31febd44-fae3-464a-902a-81c984ceb33b.png)
+
+## Ways to maintain and update your SEO report for clients 
 
 Maintaining and updating your white-label SEO report in Badger is crucial to ensure it remains relevant and valuable to your clients. Here are some ways to do this:
 
@@ -104,6 +110,8 @@ As you gain more experience working with the client's website and industry, you 
 **Seek feedback**
 
 Finally, seek feedback from your clients on the report's contents and format. This will help you understand their needs better and make any necessary adjustments to the report to better meet their expectations.
+
+![seo insights and recommendations](/img/blog/badger-.png)
 
 **\
 Friendly reminder**: maintaining and updating your white-label SEO report in Badger is essential to ensure it remains relevant and valuable to your clients. By setting a regular reporting schedule, monitoring changes in data, staying up-to-date with industry trends, adding new insights and recommendations, customizing the report for each client, and seeking feedback, you can create a report that helps your clients improve their SEO performance over time.
