@@ -8,7 +8,7 @@ url: /white-label-seo-report/
 excerpt: In SEO projects, reports are valuable for gaining insights into a
   client's progress, highlighting key successes, and identifying improvement
   areas. White-label SEO reports have become an essential component of tracking
-  and presenting data in a structured, comprehensive manner
+  and presenting data in a structured, comprehensive manner.
 ---
 ![white label seo report ](/img/blog/badger-ultim.png)
 
