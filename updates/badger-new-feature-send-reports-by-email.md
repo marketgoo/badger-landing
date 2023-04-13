@@ -5,7 +5,7 @@ date: 2023-04-13T08:12:36.990Z
 ---
 Greetings!
 
-We are excited to inform you about our latest feature update in Badger. You can now send SEO reports to your clients via email directly from our platform.
+We are excited to inform you about our latest feature update in Badger. You can now send SEO reports to your clients **via email** directly from our platform.
 
 This new feature simplifies the process of sharing your SEO performance with your clients. Here's how to use it:
 
