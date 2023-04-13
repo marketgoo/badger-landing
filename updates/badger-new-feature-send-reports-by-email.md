@@ -1,5 +1,5 @@
 ---
-title: Badger New Feature - Send Reports by Email
+title: Badger Now Allows Sending SEO Reports to Clients via Email
 author: Gustavo Sucre
 date: 2023-04-13T08:12:36.990Z
 ---
