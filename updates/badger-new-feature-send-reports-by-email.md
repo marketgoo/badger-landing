@@ -19,6 +19,6 @@ This new feature simplifies the process of sharing your SEO performance with you
 
 We are constantly improving our platform to assist you in the dynamic world of SEO reporting. Stay tuned for more updates from Badger.
 
-Thank you for choosing Badger
+Thank you for choosing Badger.
 
 Start for [free](https://login.getbadger.io/u/login?state=hKFo2SBKTXExNzd6dVE2TzNld0Q5TzJPdl9zQkhSdkJFY2RsR6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIERzVVFkMnVmcEdWVmpITHBEcjlXZXFJM3Q3MkgzRzlro2NpZNkgMTJtMUJLTHp6dDJQRWZ6RmFVRnhWM0NHSUM3c1FnTDU)!
