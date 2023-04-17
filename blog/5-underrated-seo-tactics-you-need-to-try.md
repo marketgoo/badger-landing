@@ -2,8 +2,12 @@
 title: "5 Underrated SEO Tactics You Need to Try "
 author: gus
 draft: true
+show_toc: true
 date: 2023-04-17T08:41:19.500Z
 url: /underrated-seo-tactis-websites/
+excerpt: The article "5 underrated SEO tactics you need to try" highlights the
+  importance of thinking outside the box to succeed in the constantly changing
+  world of SEO.
 ---
 ![SEO underrated tactics](/img/blog/image-1-.png)
 
