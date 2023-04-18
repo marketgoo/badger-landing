@@ -1,7 +1,7 @@
 ---
 title: "5 Underrated SEO Tactics You Need to Try "
 author: gus
-draft: true
+draft: false
 show_toc: true
 date: 2023-04-17T08:41:19.500Z
 url: /underrated-seo-tactis-websites/
@@ -75,6 +75,10 @@ In fact, offering constructive criticism (and supporting evidence) can be an eff
 The top layer of the pyramid is testing. This means constantly experimenting with new SEO tactics to see what works best for your website. Do something and see what happens. Test again. Measure. Test.
 
 Different strategies will help you identify what drives the most traffic and improve your website's search engine ranking over time.
+
+One important aspect of testing is to make sure you are measuring the right metrics. 
+
+While traffic and rankings are important, they don't necessarily translate to conversions and revenue. By tracking and measuring conversion rates and other relevant metrics, you can make sure that your SEO efforts are ultimately contributing to the success of your business.
 
 And one last thing - did you wait long enough after publishing?
 
