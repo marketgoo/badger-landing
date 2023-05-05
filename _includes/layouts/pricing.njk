@@ -12,7 +12,7 @@ try_url: "https://app.getbadger.io"
   <h1>{{ header.title }}</h1>
 
   <label class="switch">
-    <input type="checkbox" class="switch-input" id="show-annually" />
+    <input type="checkbox" checked class="switch-input" id="show-annually" />
     <div class="switch-label">
       <div class="switch-label-content">{{ header.switch }}</div>
     </div>
@@ -35,7 +35,7 @@ try_url: "https://app.getbadger.io"
       <p class="tier-pricing is-year" hidden>
         <strong><sup>$</sup>{{ tier.price_year / 12 }}</strong>
         <em>
-          / year<br>
+          / month<br>
           ${{ tier.price_year }} billed annually
         </em>
       </p>
