@@ -25,6 +25,8 @@ html {
   --black-200: hsl(210, 30%, 90%);
   --black-100: hsl(210, 35%, 96%);
 
+  --accent-500: #7F26D9;
+
   --white: #ffffff;
 
   --warning: #eb6347;

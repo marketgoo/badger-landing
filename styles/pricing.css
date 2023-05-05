@@ -1,0 +1,124 @@
+@import "styles/default.css";
+@import "styles/variables.css";
+@import "styles/components.css";
+
+.pricing-header {
+  padding: 5vh 5vw 0 5vw;
+  max-width: 1400px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+  & h1 {
+    font: var(--font-6-bold);
+    letter-spacing: var(--font-spacing-6);
+    flex: 0 0 auto;
+    margin: 0;
+    background-size: 100% auto;
+    padding-bottom: 2rem;
+    max-width: 9em;
+  }
+}
+.pricing-tiers {
+  display: grid;
+  list-style: none;
+  padding: 5vh 5vw 2vh;
+  margin: 0;
+  grid-template-columns: repeat(auto-fit, 280px);
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.tier {
+  border: solid 1px var(--black-200);
+  box-shadow: var(--shadow-2);
+  border-radius: var(--radius);
+  padding: 20px;
+  display: grid;
+  grid-template-areas: "header" "pricing" "features" "cta";
+  row-gap: 20px;
+}
+.tier-header {
+  grid-area: header;
+  font: var(--font-1);
+  color: var(--black-700);
+  border-bottom: solid 1px var(--black-200);
+  padding-bottom: 20px;
+
+  & h2 {
+    color: var(--black-900);
+    font: var(--font-2-bold);
+    margin: 0;
+  }
+
+  & p {
+    margin: 0;
+  }
+}
+.tier-pricing {
+  grid-area: pricing;
+  font: var(--font-1);
+  min-height: 100px;
+  margin: 0;
+
+  & strong {
+    color: var(--accent-500);
+    font: var(--font-5-bold);
+    letter-spacing: var(--font-spacing-5);
+
+    & sup {
+      vertical-align: super;
+      font: var(--font-2);
+      margin-right: 0.2em;
+    }
+  }
+  & em {
+    display: block;
+    font-style: normal;
+    color: var(--black-700);
+  }
+}
+.tier-features {
+  grid-area: features;
+  list-style: none;
+  padding: 0;
+  border-top: solid 1px var(--black-100);
+
+  & p {
+    margin: 0;
+  }
+  & li {
+    font: var(--font-0);
+    color: var(--black-700);
+    padding: 0.85em 0;
+    border-bottom: solid 1px var(--black-100);
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+
+    & strong {
+      color: var(--black-900);
+    }
+
+    &::before {
+      content: '';
+      width: 24px;
+      height: 24px;
+      display: block;
+      background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="%231B9859" viewBox="0 0 256 256"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path></svg>');
+    }
+  }
+}
+.tier-cta {
+  grid-area: cta;
+}
+.pricing-footer {
+  text-align: center;
+  padding: 0 5vw;
+  color: var(--black-700);
+  font: var(--font-0);
+}
