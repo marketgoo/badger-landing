@@ -1,0 +1,15 @@
+<header class="block-header {{ block.class }}">
+  <div class="block-header-content">
+    <h1>{{ block.title }}</h1>
+    {{ block.description | md | safe }}
+
+    {% if block.cta %}
+      <a href="{{ block.cta.url }}" class="button is-primary">{{ block.cta.text }}</a>
+    {% endif %}
+  </div>
+
+  {% if block.img %}
+    <img src="{{ block.img }}" alt="{{ block.title }}">
+  {% endif %}
+</header>
+

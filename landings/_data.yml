@@ -1,0 +1,17 @@
+layout: layouts/landings.njk
+try_url: "https://app.getbadger.io"
+menu:
+  links:
+    - text: Blog
+      href: "/blog/"
+    - text: Updates
+      href: "/updates/"
+    - text: Roadmap
+      href: "/roadmap/"
+  ctas:
+    - text: Log in
+      class: button is-secondary
+      href: https://app.getbadger.io/
+    - text: Try it for free
+      class: button is-primary
+      href: https://app.getbadger.io/

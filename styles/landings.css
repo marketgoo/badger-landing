@@ -1,0 +1,7 @@
+@import "styles/default.css";
+@import "styles/variables.css";
+@import "styles/components.css";
+
+@import "styles/blocks/header.css";
+@import "styles/blocks/feature.css";
+@import "styles/blocks/pricing.css";

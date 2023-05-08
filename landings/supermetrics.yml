@@ -1,0 +1,26 @@
+url: /badger-vs-supermetrics/
+
+blocks:
+  - type: header
+    title: This is the title
+    description: This is the description
+    cta:
+      text: Submit now
+      url: https://app.getbadger.io
+    img: https://placehold.it/800x400
+
+  - type: feature
+    title: This is the title
+    description: This is the description
+    img: https://placehold.it/1000x400
+
+  - type: feature
+    class: is-reversed
+    title: This is the title
+    description: This is the description
+    img: https://placehold.it/1000x400
+
+  - type: pricing
+    title: Select the plan that better fits your size
+    description: This is the description
+    img: https://placehold.it/1000x400
