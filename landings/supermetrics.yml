@@ -5,7 +5,7 @@ blocks:
     title: This is the title
     description: This is the description
     cta:
-      text: Join to the waiting list
+      text: Subscribe
       #url: https://app.getbadger.io
       subscribe:
         event: waiting_list_join
