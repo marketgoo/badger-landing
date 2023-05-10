@@ -1,10 +1,6 @@
 .block-highlightCta {
   padding: 5vh 5vw;
-  width: calc(100% - 10vw);
-  max-width: calc(1400px - 10vw);
   background: var(--black-200);
-  box-sizing: border-box;
-  margin: 10px auto 0 auto;
   border-radius: var(--radius);
   text-align: center;
 

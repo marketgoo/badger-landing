@@ -2,6 +2,14 @@
 @import "styles/variables.css";
 @import "styles/components.css";
 
+body {
+  display: grid;
+  align-content: center;
+  grid-template-rows: 1fr;
+  min-height: 100vh;
+  align-items: center;
+}
+
 .focus {
   padding: 1rem;
   text-align: center;

@@ -20,7 +20,7 @@ blocks:
     img: https://placehold.it/1000x400
 
   - type: feature
-    class: is-reversed
+    class: is-reversed is-highlight
     title: This is the title
     description: This is the description
     img: https://placehold.it/1000x400
@@ -29,6 +29,13 @@ blocks:
     title: Select the plan that better fits your size
 
   - type: highlight_cta
+    title: This is the title
+    description: This is the description
+    cta:
+      text: Click here
+      url: https://getbadger.io
+
+  - type: highlight_cta2
     title: This is the title
     description: This is the description
     cta:

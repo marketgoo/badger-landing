@@ -1,7 +1,4 @@
 .block-feature {
-  padding: 10vh 5vw;
-  margin: 0 auto;
-  max-width: calc(1400px - 10vw);
   display: flex;
   column-gap: 4rem;
   row-gap: 2rem;
@@ -37,6 +34,19 @@
 
     @media (max-width: 700px) {
       flex-wrap: wrap;
+    }
+  }
+
+  &.is-highlight {
+    background: var(--black-100);
+    padding: 10vh 5vw;
+    grid-column: 1 / -1;
+
+    @media (min-width: 1250px) {
+      border-radius: 8px;
+      padding-left: 3.5rem;
+      padding-right: 3.5rem;
+      grid-column: 2;
     }
   }
 }

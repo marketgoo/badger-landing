@@ -1,9 +1,4 @@
 .block-faq {
-  padding: 10vh 5vw;
-  max-width: 1400px;
-  box-sizing: border-box;
-  margin: 0 auto;
-
   & h2 {
     font: var(--font-4-bold);
     letter-spacing: var(--font-spacing-4);

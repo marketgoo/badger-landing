@@ -1,7 +1,5 @@
 .block-header {
-  padding: 10vh 5vw;
-  max-width: 1400px;
-  box-sizing: border-box;
+  padding: 10vh 0;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(0, 1fr);

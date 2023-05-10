@@ -25,25 +25,27 @@ try_url: "https://app.getbadger.io"
   </div>
 </header>
 
-{% for block in steps %}
-<section id="step-{{ loop.index }}" class="landing-step {{ block.class }}">
-  <div class="landing-step-content">
-    <h2>{{ block.title | safe }}</h2>
-    {{ block.description | md | safe }}
-  </div>
+<div class="blocks-container">
+  {% for block in steps %}
+  <section id="step-{{ loop.index }}" class="landing-step {{ block.class }}">
+    <div class="landing-step-content">
+      <h2>{{ block.title | safe }}</h2>
+      {{ block.description | md | safe }}
+    </div>
 
-  {% if block.img %}
-    <img src="{{ block.img }}">
-  {% endif %}
-</section>
-{% endfor %}
+    {% if block.img %}
+      <img src="{{ block.img }}">
+    {% endif %}
+  </section>
+  {% endfor %}
 
-<section class="landing-resume">
-  {{ resume | md | safe }}
-</section>
+  <section class="landing-resume">
+    {{ resume | md | safe }}
+  </section>
 
-{% set block = demo %}
-{% include "templates/blocks/highlight_cta.njk" %}
+  {% set block = demo %}
+  {% include "templates/blocks/highlight_cta.njk" %}
 
-{% set block = faq %}
-{% include "templates/blocks/faq.njk" %}
+  {% set block = faq %}
+  {% include "templates/blocks/faq.njk" %}
+</div>

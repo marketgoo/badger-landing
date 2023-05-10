@@ -1,9 +1,5 @@
 .block-highlightCta2 {
   padding: 10vh 5vw;
-  width: calc(100% - 10vw);
-  max-width: calc(1400px - 10vw);
-  box-sizing: border-box;
-  margin: 0 auto;
   text-align: center;
   display: grid;
   row-gap: 1.5em;
