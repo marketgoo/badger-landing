@@ -1,3 +1,9 @@
+.block-pricing {
+  @media (min-width: 970px) {
+    background: radial-gradient(circle closest-side, var(--accent-100), var(--white));
+  }
+}
+
 .block-pricing-header {
   box-sizing: border-box;
   display: flex;
@@ -21,20 +27,33 @@
   list-style: none;
   padding: 5vh 5vw 2vh;
   margin: 0;
-  grid-template-columns: repeat(auto-fit, 280px);
-  justify-content: center;
   column-gap: 20px;
   row-gap: 20px;
+
+  @media (min-width: 970px) {
+    grid-template-columns: repeat(3, 280px);
+    justify-content: center;
+  }
 }
 
 .tier {
   border: solid 1px var(--black-200);
+  background: var(--white);
   box-shadow: var(--shadow-2);
   border-radius: var(--radius);
   padding: 20px;
   display: grid;
-  grid-template-areas: "header" "pricing" "features" "cta";
   row-gap: 20px;
+  column-gap: 5vw;
+  grid-template-areas: "header" "pricing" "features" "cta";
+  align-items: center;
+
+  @media (min-width: 470px) and (max-width: 969px) {
+    grid-template-areas: "header pricing" "features pricing" "features cta";
+    grid-template-columns: 1fr 150px;
+    grid-template-rows: auto auto 1fr;
+    align-items: end;
+  }
 }
 .tier-header {
   grid-area: header;
@@ -80,7 +99,6 @@
   grid-area: features;
   list-style: none;
   padding: 0;
-  border-top: solid 1px var(--black-100);
 
   & p {
     margin: 0;
