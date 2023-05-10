@@ -1,5 +1,6 @@
 title: Badger - Automate your SEO reports
 layout: layouts/pricing.njk
+url: false
 metas:
   title: Badger - Automate your SEO reports
   robots: true
