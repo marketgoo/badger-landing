@@ -2,6 +2,11 @@ Badger landing page.
 
 ## Setup
 
-- [Install Deno](https://deno.land/#installation) or upgrade it with
-  `deno upgrade`.
-- Run `deno task serve`.
+Install Deno:
+
+```
+curl -fsSL https://deno.land/x/install/install.sh | sh
+```
+
+Run `deno task serve`.
+

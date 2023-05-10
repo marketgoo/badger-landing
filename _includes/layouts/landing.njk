@@ -56,29 +56,8 @@ try_url: "https://app.getbadger.io"
 </section>
 {% endif %}
 
-<section class="landing-demo">
-  <header>
-    <h2>{{ demo.title | md(true) | safe }}</h2>
-  </header>
-  <div class="landing-demo-content">
-    {{ demo.description | md | safe }}
+{% set block = demo %}
+{% include "templates/blocks/highlight_cta.njk" %}
 
-    <button class="button is-primary" onclick="Calendly.initPopupWidget({url: '{{ header.calendly_url }}'});">{{ demo.cta }}</button>
-  </div>
-</section>
-
-<section class="landing-faq">
-  <header>
-    <h2>{{ faq.title | safe }}</h2>
-    {{ faq.description | md | safe }}
-  </header>
-
-  <div class="faq-questions">
-    {% for item in faq.questions %}
-    <details class="landing-faq-question">
-      <summary>{{ item.question | safe }}</summary>
-      <div class="landing-faq-answer">{{ item.answer | md | safe }}</div>
-    </details>
-    {% endfor %}
-  </div>
-</section>
+{% set block = faq %}
+{% include "templates/blocks/faq.njk" %}

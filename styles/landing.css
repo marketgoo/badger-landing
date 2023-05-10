@@ -1,6 +1,7 @@
 @import "styles/default.css";
 @import "styles/variables.css";
 @import "styles/components.css";
+@import "styles/blocks.css";
 
 .landing-header {
   padding: 10vh 5vw 25vh 5vw;
@@ -228,87 +229,5 @@
     letter-spacing: var(--font-spacing-2);
     color: var(--black-300);
     margin: .5em 0 0;
-  }
-}
-
-.landing-demo {
-  padding: 5vh 5vw;
-  width: calc(100% - 10vw);
-  max-width: calc(1400px - 10vw);
-  background: var(--black-200);
-  box-sizing: border-box;
-  margin: 10px auto 0 auto;
-  border-radius: var(--radius);
-  text-align: center;
-
-  & p {
-    margin-top: .5em;
-  }
-
-  & h2 {
-    font: var(--font-4-bold);
-    letter-spacing: var(--font-spacing-4);
-    margin: 0;
-  }
-
-  @media (min-width: 800px) {
-    display: grid;
-    grid-template-columns: minmax(auto, 340px) minmax(auto, 550px);
-    column-gap: 2rem;
-    justify-content: center;
-    text-align: left;
-
-    & h2 {
-      text-align: right;
-    }
-  }
-}
-
-.landing-faq {
-  padding: 10vh 5vw;
-  max-width: 1400px;
-  box-sizing: border-box;
-  margin: 0 auto;
-
-  & h2 {
-    font: var(--font-4-bold);
-    letter-spacing: var(--font-spacing-4);
-    margin: 0;
-  }
-
-  @media (min-width: 800px) {
-    display: grid;
-    grid-template-columns: minmax(auto, 25%) 1fr;
-    column-gap: 2rem;
-  }
-}
-.landing-faq-question {
-  border-radius: var(--radius);
-  margin-bottom: .5rem;
-
-  & summary {
-    cursor: pointer;
-    outline: none;
-    font: var(--font-3-bold);
-    color: var(--black-700);
-    display: block;
-    padding: .5rem 1rem;
-    border-radius: var(--radius);
-
-    &:hover {
-      color: var(--black-900);
-      background-color: var(--black-100);
-    }
-  }
-  &[open] {
-    background-color: var(--black-100);
-  }
-}
-.landing-faq-answer {
-  padding: .5rem 1rem;
-  font: var(--font-1);
-
-  & p {
-    margin-top: 0;
   }
 }

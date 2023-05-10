@@ -1,0 +1,18 @@
+<section class="block-highlightCta">
+  <header>
+    <h2>{{ block.title | md(true) | safe }}</h2>
+  </header>
+  <div>
+    {{ block.description | md | safe }}
+
+    {% if block.cta.href %}
+    <a class="button is-primary" href="{{ block.cta.href }}">
+      {{ block.cta.text }}
+    </button>
+    {% else %}
+    <button class="button is-primary" onclick="{{ block.cta.onclick }}">
+      {{ block.cta.text }}
+    </button>
+    {% endif %}
+  </div>
+</section>

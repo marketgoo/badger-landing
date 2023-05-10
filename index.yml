@@ -69,7 +69,9 @@ demo:
   title: Want to see it in action?
   description: |
     Schedule a call with our team—and we’ll be happy to walk you through it! Plus: **zero commitment from your side.**
-  cta: Schedule a free demo
+  cta: 
+    text: Schedule a free demo
+    onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/drochmarketgoo/badgerproductdemo'})"
 faq:
   title: FAQs
   questions:

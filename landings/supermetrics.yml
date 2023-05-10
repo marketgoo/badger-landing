@@ -7,6 +7,7 @@ blocks:
     cta:
       text: Submit now
       url: https://app.getbadger.io
+    input: # TODO
     img: https://placehold.it/800x400
 
   - type: feature
@@ -22,5 +23,19 @@ blocks:
 
   - type: pricing
     title: Select the plan that better fits your size
+
+  - type: highlight_cta
+    title: This is the title
     description: This is the description
-    img: https://placehold.it/1000x400
+    cta:
+      text: Click here
+      url: https://getbadger.io
+
+
+  - type: faq
+    title: This is the title
+    questions:
+      - question: First question
+        answer: Answer of the question **in markdown**
+      - question: Second question
+        answer: Answer of the question **in markdown**

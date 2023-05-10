@@ -1,0 +1,32 @@
+.block-highlightCta {
+  padding: 5vh 5vw;
+  width: calc(100% - 10vw);
+  max-width: calc(1400px - 10vw);
+  background: var(--black-200);
+  box-sizing: border-box;
+  margin: 10px auto 0 auto;
+  border-radius: var(--radius);
+  text-align: center;
+
+  & p {
+    margin-top: .5em;
+  }
+
+  & h2 {
+    font: var(--font-4-bold);
+    letter-spacing: var(--font-spacing-4);
+    margin: 0;
+  }
+
+  @media (min-width: 800px) {
+    display: grid;
+    grid-template-columns: minmax(auto, 340px) minmax(auto, 550px);
+    column-gap: 2rem;
+    justify-content: center;
+    text-align: left;
+
+    & h2 {
+      text-align: right;
+    }
+  }
+}
