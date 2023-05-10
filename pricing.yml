@@ -8,42 +8,5 @@ metas:
     clients & stakeholders.
   image: /img/connect.png
 
-header:
+block:
   title: Select the plan that better fits your size
-  switch: Pay annually
-
-tiers:
-  - name: Basic
-    subtitle: Get a taste of Badger
-    price_month: 9.90
-    price_year: 99
-    features:
-      - "**Only 1 project**"
-      - "Custom logotype"
-      - "PDF reports"
-      - "Semrush integration"
-    cta: Start free trial
-  - name: Pro
-    badge: Recommended
-    subtitle: Perfect to freelances
-    price_month: 39.90
-    price_year: 399
-    features:
-      - "**Up to 5 project**"
-      - "Custom logotype"
-      - "PDF reports"
-      - "Semrush integration"
-    cta: Start free trial
-  - name: Advanced
-    subtitle: For SEO agencies
-    price_month: 99.90
-    price_year: 999
-    features:
-      - "**Up to 15 project**"
-      - "Custom logotype"
-      - "PDF reports"
-      - "Semrush integration"
-    cta: Start free trial
-
-contact: |
-  Don't find what do you need? [Contact us](mailto:hello@getbadger.io)
