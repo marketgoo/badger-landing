@@ -5,9 +5,13 @@ blocks:
     title: This is the title
     description: This is the description
     cta:
-      text: Submit now
-      url: https://app.getbadger.io
-    input: # TODO
+      text: Join to the waiting list
+      #url: https://app.getbadger.io
+      subscribe:
+        event: waiting_list_join
+        label: Your email
+        placeholder: example@email.com
+        success: Thanks for joining to Badger!
     img: https://placehold.it/800x400
 
   - type: feature

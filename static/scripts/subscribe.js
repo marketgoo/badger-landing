@@ -2,10 +2,13 @@ class Subscribe extends HTMLElement {
   connectedCallback() {
     const form = this.querySelector("form");
     const inputs = form.querySelectorAll(".input");
+    const eventName = this.dataset.event;
+
     inputs.forEach((input) => {
       input.addEventListener("blur", () => input.classList.add("is-dirty"));
     });
-    form.addEventListener("submit", async (e) => {
+
+    form.addEventListener("submit", (e) => {
       inputs.forEach((input) => input.classList.add("is-dirty"));
 
       e.preventDefault();
@@ -18,9 +21,13 @@ class Subscribe extends HTMLElement {
 
       try {
         // Set the event to posthog
-        posthog.capture("waiting_list_join", {
-          $set: { email },
-        });
+        if (eventName && window.posthog) {
+          posthog.capture(eventName, {
+            $set: { email },
+          });
+        } else {
+          console.error("Event not sent", { email });
+        }
         this.showTemplate(".tmpl-success");
       } catch {
         this.showTemplate(".tmpl-error");

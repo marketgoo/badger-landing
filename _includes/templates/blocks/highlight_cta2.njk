@@ -1,13 +1,13 @@
-<section class="block-highlightCta">
+<section class="block-highlightCta2">
   <header>
     <h2>{{ block.title | md(true) | safe }}</h2>
-  </header>
-  <div>
     {{ block.description | md | safe }}
+  </header>
 
-    {% if block.cta %}
+  {% if block.cta %}
+  <footer>
     {% set cta = block.cta %}
     {% include "templates/cta.njk" %}
-    {% endif %}
-  </div>
+  </footer>
+  {% endif %}
 </section>

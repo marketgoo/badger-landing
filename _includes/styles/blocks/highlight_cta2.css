@@ -1,0 +1,30 @@
+.block-highlightCta2 {
+  padding: 10vh 5vw;
+  width: calc(100% - 10vw);
+  max-width: calc(1400px - 10vw);
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  row-gap: 1.5em;
+  background: var(--black-900);
+  color: var(--white);
+  border-radius: var(--radius);
+
+  & h2 {
+    font: var(--font-5-bold);
+    letter-spacing: var(--font-spacing-5);
+    margin: 0;
+
+    & strong {
+      color: var(--primary-500);
+    }
+  }
+  & p {
+    font: var(--font-1);
+    letter-spacing: var(--font-spacing-2);
+    color: var(--black-300);
+    margin: .5em auto 0;
+    max-width: 45em;
+  }
+}

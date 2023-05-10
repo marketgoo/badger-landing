@@ -1,0 +1,30 @@
+{% if cta.url %}
+  <a href="{{ cta.url }}" class="button is-primary">{{ cta.text }}</a>
+{% elif cta.onclick %}
+  <button class="button is-primary" onclick="{{ cta.onclick }}">
+    {{ cta.text }}
+  </button>
+{% elif cta.subscribe %}
+  <badger-subscribe id="subscribe" data-event="{{ cta.subscribe.event }}">
+    <form method="post">
+      <div class="field">
+        <label for="email" class="field-label">
+          {{ cta.subscribe.label | default("Email") }}
+        </label>
+        <input required type="email" id="email" class="input field-input" placeholder="{{ cta.subscribe.placeholder | default("mail@example.com") }}">
+      </div>
+      <button type="submit" class="button is-primary is-responsive">{{ cta.text }}</button>
+    </form>
+    <template class="tmpl-success">
+      <div class="form-success">
+        {{ cta.subscribe.success | md | safe }}
+        {{ comp.fireworks() | safe }}
+      </div>
+    </template>
+    <template class="tmpl-error">
+      <div class="form-error">
+        {{ cta.subscribe.error | default("Ooops, there's an error. [Refresh the page](./) and try it again") | md | safe }}
+      </div>
+    </template>
+  </badger-subscribe>
+{% endif %}

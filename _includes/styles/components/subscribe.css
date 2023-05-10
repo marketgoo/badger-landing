@@ -1,0 +1,35 @@
+badger-subscribe {
+  @media (min-width: 451px) {
+    & form {
+      display: inline-flex;
+      align-items: flex-end;
+    }
+
+    .button {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .input {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-right: none;
+      max-width: 200px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    & .button {
+      margin-top: 4px;
+    }
+  }
+
+  .form-success p {
+    font: var(--font-1-bold);
+    color: var(--primary-700);
+  }
+  .form-error p {
+    font: var(--font-1-bold);
+    color: var(--error-700);
+  }
+}

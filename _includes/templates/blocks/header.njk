@@ -4,7 +4,8 @@
     {{ block.description | md | safe }}
 
     {% if block.cta %}
-      <a href="{{ block.cta.url }}" class="button is-primary">{{ block.cta.text }}</a>
+    {% set cta = block.cta %}
+    {% include "templates/cta.njk" %}
     {% endif %}
   </div>
 
@@ -12,4 +13,3 @@
     <img src="{{ block.img }}" alt="{{ block.title }}">
   {% endif %}
 </header>
-
