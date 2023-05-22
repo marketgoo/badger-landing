@@ -21,13 +21,13 @@
 
         <p class="tier-pricing is-month">
           <strong><sup>$</sup>{{ tier.price_month }}</strong>
-          <em>/ month</em>
+          <em>per month</em>
         </p>
         <p class="tier-pricing is-year" hidden>
           <strong><sup>$</sup>{{ tier.price_year / 12 }}</strong>
           <em>
-            / month<br>
-            ${{ tier.price_year }} billed annually
+            per month<br>
+            <b>${{ tier.price_year }} billed yearly</b>
           </em>
         </p>
         <ul class="tier-features">
