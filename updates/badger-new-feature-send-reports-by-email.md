@@ -21,4 +21,4 @@ We are constantly improving our platform to assist you in the dynamic world of S
 
 Thank you for choosing Badger.
 
-Start for [free](https://login.getbadger.io/u/login?state=hKFo2SBKTXExNzd6dVE2TzNld0Q5TzJPdl9zQkhSdkJFY2RsR6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIERzVVFkMnVmcEdWVmpITHBEcjlXZXFJM3Q3MkgzRzlro2NpZNkgMTJtMUJLTHp6dDJQRWZ6RmFVRnhWM0NHSUM3c1FnTDU)!
+Start for [free](https://app.getbadger.io/)!

@@ -12,7 +12,7 @@ excerpt: In SEO projects, reports are valuable for gaining insights into a
 ---
 ![white label seo report ](/img/blog/badger-ultim.png)
 
-That is why [Badger ](https://login.getbadger.io/u/login?state=hKFo2SB2YlZNVkprcXdkMU5kNV95QWVaWHYzN2lZZDBJVFhRZKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFBuV2JrdWFKWVNYRXZIMmZYTTlQZDJCNWxYNGgxQ3Vzo2NpZNkgMTJtMUJLTHp6dDJQRWZ6RmFVRnhWM0NHSUM3c1FnTDU)exists. After all, clients want to know what they're investing in and how their SEO campaigns are progressing.
+That is why [Badger ](https://app.getbadger.io/)exists. After all, clients want to know what they're investing in and how their SEO campaigns are progressing.
 
 This article discusses white-label SEO reports, their importance, and how to create detailed white-label SEO reports.
 
@@ -116,4 +116,4 @@ Finally, seek feedback from your clients on the report's contents and format. Th
 **\
 Friendly reminder**: maintaining and updating your white-label SEO report in Badger is essential to ensure it remains relevant and valuable to your clients. By setting a regular reporting schedule, monitoring changes in data, staying up-to-date with industry trends, adding new insights and recommendations, customizing the report for each client, and seeking feedback, you can create a report that helps your clients improve their SEO performance over time.
 
-If you're interested in [trying Badger](https://login.getbadger.io/u/login?state=hKFo2SB2YlZNVkprcXdkMU5kNV95QWVaWHYzN2lZZDBJVFhRZKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFBuV2JrdWFKWVNYRXZIMmZYTTlQZDJCNWxYNGgxQ3Vzo2NpZNkgMTJtMUJLTHp6dDJQRWZ6RmFVRnhWM0NHSUM3c1FnTDU) for yourself, sign up for a free account today and see how it can help you streamline your reporting process and provide better insights to your clients.
+If you're interested in [trying Badger](https://app.getbadger.io/) for yourself, sign up for a free account today and see how it can help you streamline your reporting process and provide better insights to your clients.

@@ -86,4 +86,4 @@ Here's a sad (but true) fact: SEO takes time.
 
 And that's a wrap!
 
-Remember to [sign up](https://login.getbadger.io/u/login?state=hKFo2SBWbFpNbkNpU05hTGFGM1NhUGVYbHJKYTJKelRIaENkVaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGFwYTBRakoxQ25IdkE0bk9WeUY4TGdBczU3Z0VyTFNmo2NpZNkgMTJtMUJLTHp6dDJQRWZ6RmFVRnhWM0NHSUM3c1FnTDU) and use Badger for SEO reports!
+Remember to [sign up](https://app.getbadger.io/) and use Badger for SEO reports!

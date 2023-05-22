@@ -3,6 +3,7 @@ import postcss from "lume/plugins/postcss.ts";
 import cms from "lume/plugins/netlify_cms.ts";
 import metas from "lume/plugins/metas.ts";
 import date from "lume/plugins/date.ts";
+import feed from "lume/plugins/feed.ts";
 import md_image from "https://deno.land/x/lume_markdown_plugins@v0.4.0/image.ts";
 import md_toc from "https://deno.land/x/lume_markdown_plugins@v0.4.0/toc.ts";
 
@@ -18,6 +19,14 @@ export default lume({
   .use(postcss())
   .use(date())
   .use(metas())
+  .use(feed({
+    output: ["/updates/feed.xml"],
+    query: "type=update",
+    info: {
+      title: "Badger updates",
+      description: "Changelog and new features annoucements",
+    },
+  }))
   .use(cms({
     previewStyle: "styles/admin.css",
     netlifyIdentity: true,
