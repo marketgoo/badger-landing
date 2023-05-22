@@ -23,8 +23,8 @@ menu:
       href: "/blog/"
     - text: Updates
       href: "/updates/"
-    - text: Roadmap
-      href: "/roadmap/"
+    - text: Pricing
+      href: "/pricing/"
   ctas:
     - text: Log in
       class: button is-secondary
