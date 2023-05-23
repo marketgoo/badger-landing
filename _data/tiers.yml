@@ -1,4 +1,4 @@
-switch: Pay annually
+switch: Pay yearly
 tiers:
   - name: Basic
     subtitle: Get a taste of Badger
@@ -6,18 +6,18 @@ tiers:
     price_year: 99
     features:
       - "**Only 1 project**"
-      - "Custom logotype"
+      - "Custom logo"
       - "PDF reports"
       - "Semrush integration"
     cta: Start free trial
   - name: Pro
     badge: Recommended
-    subtitle: Perfect to freelances
+    subtitle: Designed for freelancers
     price_month: 39.90
     price_year: 399
     features:
-      - "**Up to 5 project**"
-      - "Custom logotype"
+      - "**Up to 5 projects**"
+      - "Custom logo"
       - "PDF reports"
       - "Semrush integration"
     cta: Start free trial
@@ -26,11 +26,11 @@ tiers:
     price_month: 99.90
     price_year: 999
     features:
-      - "**Up to 15 project**"
-      - "Custom logotype"
+      - "**Up to 15 projects**"
+      - "Custom logo"
       - "PDF reports"
       - "Semrush integration"
     cta: Start free trial
 
 contact: |
-  Don't find what do you need? [Contact us](mailto:hello@getbadger.io)
+  Not seeing what you need? [Contact us](mailto:hello@getbadger.io)
