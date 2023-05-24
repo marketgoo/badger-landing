@@ -1,0 +1,76 @@
+url: /seo-for-agencies/
+
+blocks:
+  - type: header
+    title: Beautiful SEO reports
+    description: Badger is the easiest and fastest tool to create **SEO reports for agencies** that your clients will love.
+    cta:
+      text: Get a demo
+      subscribe:
+        event: waiting_list_join
+        label: Give us your email for a demo adapted to your needs.
+        placeholder: example@email.com
+        success: Thanks for joining to Badger!
+    img: https://placehold.it/800x400
+
+  - type: image_grid
+    title: Connect badger with your current data sources
+    description: Badger has support for the most used SEO tools, and we are working hard to implement more. Contact us and let us know what do you need.
+    items:
+      - title: Google Analytics
+        img: /img/connection/ga.svg
+        description: Both Universal Analytics (UA) and the new Google Analytics 4.
+      - title: Google Search Console
+        img: /img/connection/gsc.svg
+        description: To get SEO data of the site from Google search results.
+      - title: Semrush
+        img: /img/connection/semrush.svg
+        description: We provide a simple integration out of the box **without need a Semrush account**.
+      - title: Google My Business
+        img: /img/connection/gmb.svg
+        description: Coming soon.
+      - title: New connections soon
+        img: /img/connection/other.svg
+        description: |
+          [Let us know](mailto:yaye@getbadger.io) what tools you're missing.
+
+
+  - type: feature
+    class: is-reversed
+    title: White label
+    description: Upload your own logo (or your client's) to get a more personalized report
+    img: https://placehold.it/1000x400
+
+  - type: feature
+    title: PDF reports
+    description: Send a report in PDF to your client by email automatically.
+    img: https://placehold.it/1000x400
+
+  - type: feature
+    class: is-reversed
+    title: Annotations
+    description: Tell a story, include annotations in the charts
+    img: https://placehold.it/1000x400
+
+  - type: pricing
+    title: Select the plan that better fits your size
+
+  - type: highlight_cta2
+    title: Want to know if Badger suits your needs?
+    description: Introduce your email and we'll contact you to know what kind of reports are you delivering to your clients and we'll let you how Badger will help you to automatize your work and improve your productivity.
+    cta:
+      text: Get a demo
+      subscribe:
+        event: waiting_list_join
+        label: Give us your email for a demo adapted to your needs.
+        placeholder: example@email.com
+        success: Thanks for joining to Badger!
+
+
+  - type: faq
+    title: FAQs
+    questions:
+      - question: First question
+        answer: Answer of the question **in markdown**
+      - question: Second question
+        answer: Answer of the question **in markdown**

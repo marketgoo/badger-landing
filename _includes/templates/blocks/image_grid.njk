@@ -1,0 +1,23 @@
+<section class="block-imageGrid">
+  <header class="block-imageGrid-header">
+    <h1>{{ block.title }}</h1>
+
+    {{ block.description | md | safe }}
+  </header>
+
+  <ul class="block-imageGrid-items">
+    {% for item in block.items %}
+    <li>
+      <img src="{{ item.img }}" alt="{{ item.title }}">
+      <h3>{{ item.title }}</h3>
+      {{ item.description | md | safe }}
+    </li>
+    {% endfor %}
+  </ul>
+
+  {% if block.footer %}
+  <footer class="block-imageGrid-footer">
+    {{ block.footer | md | safe }}
+  </footer>
+  {% endif %}
+</section>
