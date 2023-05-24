@@ -18,3 +18,11 @@ body.has-header-primary-500 {
   background-repeat: no-repeat;
   background-size: 100% 200px;
 }
+body.has-header-black-100 {
+  background: linear-gradient(var(--black-100), var(--black-100));
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+}
+.has-padding-top {
+  padding-top: 5vh;
+}

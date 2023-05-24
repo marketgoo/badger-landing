@@ -1,7 +1,5 @@
 url: /seo-for-agencies/
 
-body_class: has-navbar has-header-primary-500
-navbar_class: is-bg-primary-500
 
 blocks:
   - type: header

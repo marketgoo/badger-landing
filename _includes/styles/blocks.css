@@ -10,7 +10,6 @@
   display: grid;
   row-gap: 20vh;
   column-gap: 5vw;
-  margin-bottom: 20vh;
   grid-template-columns: 0 minmax(0, calc(1400px - 10vw)) 0;
   justify-content: space-between;
 
