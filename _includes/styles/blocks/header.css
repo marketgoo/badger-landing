@@ -1,4 +1,20 @@
+.block-header-wrapper {
+  grid-template-columns: 0 minmax(0, calc(1400px - 10vw)) 0;
+  display: grid;
+  grid-column: 1 / -1 !important;
+  justify-content: center;
+  column-gap: 5vw;
+
+  & img {
+    box-shadow: 
+      0 1px 2px rgba(0,0,0,0.1),
+      0 2px 4px rgba(0,0,0,0.1),
+      0 4px 8px rgba(0,0,0,0.1);
+  }
+}
+
 .block-header {
+  grid-column: 2;
   padding: 10vh 0;
   margin: 0 auto;
   display: grid;
@@ -27,7 +43,7 @@
     color: var(--black-700);
 
     & strong {
-      background-color: var(--highlight-200);
+      background-color: var(--primary-300);
       font-weight: inherit;
       color: var(--black-900);
       padding: 0 .2em;

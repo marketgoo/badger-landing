@@ -1,5 +1,8 @@
 url: /seo-for-agencies/
 
+body_class: has-navbar has-header-primary-500
+navbar_class: is-bg-primary-500
+
 blocks:
   - type: header
     title: Beautiful SEO reports
@@ -11,11 +14,12 @@ blocks:
         label: Give us your email for a demo adapted to your needs.
         placeholder: example@email.com
         success: Thanks for joining to Badger!
-    img: https://placehold.it/800x400
+    img: /img/landings/public_report.png
 
   - type: image_grid
     title: Connect badger with your current data sources
-    description: Badger has support for the most used SEO tools, and we are working hard to implement more. Contact us and let us know what do you need.
+    description: |
+      Badger has support for the most used SEO tools, and we are working hard to implement more. [Contact us](mailto:yaye@getbadger.io) and let us know what do you need.
     items:
       - title: Google Analytics
         img: /img/connection/ga.svg
@@ -29,28 +33,24 @@ blocks:
       - title: Google My Business
         img: /img/connection/gmb.svg
         description: Coming soon.
-      - title: New connections soon
-        img: /img/connection/other.svg
-        description: |
-          [Let us know](mailto:yaye@getbadger.io) what tools you're missing.
 
 
   - type: feature
     class: is-reversed
     title: White label
-    description: Upload your own logo (or your client's) to get a more personalized report
-    img: https://placehold.it/1000x400
+    description: Upload your own logo (or your client's) to get a more personalized report.
+    img: /img/landings/custom_logo.png
 
   - type: feature
     title: PDF reports
-    description: Send a report in PDF to your client by email automatically.
-    img: https://placehold.it/1000x400
+    description: Send a report in PDF to your client by email, and make it more personal by writting a personalized message.
+    img: /img/landings/send_email.png
 
   - type: feature
     class: is-reversed
-    title: Annotations
-    description: Tell a story, include annotations in the charts
-    img: https://placehold.it/1000x400
+    title: Annotations (coming soon)
+    description: Sometimes a chart is not enough. Tell a story, by including annotations inside the chart to give context.
+    img: /img/landings/annotations.png
 
   - type: pricing
     title: Select the plan that better fits your size
@@ -65,12 +65,3 @@ blocks:
         label: Give us your email for a demo adapted to your needs.
         placeholder: example@email.com
         success: Thanks for joining to Badger!
-
-
-  - type: faq
-    title: FAQs
-    questions:
-      - question: First question
-        answer: Answer of the question **in markdown**
-      - question: Second question
-        answer: Answer of the question **in markdown**

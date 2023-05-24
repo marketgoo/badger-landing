@@ -20,10 +20,19 @@
     .field-input {
       grid-column: 1;
       grid-row: 2;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-right: 0;
     }
     .field-cta {
       grid-column: 2;
       grid-row: 2;
+
+      .button {
+        margin: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
     }
   }
 }

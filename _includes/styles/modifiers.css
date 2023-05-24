@@ -1,0 +1,20 @@
+.is-bg-primary-500 {
+  background-color: var(--primary-500);
+  --shadow-focus: white;
+
+  .button.is-primary {
+    --background: var(--black-900);
+    --background-hover: var(--black-800);
+    --color: white;
+  }
+  .button.is-secondary {
+    --color: var(--black-900);
+    --border: var(--primary-700);
+    --border-hover: var(--primary-900);
+  }
+}
+body.has-header-primary-500 {
+  background: linear-gradient(var(--primary-500), var(--primary-500));
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+}

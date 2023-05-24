@@ -12,6 +12,7 @@
   box-sizing: border-box;
   min-height: calc(65px - 2rem);
   z-index: 2;
+  border-radius: 0 0 8px 8px;
 
   @media (min-height: 500px) {
     position: sticky;
