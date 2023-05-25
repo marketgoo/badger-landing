@@ -8,6 +8,12 @@
       {% set cta = block.cta %}
       {% include "templates/cta.njk" %}
       {% endif %}
+
+      {% if block.secondary_cta %}
+      {% set cta = block.secondary_cta %}
+      {% set cta_class = "is-secondary" %}
+      {% include "templates/cta.njk" %}
+      {% endif %}
     </div>
 
     {% if block.img %}

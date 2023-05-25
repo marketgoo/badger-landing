@@ -1,7 +1,7 @@
 {% if cta.url %}
-  <a href="{{ cta.url }}" class="button is-primary">{{ cta.text }}</a>
+  <a href="{{ cta.url }}" class="button {{ cta_class or "is-primary" }}">{{ cta.text }}</a>
 {% elif cta.onclick %}
-  <button class="button is-primary" onclick="{{ cta.onclick }}">
+  <button class="button {{ cta_class or "is-primary" }}" onclick="{{ cta.onclick }}">
     {{ cta.text }}
   </button>
 {% elif cta.subscribe %}

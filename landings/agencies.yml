@@ -1,17 +1,21 @@
 url: /seo-for-agencies/
 
+extra_header: |
+  <!-- Calendly widget script -->
+  <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
 blocks:
   - type: header
     title: Beautiful SEO reports
     description: Badger is the easiest and fastest tool to create **SEO reports for agencies** that your clients will love.
     cta:
-      text: Get a demo
-      subscribe:
-        event: waiting_list_join
-        label: Give us your email for a demo adapted to your needs.
-        placeholder: example@email.com
-        success: Thanks for joining to Badger!
+      text: Try it for free
+      url: https://app.getbadger.io/
+    secondary_cta:
+      text: Schedule a demo now
+      onclick: |
+        Calendly.initPopupWidget({url: 'https://calendly.com/drochmarketgoo/badgerproductdemo'});
     img: /img/landings/public_report.png
 
   - type: image_grid
@@ -54,12 +58,9 @@ blocks:
     title: Select the plan that better fits your size
 
   - type: highlight_cta2
-    title: Want to know if Badger suits your needs?
-    description: Introduce your email and we'll contact you to know what kind of reports are you delivering to your clients and we'll let you how Badger will help you to automatize your work and improve your productivity.
-    cta:
-      text: Get a demo
-      subscribe:
-        event: waiting_list_join
-        label: Give us your email for a demo adapted to your needs.
-        placeholder: example@email.com
-        success: Thanks for joining to Badger!
+    title: Want to see it in action?
+    description: |
+      Schedule a call with our team—and we’ll be happy to walk you through it! Plus: **zero commitment from your side.**
+    cta: 
+      text: Schedule a free demo
+      onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/drochmarketgoo/badgerproductdemo'})"
