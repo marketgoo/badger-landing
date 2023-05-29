@@ -10,7 +10,7 @@ metas:
   image: /img/connect.png
 
 block:
-  title: Choose a plan to suit your needs
+  title: Choose a plan<br> to suit your needs
 
 menu:
   links:

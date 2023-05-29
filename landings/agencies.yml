@@ -62,7 +62,7 @@ blocks:
     img: /img/landings/annotations.png
 
   - type: pricing
-    title: Choose a plan to suit your needs
+    title: Choose a plan <br>to suit your needs
 
   - type: highlight_cta2
     title: Want to see it in action?
