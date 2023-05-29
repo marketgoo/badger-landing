@@ -6,6 +6,35 @@
     align-items: baseline;
     column-gap: 1em;
   }
+
+  &.has-cta {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    row-gap: 4px;
+
+    .field-label {
+      grid-column: 1 / -1;
+      grid-row: 1;
+    }
+    
+    .field-input {
+      grid-column: 1;
+      grid-row: 2;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-right: 0;
+    }
+    .field-cta {
+      grid-column: 2;
+      grid-row: 2;
+
+      .button {
+        margin: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+    }
+  }
 }
 .field-label {
   color: var(--black-900);

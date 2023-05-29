@@ -18,6 +18,8 @@
   {% endif %}
 
   <script src="/scripts/main.js?cache={{ cache }}" type="module"></script>
+
+  {{ extra_header | safe }}
 </head>
 
 <body class="{{ body_class }}">

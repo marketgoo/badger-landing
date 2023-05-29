@@ -1,0 +1,68 @@
+url: /seo-for-agencies/
+
+title: Badger - A tool for SEO agencies to automate reports
+
+extra_header: |
+  <!-- Calendly widget script -->
+  <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+blocks:
+  - type: header
+    title: Beautiful SEO reports
+    description: Badger is the easiest and fastest tool to create **SEO reports for agencies** that your clients will love.
+    cta:
+      text: Try it for free
+      url: https://app.getbadger.io/
+    secondary_cta:
+      text: Schedule a demo now
+      onclick: |
+        Calendly.initPopupWidget({url: 'https://calendly.com/drochmarketgoo/badgerproductdemo'});
+    img: /img/landings/public_report.png
+
+  - type: image_grid
+    title: Connect badger with your current data sources
+    description: |
+      Badger has support for the most used SEO tools, and we are working hard to implement more. [Contact us](mailto:yaye@getbadger.io) and let us know what do you need.
+    items:
+      - title: Google Analytics
+        img: /img/connection/ga.svg
+        description: Both Universal Analytics (UA) and the new Google Analytics 4.
+      - title: Google Search Console
+        img: /img/connection/gsc.svg
+        description: To get SEO data of the site from Google search results.
+      - title: Semrush
+        img: /img/connection/semrush.svg
+        description: We provide a simple integration out of the box **without need a Semrush account**.
+      - title: Google My Business
+        img: /img/connection/gmb.svg
+        description: Coming soon.
+
+
+  - type: feature
+    class: is-reversed
+    title: White label
+    description: Upload your own logo (or your client's) to get a more personalized report.
+    img: /img/landings/custom_logo.png
+
+  - type: feature
+    title: PDF reports
+    description: Send a report in PDF to your client by email, and make it more personal by writting a personalized message.
+    img: /img/landings/send_email.png
+
+  - type: feature
+    class: is-reversed
+    title: Annotations (coming soon)
+    description: Sometimes a chart is not enough. Tell a story, by including annotations inside the chart to give context.
+    img: /img/landings/annotations.png
+
+  - type: pricing
+    title: Choose a plan to suit your needs
+
+  - type: highlight_cta2
+    title: Want to see it in action?
+    description: |
+      Schedule a call with our team—and we’ll be happy to walk you through it! Plus: **zero commitment from your side.**
+    cta: 
+      text: Schedule a free demo
+      onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/drochmarketgoo/badgerproductdemo'})"

@@ -1,19 +1,21 @@
 {% if cta.url %}
-  <a href="{{ cta.url }}" class="button is-primary">{{ cta.text }}</a>
+  <a href="{{ cta.url }}" class="button {{ cta_class or "is-primary" }}">{{ cta.text }}</a>
 {% elif cta.onclick %}
-  <button class="button is-primary" onclick="{{ cta.onclick }}">
+  <button class="button {{ cta_class or "is-primary" }}" onclick="{{ cta.onclick }}">
     {{ cta.text }}
   </button>
 {% elif cta.subscribe %}
   <badger-subscribe id="subscribe" data-event="{{ cta.subscribe.event }}">
     <form method="post">
-      <div class="field">
+      <div class="field has-cta">
         <label for="email" class="field-label">
           {{ cta.subscribe.label | default("Email") }}
         </label>
         <input required type="email" id="email" class="input field-input" placeholder="{{ cta.subscribe.placeholder | default("mail@example.com") }}">
+        <div class="field-cta">
+          <button type="submit" class="button is-primary is-responsive">{{ cta.text }}</button>
+        </div>
       </div>
-      <button type="submit" class="button is-primary is-responsive">{{ cta.text }}</button>
     </form>
     <template class="tmpl-success">
       <div class="form-success">

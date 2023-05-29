@@ -1,15 +1,23 @@
-<header class="block-header {{ block.class }}">
-  <div class="block-header-content">
-    <h1>{{ block.title }}</h1>
-    {{ block.description | md | safe }}
+<div class="block-header-wrapper is-bg-black-100">
+  <header class="block-header {{ block.class }}">
+    <div class="block-header-content">
+      <h1>{{ block.title }}</h1>
+      {{ block.description | md | safe }}
 
-    {% if block.cta %}
-    {% set cta = block.cta %}
-    {% include "templates/cta.njk" %}
+      {% if block.cta %}
+      {% set cta = block.cta %}
+      {% include "templates/cta.njk" %}
+      {% endif %}
+
+      {% if block.secondary_cta %}
+      {% set cta = block.secondary_cta %}
+      {% set cta_class = "is-secondary" %}
+      {% include "templates/cta.njk" %}
+      {% endif %}
+    </div>
+
+    {% if block.img %}
+      <img src="{{ block.img }}" alt="{{ block.title }}">
     {% endif %}
-  </div>
-
-  {% if block.img %}
-    <img src="{{ block.img }}" alt="{{ block.title }}">
-  {% endif %}
-</header>
+  </header>
+</div>

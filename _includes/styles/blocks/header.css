@@ -1,4 +1,29 @@
+.block-header-wrapper {
+  grid-template-columns: 0 minmax(0, calc(1400px - 10vw)) 0;
+  display: grid;
+  grid-column: 1 / -1 !important;
+  justify-content: center;
+  column-gap: 5vw;
+  background-image:
+    radial-gradient(closest-side, var(--primary-100), transparent),
+    radial-gradient(closest-side, var(--accent-100), transparent),
+    linear-gradient(to bottom, var(--black-100), transparent);
+  background-position: right -500px top -500px, -250px -500px, 0 0;
+  background-repeat: no-repeat;
+  background-size: 1000px 1000px, 1000px 1000px, cover;
+  background-blend-mode: multiply;
+  
+
+  & img {
+    border-radius: 4px;
+    box-shadow: 
+      0 1px 4px rgba(0,0,0,0.05),
+      0 1px 32px rgba(0,0,0,0.2);
+  }
+}
+
 .block-header {
+  grid-column: 2;
   padding: 10vh 0;
   margin: 0 auto;
   display: grid;
