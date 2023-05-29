@@ -21,6 +21,7 @@ blocks:
     img: /img/landings/public_report.png
 
   - type: image_grid
+    class: is-narrow
     title: Connect badger with your current data sources
     description: |
       Badger has support for the most used SEO tools, and we are working hard to implement more. [Contact us](mailto:yaye@getbadger.io) and let us know what do you need.
@@ -36,6 +37,12 @@ blocks:
         description: We provide a simple integration out of the box **without need a Semrush account**.
       - title: Google My Business
         img: /img/connection/gmb.svg
+        description: Coming soon.
+      - title: Google Adwords
+        img: /img/connection/adwords.svg
+        description: Coming soon.
+      - title: Lighthouse
+        img: /img/connection/lighthouse.svg
         description: Coming soon.
 
 
