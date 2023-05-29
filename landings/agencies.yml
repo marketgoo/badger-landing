@@ -9,58 +9,56 @@ extra_header: |
 
 blocks:
   - type: header
-    title: Beautiful SEO reports
-    description: Badger is the easiest and fastest tool to create **SEO reports for agencies** that your clients will love.
+    title: Reports your clients will love
+    description: Badger is the easiest and fastest tool to create **SEO reports for agencies** to wow clients.
     cta:
       text: Try it for free
       url: https://app.getbadger.io/
     secondary_cta:
       text: Schedule a demo now
-      onclick: |
-        Calendly.initPopupWidget({url: 'https://calendly.com/drochmarketgoo/badgerproductdemo'});
+      onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/drochmarketgoo/badgerproductdemo'})"
     img: /img/landings/public_report.png
 
   - type: image_grid
     class: is-narrow
-    title: Connect badger with your current data sources
+    title: Connect to data sources you already use
     description: |
-      Badger has support for the most used SEO tools, and we are working hard to implement more. [Contact us](mailto:yaye@getbadger.io) and let us know what do you need.
+      Badger has support for the most used SEO tools, and we're working hard to implement more. [Contact us](mailto:yaye@getbadger.io) to let us know what you need.
     items:
       - title: Google Analytics
         img: /img/connection/ga.svg
         description: Both Universal Analytics (UA) and the new Google Analytics 4.
       - title: Google Search Console
         img: /img/connection/gsc.svg
-        description: To get SEO data of the site from Google search results.
+        description: To get SEO data from Google search results.
       - title: Semrush
         img: /img/connection/semrush.svg
-        description: We provide a simple integration out of the box **without need a Semrush account**.
+        description: A simple, out-the-box integration **without the need for a Semrush account**.
       - title: Google My Business
         img: /img/connection/gmb.svg
-        description: Coming soon.
+        description: Coming soon...
       - title: Google Adwords
         img: /img/connection/adwords.svg
-        description: Coming soon.
+        description: Coming soon...
       - title: Lighthouse
         img: /img/connection/lighthouse.svg
-        description: Coming soon.
-
+        description: Coming soon...
 
   - type: feature
     class: is-reversed
     title: White label
-    description: Upload your own logo (or your client's) to get a more personalized report.
+    description: Upload your own logo (or your client's) to add a personal touch.
     img: /img/landings/custom_logo.png
 
   - type: feature
     title: PDF reports
-    description: Send a report in PDF to your client by email, and make it more personal by writting a personalized message.
+    description: Send your reports as a PDF, along with a personal message to your client.
     img: /img/landings/send_email.png
 
   - type: feature
     class: is-reversed
     title: Annotations (coming soon)
-    description: Sometimes a chart is not enough. Tell a story, by including annotations inside the chart to give context.
+    description: Sometimes a chart isn't enough. Go beyond the numbers by including explanatory notes.
     img: /img/landings/annotations.png
 
   - type: pricing
@@ -69,7 +67,7 @@ blocks:
   - type: highlight_cta2
     title: Want to see it in action?
     description: |
-      Schedule a call with our team—and we’ll be happy to walk you through it! Plus: **zero commitment from your side.**
+      Schedule a call with our team—and we'll be happy to walk you through it! Plus: **zero commitment from your side.**
     cta: 
       text: Schedule a free demo
       onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/drochmarketgoo/badgerproductdemo'})"
