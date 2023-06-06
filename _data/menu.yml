@@ -1,0 +1,15 @@
+links:
+  - text: Blog
+    href: "/blog"
+    class: is-selected
+  - text: Roadmap
+    href: "https://badger.prodcamp.com/"
+  - text: Pricing
+    href: "/pricing/"
+ctas:
+  - text: Log in
+    class: button is-secondary
+    href: https://app.getbadger.io/
+  - text: Try it for free
+    class: button is-primary
+    href: https://app.getbadger.io/

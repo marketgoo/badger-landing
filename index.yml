@@ -21,8 +21,8 @@ menu:
       href: "#step-1"
     - text: Blog
       href: "/blog/"
-    - text: Updates
-      href: "/updates/"
+    - text: Roadmap
+      href: "https://badger.prodcamp.com/"
     - text: Pricing
       href: "/pricing/"
   ctas:

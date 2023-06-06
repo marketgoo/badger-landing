@@ -3,15 +3,3 @@ type: post
 metas:
   title: "=title"
   description: "=excerpt"
-
-menu:
-  links:
-    - text: Blog
-      href: "/blog"
-      class: is-selected
-    - text: Updates
-      href: "/updates/"
-  ctas:
-    - text: Try Badger for free
-      class: button is-primary
-      href: https://app.getbadger.io/
