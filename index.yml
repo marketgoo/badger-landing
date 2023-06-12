@@ -59,16 +59,16 @@ steps:
     img: /img/public.png
     description: Your reports are **shared via a public URL**, where clients can
       easily see their most important metrics, along with your comments.
-resume: No more copying and pasting screenshots. No more fiddling with Google
-  Data Studio. Create tailored reports in minutes with **Badger**.
+resume: 
 
 demo:
   title: Want to see it in action?
   description: |
-    Schedule a call with our team—and we’ll be happy to walk you through it! Plus: **zero commitment from your side.**
+    No more copying and pasting screenshots. No more fiddling with Google
+    Data Studio. Create tailored reports in minutes with **Badger**.
   cta: 
-    text: Schedule a free demo
-    onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/drochmarketgoo/badgerproductdemo'})"
+    text: Try it for free
+    url: "https://app.getbadger.io"
 faq:
   title: FAQs
   questions:

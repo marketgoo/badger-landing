@@ -9,9 +9,6 @@ try_url: "https://app.getbadger.io"
 
 {% include "templates/navbar.njk" %}
 
-<!-- Calendly widget script -->
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-
 <header class="landing-header">
   <h1>{{ header.title | safe }}</h1>
 
@@ -20,7 +17,6 @@ try_url: "https://app.getbadger.io"
 
     <div class="button-group">
       <a href="{{ try_url }}" class="button is-primary is-responsive">{{ header.cta }}</a>
-      <button class="button is-secondary is-responsive" onclick="Calendly.initPopupWidget({url: '{{ header.calendly_url }}'});">{{ header.demo }}</button>
     </div>
   </div>
 </header>
@@ -39,12 +35,8 @@ try_url: "https://app.getbadger.io"
   </section>
   {% endfor %}
 
-  <section class="landing-resume">
-    {{ resume | md | safe }}
-  </section>
-
   {% set block = demo %}
-  {% include "templates/blocks/highlight_cta.njk" %}
+  {% include "templates/blocks/highlight_cta2.njk" %}
 
   {% set block = faq %}
   {% include "templates/blocks/faq.njk" %}
