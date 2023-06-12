@@ -1,14 +1,39 @@
 copyright: ""
-links:
-  - text: Privacy Policy
-    href: /privacy/
-  - text: Terms of Service
-    href: /terms/
-  - text: Roadmap
-    href: "/roadmap/"
 cookies:
   text: >
     We use cookies to provide necessary website functionality, improve your
     experience and analyze our traffic. By using our website, you agree to our
     [Privacy Policy](/privacy/) and our [cookies usage](/cookies/)
   button: OK, got it!
+
+menu:
+  - title: Product
+    links:
+    - text: Pricing
+      href: /pricing/
+    - text: Roadmap
+      href: https://badger.prodcamp.com/
+    - text: Sign up
+      href: https://app.getbadger.com/
+  - title: Trust
+    links:
+    - text: Privacy Policy
+      href: /privacy/
+    - text: Terms of Service
+      href: /terms/
+    - text: Cookies
+      href: /cookies/
+  - title: Support
+    links:
+    - text: Help center
+      href: https://badger.helpscoutdocs.com/
+  - title: Company
+    links:
+    - text: hello@getbadger.io
+      href: mailto:hello@getbadger.io
+    - text: Twitter
+      href: https://twitter.com/MeetBadger
+      icon: /icons/twitter.svg
+    - text: LinkedIn
+      href: https://www.linkedin.com/company/getbadger/
+      icon: /icons/linkedin.svg
