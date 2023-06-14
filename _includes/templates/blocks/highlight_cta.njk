@@ -5,7 +5,7 @@
   <div>
     {{ block.description | md | safe }}
 
-    {% if block.cta %}
+    {% ifAsync block.cta %}
     {% set cta = block.cta %}
     {% include "templates/cta.njk" %}
     {% endif %}

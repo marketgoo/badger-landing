@@ -4,12 +4,12 @@
       <h1>{{ block.title }}</h1>
       {{ block.description | md | safe }}
 
-      {% if block.cta %}
+      {% ifAsync block.cta %}
       {% set cta = block.cta %}
       {% include "templates/cta.njk" %}
       {% endif %}
 
-      {% if block.secondary_cta %}
+      {% ifAsync block.secondary_cta %}
       {% set cta = block.secondary_cta %}
       {% set cta_class = "is-secondary" %}
       {% include "templates/cta.njk" %}
