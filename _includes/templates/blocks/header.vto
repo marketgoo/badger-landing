@@ -1,0 +1,20 @@
+<div class="block-header-wrapper is-bg-black-100">
+  <header class="block-header {{ block.class }}">
+    <div class="block-header-content">
+      <h1>{{ block.title }}</h1>
+      {{ block.description |> md }}
+
+      {{ if block.cta }}
+      {{ include "templates/cta.vto" { cta: block.cta } }}
+      {{ /if }}
+
+      {{ if block.secondary_cta }}
+      {{ include "templates/cta.vto" { cta: block.secondary_cta, cta_class: "is-secondary" } }}
+      {{ /if }}
+    </div>
+
+    {{ if block.img }}
+      <img src="{{ block.img }}" alt="{{ block.title }}">
+    {{ /if }}
+  </header>
+</div>

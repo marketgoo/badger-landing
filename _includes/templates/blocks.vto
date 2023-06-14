@@ -1,0 +1,3 @@
+{{ for index, block of blocks }}
+    {{ include "templates/blocks/" + block.type + ".vto" { index, block } }}
+{{ /for }}

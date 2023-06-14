@@ -7,23 +7,23 @@
   <link rel="icon" href="/favicon.svg">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <meta name="google-site-verification" content="IJ3PZ2iLpcLv-1arm84keiu1PVGjqXbLBzaasPKuI9o">
-  <link rel="canonical" href="{{ url | url(true) }}">
+  <link rel="canonical" href="{{ url |> url(true) }}">
 
-  {% for href in css %}
+  {{ for href of css }}    
   <link rel="stylesheet" href="{{ href }}?cache={{ cache }}">
-  {% endfor %}
+  {{ /for }}
 
-  {% if not disable_posthog %}
-  {% include "templates/posthog.njk" %}
-  {% endif %}
+  {{ if !it.disable_posthog }}
+  {{ include "templates/posthog.vto" }}
+  {{ /if }}
 
   <script src="/scripts/main.js?cache={{ cache }}" type="module"></script>
 
-  {{ extra_header | safe }}
+  {{ it.extra_header }}
 </head>
 
-<body class="{{ body_class }}">
-  {{ content | safe }}
-  {% include "templates/footer.njk" %}
+<body class="{{ it.body_class }}">
+  {{ content }}
+  {{ include "templates/footer.vto" }}
 </body>
 </html>

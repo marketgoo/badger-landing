@@ -1,6 +1,6 @@
 <section class="block-pricing">
   <header class="block-pricing-header">
-    <h1>{{ block.title | safe }}</h1>
+    <h1>{{ block.title }}</h1>
 
     <label class="switch">
       <input type="checkbox" checked class="switch-input" id="show-annually" />
@@ -11,7 +11,7 @@
   </header>
 
   <ul class="block-pricing-tiers">
-    {% for tier in tiers.tiers %}
+    {{ for tier of tiers.tiers }}
     <li>
       <article class="tier">
         <header class="tier-header">
@@ -31,18 +31,18 @@
           </em>
         </p>
         <ul class="tier-features">
-          {% for feature in tier.features %}
-          <li>{{ feature | md | safe }}</li>
-          {% endfor %}
+          {{ for feature of tier.features }}
+          <li>{{ feature |> md }}</li>
+          {{ /for }}
         </ul>
         <a href="https://app.getbadger.io" class="tier-cta button is-primary">{{ tier.cta }}</a>
       </article>
     </li>
-    {% endfor %}
+    {{ /for }}
   </ul>
 
   <footer class="block-pricing-footer">
-    {{ tiers.contact | md | safe }}
+    {{ tiers.contact |> md }}
   </footer>
 
   <script>

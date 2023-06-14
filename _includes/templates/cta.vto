@@ -1,0 +1,32 @@
+{{ if cta.url }}
+  <a href="{{ cta.url }}" class="button {{ it.cta_class || "is-primary" }}">{{ cta.text }}</a>
+{{ else if cta.onclick }}
+  <button class="button {{ it.cta_class || "is-primary" }}" onclick="{{ cta.onclick }}">
+    {{ cta.text }}
+  </button>
+{{ else if cta.subscribe }}
+  <badger-subscribe id="subscribe" data-event="{{ cta.subscribe.event }}">
+    <form method="post">
+      <div class="field has-cta">
+        <label for="email" class="field-label">
+          {{ cta.subscribe.label || "Email" }}
+        </label>
+        <input required type="email" id="email" class="input field-input" placeholder="{{ cta.subscribe.placeholder || "mail@example.com" }}">
+        <div class="field-cta">
+          <button type="submit" class="button is-primary is-responsive">{{ cta.text }}</button>
+        </div>
+      </div>
+    </form>
+    <template class="tmpl-success">
+      <div class="form-success">
+        {{ cta.subscribe.success |> md }}
+        {{ comp.fireworks() }}
+      </div>
+    </template>
+    <template class="tmpl-error">
+      <div class="form-error">
+        {{ cta.subscribe.error || "Ooops, there's an error. [Refresh the page](./) and try it again" |> md }}
+      </div>
+    </template>
+  </badger-subscribe>
+{{ /if }}

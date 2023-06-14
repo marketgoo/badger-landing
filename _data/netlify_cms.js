@@ -93,10 +93,9 @@ const data = t.files("Global data")
       t.select("State", ["Backlog", "Upcoming", "Building", "Released"]),
       t.markdown("Description"),
     ])
-    .summary("[{{fields.state}}] - {{fields.title}}")
-    .minimizeCollapsed(false),
+      .summary("[{{fields.state}}] - {{fields.title}}")
+      .minimizeCollapsed(false),
   ]);
-  
 
 // Updates
 const updates = t.folder("Updates", "updates", [

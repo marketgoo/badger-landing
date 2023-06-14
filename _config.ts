@@ -3,10 +3,10 @@ import postcss from "lume/plugins/postcss.ts";
 import cms from "lume/plugins/netlify_cms.ts";
 import metas from "lume/plugins/metas.ts";
 import date from "lume/plugins/date.ts";
-import feed from "lume/plugins/feed.ts";
 import inline from "lume/plugins/inline.ts";
 import md_image from "https://deno.land/x/lume_markdown_plugins@v0.4.0/image.ts";
 import md_toc from "https://deno.land/x/lume_markdown_plugins@v0.4.0/toc.ts";
+import vento from "https://raw.githubusercontent.com/lumeland/experimental-plugins/aae57a9aed24507cebe4fdfdba1ac62a9f88c6a7/vento/mod.ts";
 
 export default lume({
   location: new URL("https://getbadger.io"),
@@ -21,14 +21,7 @@ export default lume({
   .use(date())
   .use(metas())
   .use(inline())
-  .use(feed({
-    output: ["/updates/feed.xml"],
-    query: "type=update",
-    info: {
-      title: "Badger updates",
-      description: "Changelog and new features annoucements",
-    },
-  }))
+  .use(vento())
   .use(cms({
     previewStyle: "styles/admin.css",
     netlifyIdentity: true,

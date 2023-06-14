@@ -1,0 +1,22 @@
+<nav class="navbar {{ it.navbar_class }}">
+  <a href="/" class="navbar-logo">
+    <img src="/badger.svg" alt="Badger logo">
+  </a>
+
+  <ul class="navbar-menu has-links">
+    {{ for item of menu.links }}
+    <li>
+      <a class="{{ item.class }}" href="{{ item.href }}" {{ item.href == url && 'aria-current="page"' }}>
+        {{ item.text }}
+      </a>
+    </li>
+    {{ /for }}
+  </ul>
+  <ul class="navbar-menu has-ctas">
+    {{ for item of menu.ctas }}
+    <li>
+      <a class="{{ item.class }}" href="{{ item.href }}">{{ item.text }}</a>
+    </li>
+    {{ /for }}
+  </ul>
+</nav>

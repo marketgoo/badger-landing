@@ -1,2 +1,2 @@
-layout: layouts/landings.njk
+layout: layouts/landings.vto
 try_url: "https://app.getbadger.io"

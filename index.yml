@@ -1,5 +1,5 @@
 title: Badger - Automate your SEO reports
-layout: layouts/landing.njk
+layout: layouts/landing.vto
 metas:
   title: Badger - Automate your SEO reports
   robots: true

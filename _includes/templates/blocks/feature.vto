@@ -1,0 +1,10 @@
+<section id="step-{{ index }}" class="block-feature {{ block.class }}">
+  <div class="block-feature-content">
+    <h2>{{ block.title }}</h2>
+    {{ block.description |> md }}
+  </div>
+
+  {{ if block.img }}
+    <img src="{{ block.img }}">
+  {{ /if }}
+</section>

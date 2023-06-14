@@ -2,22 +2,22 @@
   <header class="block-imageGrid-header">
     <h1>{{ block.title }}</h1>
 
-    {{ block.description | md | safe }}
+    {{ block.description |> md }}
   </header>
 
   <ul class="block-imageGrid-items">
-    {% for item in block.items %}
+    {{ for item of block.items }}
     <li>
       <img src="{{ item.img }}" alt="{{ item.title }}">
       <h3>{{ item.title }}</h3>
-      {{ item.description | md | safe }}
+      {{ item.description |> md }}
     </li>
-    {% endfor %}
+    {{ /for }}
   </ul>
 
-  {% if block.footer %}
+  {{ if block.footer }}
   <footer class="block-imageGrid-footer">
-    {{ block.footer | md | safe }}
+    {{ block.footer |> md }}
   </footer>
-  {% endif %}
+  {{ /if }}
 </section>

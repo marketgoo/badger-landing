@@ -1,0 +1,12 @@
+<section class="block-highlightCta">
+  <header>
+    <h2>{{ block.title |> md(true) }}</h2>
+  </header>
+  <div>
+    {{ block.description |> md }}
+
+    {{ if block.cta }}
+    {{ include "templates/cta.vto" { cta: block.cta } }}
+    {{ /if }}
+  </div>
+</section>

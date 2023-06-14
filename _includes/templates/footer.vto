@@ -1,27 +1,27 @@
 <footer class="footer">
   <div class="footer-sections">
-    {% for section in footer.menu %}  
+    {{ for section of footer.menu }}
     <nav class="footer-section">
       <h3>{{ section.title }}</h3>
 
       <ul>
-        {% for link in section.links %}
+        {{ for link of section.links }}
         <li><a href="{{ link.href }}">
-          {% if link.icon %}
+          {{ if link.icon }}
           <img src="{{ link.icon }}" inline>
-          {%- endif -%}
-          {{- link.text }}
+          {{ /if }}
+          {{ link.text }}
         </a></li>
-        {% endfor %}
+        {{ /for }}
       </ul>
     </nav>
-    {% endfor %}
+    {{ /for }}
   </div>
 
   {{ footer.copyright }}
 </footer>
 <badger-cookies class="footer-cookies">
-  {{ footer.cookies.text | md | safe }}
+  {{ footer.cookies.text |> md }}
 
   <button class="button is-secondary is-small">{{ footer.cookies.button }}</button>
 </badger-cookies>

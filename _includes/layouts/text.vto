@@ -1,11 +1,11 @@
 ---
-layout: ./base.njk
+layout: ./base.vto
 css: 
   - /styles/texts.css
 body_class: has-navbar
 ---
 
-{% include "templates/navbar.njk" %}
+{{ include "templates/navbar.vto" }}
 
 <article class="text">
   <header class="text-header">
@@ -13,6 +13,6 @@ body_class: has-navbar
   </header>
 
   <div class="text-content">
-    {{ content | safe }}
+    {{ content }}
   </div>
 </article>

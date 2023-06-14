@@ -1,5 +1,0 @@
-layout: layouts/update.njk
-type: update
-metas:
-  title: "=title"
-  description: "=content"

@@ -1,13 +1,13 @@
 ---
-layout: ./base.njk
+layout: ./base.vto
 css:
   - /styles/landings.css
 body_class: has-navbar
 try_url: "https://app.getbadger.io"
 ---
 
-{% include "templates/navbar.njk" %}
+{{ include "templates/navbar.vto" }}
 
 <div class="blocks-container has-padding-top">
-  {% include "templates/blocks/pricing.njk" %}
+  {{ include "templates/blocks/pricing.vto" }}
 </div>
