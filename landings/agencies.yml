@@ -25,14 +25,14 @@ blocks:
       - title: Semrush
         img: /img/connection/semrush.svg
         description: A simple, out-the-box integration **without the need for a Semrush account**.
+      - title: Lighthouse
+        img: /img/connection/lighthouse.svg
+        description: An out-the-box integration with data from Google PageSpeed Insights.
       - title: Google My Business
         img: /img/connection/gmb.svg
         description: Coming soon...
       - title: Google Adwords
         img: /img/connection/adwords.svg
-        description: Coming soon...
-      - title: Lighthouse
-        img: /img/connection/lighthouse.svg
         description: Coming soon...
 
   - type: feature
