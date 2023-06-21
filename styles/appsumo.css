@@ -1,0 +1,27 @@
+@import "styles/default.css";
+@import "styles/variables.css";
+@import "styles/components.css";
+@import "styles/modifiers.css";
+@import "styles/blocks.css";
+
+.blocks-container {
+  margin: 20vh 0;
+  padding: 0;
+}
+.appsumo-header {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+
+  & h1 {
+    font: var(--font-6-bold);
+    letter-spacing: var(--font-spacing-6);
+  }
+
+  & p {
+    font: var(--font-1);
+    letter-spacing: var(--font-spacing-1);
+    color: var(--black-700);
+    margin-bottom: 2em;
+  }
+}

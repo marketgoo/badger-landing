@@ -1,0 +1,21 @@
+---
+layout: ./base.vto
+css:
+  - /styles/appsumo.css
+body_class: has-navbar
+try_url: "https://app.getbadger.io"
+---
+
+{{ include "templates/navbar.vto" }}
+
+<div class="blocks-container has-padding-top">
+  <header class="appsumo-header">
+    <img src="/img/appsumo-logo.svg" alt="AppSumo" class="appsumo-logo" />
+
+    <h1>{{ header.title }}</h1>
+
+    {{ header.description |> md }}
+
+    {{ include "templates/cta.vto" {cta: header.cta} }}
+  </header>
+</div>
