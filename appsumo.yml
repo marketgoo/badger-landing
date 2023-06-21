@@ -1,0 +1,11 @@
+title: Badger - Appsumo campaign
+layout: layouts/appsumo.vto
+url: /appsumo/
+
+header:
+  title: Hey, we are in Appsumo campaign!!
+  description: |
+    During this period, only new users comming from Appsumo are allowed. Take the opportunity to get a **lifetime account with an one-off payment.**
+  cta:
+    text: Take me to Appsumo
+    url: https://appsumo.8odi.net/VmZMm3

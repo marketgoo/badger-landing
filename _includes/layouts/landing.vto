@@ -4,7 +4,6 @@ css:
   - https://assets.calendly.com/assets/external/widget.css
   - /styles/landing.css
 body_class: has-navbar
-try_url: "https://app.getbadger.io"
 ---
 
 {{ include "templates/navbar.vto" }}
@@ -16,7 +15,7 @@ try_url: "https://app.getbadger.io"
     <p>{{ header.intro |> md }}</p>
 
     <div class="button-group">
-      <a href="{{ try_url }}" class="button is-primary is-responsive">{{ header.cta }}</a>
+      <a href="{{ header.cta.url }}" class="button is-primary is-responsive">{{ header.cta.text }}</a>
     </div>
   </div>
 </header>
