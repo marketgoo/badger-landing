@@ -1,7 +1,7 @@
-title: Badger - Automate your SEO reports
+title: Badger - Marketing reports made easy
 layout: layouts/landing.vto
 metas:
-  title: Badger - Automate your SEO reports
+  title: =title
   robots: true
   description: Connect data sources like Google Analytics or Search Console in a
     single place to generate and share meaningful and custom reports with your
