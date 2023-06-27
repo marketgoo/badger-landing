@@ -35,7 +35,7 @@ menu:
       class: button is-primary
       href: /appsumo/
 steps:
-  - title: One place for all your SEO data
+  - title: One place for all your data
     class: is-connect
     img: /img/connect.png
     description: Connect your sources to Badger to start **collecting data**. The
@@ -43,8 +43,8 @@ steps:
   - title: Focus on what’s important
     class: is-chart
     img: /img/chart.png
-    description: After connecting your sources, select and filter the data to
-      **generate the exact chart** that you need.
+    description: |
+      After connecting your sources, select and filter the data to **generate the exact chart** that you need.
   - title: Create reports in minutes
     class: is-save
     img: /img/save.png
@@ -75,7 +75,7 @@ faq:
   title: FAQs
   questions:
     - question: What integrations are available on Badger?
-      answer: At the moment, Google Analytics and Google Search Console. We  plan to add plenty of other integrations as Badger grows – and we’d love to know which SEO data sources you’d like to see there! Sign up for the trial and let us know.
+      answer: At the moment, Google Analytics and Google Search Console. We plan to add plenty of other integrations as Badger grows – and we’d love to know which SEO data sources you’d like to see there! Sign up for the trial and let us know.
     - question: What about features like white label or scheduling automation (or
         others I want to see)?
       answer: Everybody’s needs are slightly different – and we plan to use your
