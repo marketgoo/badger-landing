@@ -6,7 +6,7 @@ import date from "lume/plugins/date.ts";
 import inline from "lume/plugins/inline.ts";
 import md_image from "https://deno.land/x/lume_markdown_plugins@v0.4.0/image.ts";
 import md_toc from "https://deno.land/x/lume_markdown_plugins@v0.4.0/toc.ts";
-import vento from "https://raw.githubusercontent.com/lumeland/experimental-plugins/main/vento/mod.ts";
+import vento from "lume/plugins/vento.ts";
 
 export default lume({
   location: new URL("https://getbadger.io"),

@@ -6,8 +6,8 @@ blocks:
     title: Reports your clients will love
     description: Badger is the easiest and fastest tool to create **SEO reports for agencies** to wow clients.
     cta:
-      text: Try it now
-      url: /appsumo/
+      text: Try it for free
+      url: https://app.getbadger.io/
     img: /img/landings/public_report.png
 
   - type: image_grid
@@ -61,5 +61,5 @@ blocks:
       No more copying and pasting screenshots. No more fiddling with Google
       Data Studio. Create tailored reports in minutes with **Badger**.
     cta: 
-      text: Try it now
-      url: /appsumo/
+      text: Try it for free
+      url: https://app.getbadger.io/

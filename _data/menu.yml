@@ -10,6 +10,6 @@ ctas:
   - text: Log in
     class: button is-secondary
     href: https://app.getbadger.io/
-  - text: Try it now
+  - text: Try it for free
     class: button is-primary
-    href: /appsumo/
+    href: https://app.getbadger.io/

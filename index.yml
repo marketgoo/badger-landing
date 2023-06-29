@@ -12,8 +12,8 @@ header:
   title: Marketing<br>reports<br><strong>made easy</strong>
   intro: Connect all your data sources in one place—and generate custom reports that **save you hours and wow your clients!**
   cta: 
-    text: Try it now
-    url: /appsumo/
+    text: Try it for free
+    url: https://app.getbadger.io/
   demo: Schedule a demo now
   calendly_url: https://calendly.com/drochmarketgoo/badgerproductdemo
 
@@ -31,9 +31,9 @@ menu:
     - text: Log in
       class: button is-secondary
       href: https://app.getbadger.io/
-    - text: Try it now
+    - text: Try it for free
       class: button is-primary
-      href: /appsumo/
+      href: https://app.getbadger.io/
 steps:
   - title: One place for all your data
     class: is-connect
@@ -69,8 +69,8 @@ demo:
     No more copying and pasting screenshots. No more fiddling with Google
     Data Studio. Create tailored reports in minutes with **Badger**.
   cta: 
-    text: Try it now
-    url: /appsumo/
+    text: Try it for free
+    url: https://app.getbadger.io/
 faq:
   title: FAQs
   questions:
