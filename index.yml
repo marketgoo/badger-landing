@@ -61,6 +61,11 @@ steps:
     img: /img/public.png
     description: Your reports are **shared via a public URL**, where clients can
       easily see their most important metrics, along with your comments.
+  - title: Wow potential clients
+    class: is-audits
+    img: /img/audits.png
+    description: |
+      Acquire new customers with smart, one-off audits of their key SEO metrics. [Check out an example here](https://prospects.getbadger.io/reports/www.digitalagencybeginner.com){target="_blank"}.
 resume: 
 
 demo:
