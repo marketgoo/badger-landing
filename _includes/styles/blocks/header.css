@@ -4,6 +4,8 @@
   grid-column: 1 / -1 !important;
   justify-content: center;
   column-gap: 5vw;
+  row-gap: 5vh;
+  padding: 10vh 0;
   background-image:
     radial-gradient(closest-side, var(--primary-100), transparent),
     radial-gradient(closest-side, var(--accent-100), transparent),
@@ -20,11 +22,14 @@
       0 1px 4px rgba(0,0,0,0.05),
       0 1px 32px rgba(0,0,0,0.2);
   }
+
+  > .block-content {
+    grid-column: 2;
+  }
 }
 
 .block-header {
   grid-column: 2;
-  padding: 10vh 0;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -68,5 +73,11 @@
     justify-content: space-around;
     grid-template-columns: minmax(0, 45%) 1fr;
     text-align: left;
+
+    &.is-centered {
+      text-align: center;
+      grid-template-columns: minmax(0, 1fr);
+      max-width: 800px;
+    }
   }
 }

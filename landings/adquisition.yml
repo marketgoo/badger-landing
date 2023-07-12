@@ -1,0 +1,27 @@
+url: /audits/
+title: Badger - A tool for digital agencies to automate reports
+
+blocks:
+  - type: header
+    title: Adquire new customers with Badger audits
+    class: is-centered
+    description: Audits are the new one-off reports for digital agencies to adquire new customers. Just enter your lead's website URL and we'll do the rest.
+    blocks:
+      - type: audit_form
+        field:
+          label: URL of the website
+          placeholder: https://example.com
+        cta:
+          text: Generate audit
+
+  - type: pricing
+    title: Choose a plan <br>to suit your needs
+
+  - type: highlight_cta2
+    title: Get Badger
+    description: |
+      No more copying and pasting screenshots. No more fiddling with Google
+      Data Studio. Create tailored reports in minutes with **Badger**.
+    cta: 
+      text: Try it for free
+      url: https://app.getbadger.io/
