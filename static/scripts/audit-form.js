@@ -3,6 +3,15 @@ class AuditForm extends HTMLElement {
     const form = this.querySelector("form");
     const successTemplate = this.querySelector("#auditform-success");
     const errorTemplate = this.querySelector("#auditform-error");
+
+    const input = form.querySelector("input[type='url']");
+
+    // Add automatic http:// prefix to input
+    input.addEventListener("change", () => {
+      if (!input.value.startsWith("http")) {
+        input.value = "http://" + input.value;
+      }
+    });
     
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
