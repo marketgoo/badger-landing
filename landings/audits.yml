@@ -3,16 +3,16 @@ title: Badger - A tool for digital agencies to automate reports
 
 blocks:
   - type: header
-    title: Adquire new customers with Badger audits
+    title: Wow potential clients with audits
     class: is-centered
-    description: Audits are the new one-off reports for digital agencies to adquire new customers. Just enter your lead's website URL and we'll do the rest.
+    description: Looking to acquire new clients? Create an easy, one-off SEO audit of their site—and turn leads into customers!
     blocks:
       - type: audit_form
         field:
-          label: URL of the website
+          label: Website URL
           placeholder: https://example.com
         cta:
-          text: Generate audit
+          text: Try it out
       - type: screenshot
         img:
           src: /img/audit-screenshot.png

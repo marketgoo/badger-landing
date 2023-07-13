@@ -47,6 +47,13 @@
     min-height: 40px;
   }
 
+  &.is-link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+    color: var(--primary-700);
+  }
+
   &::-moz-focus-inner {
     border: 0;
   }

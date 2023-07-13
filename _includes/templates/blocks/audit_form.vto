@@ -2,18 +2,18 @@
 messages:
   success:
     title: Your audit is being created! 🎉
-    text: You can use the link below to view your report once it's ready and share it with your potential customer.
+    text: Once it's ready, you can share the link below with your potential client.
     cta: View your report
   error:
-    title: You have already created an audit
-    text: Only one audit is allowed anonimously. Create an account for unlimited audits.
-    cta: Try it for free
+    title: You've already created an audit
+    text: Create a Badger account to unlock unlimited audits.
+    cta: Create account now
 ---
 <badger-auditform>
   <form action="https://newstack.getbadger.io/api/create-audit" method="post" class="block-auditForm {{ block.class }}" target="_blank">
     <div class="field has-cta">
       <label for="url" class="field-label">{{ block.field.label }}</label>
-      <input autofocus type="url" class="input field-input" name="url" id="url" placeholder={{ block.field.placeholder }}>
+      <input autofocus type="text" class="input field-input" name="url" id="url" placeholder={{ block.field.placeholder }}>
       <div class="field-cta">
         <button class="button is-primary">{{ block.cta.text }}</button>
       </div>
