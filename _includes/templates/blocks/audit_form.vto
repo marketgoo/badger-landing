@@ -24,7 +24,7 @@ messages:
     <div class="block-auditForm-result is-success">
       <h2 class="block-auditForm-result-title">{{ block.success?.title || messages.success.title }}</h2>
       {{ block.success?.text || messages.success.text |> md }}
-      <a href="#" class="button is-primary" target="_blank">{{ block.success?.cta || messages.success.cta }}</a>
+      <a href="#" class="button is-link" target="_blank">{{ block.success?.cta || messages.success.cta }}</a>
     </div>
     {{ await comp.fireworks() }}
   </template>
