@@ -12,6 +12,9 @@ class AuditForm extends HTMLElement {
       const response = await fetch(form.action, {
         method: form.method,
         body: formData,
+        headers: {
+          accept: "application/json"
+        }
       });
 
       if (!response.ok) {
