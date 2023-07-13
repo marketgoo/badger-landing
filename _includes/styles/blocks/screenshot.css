@@ -1,0 +1,12 @@
+.block-screenshot {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+
+  & img {
+    display: block;
+    max-width: 100%;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-line), var(--shadow-3);
+  }
+}

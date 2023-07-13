@@ -25,6 +25,8 @@
 
   > .block-content {
     grid-column: 2;
+    display: grid;
+    row-gap: 5vh;
   }
 }
 

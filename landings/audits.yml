@@ -13,9 +13,10 @@ blocks:
           placeholder: https://example.com
         cta:
           text: Generate audit
-
-  - type: pricing
-    title: Choose a plan <br>to suit your needs
+      - type: screenshot
+        img:
+          src: /img/audit-screenshot.png
+          alt: Audit screenshot
 
   - type: highlight_cta2
     title: Get Badger

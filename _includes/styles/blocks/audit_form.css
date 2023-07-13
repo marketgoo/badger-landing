@@ -3,3 +3,22 @@
   width: 100%;
   margin: 0 auto;
 }
+.block-auditForm-result {
+  text-align: center;
+  color: var(--color-black-700);
+  max-width: 500px;
+  margin: 0 auto;
+
+  & p {
+    margin: 0.5em 0 2em;
+  }
+
+  &.is-error h2 {
+    color: var(--error-700);
+  }
+}
+.block-auditForm-result-title {
+  font: var(--font-3-bold);
+  letter-spacing: var(--font-spacing-3);
+  margin: 0;
+}

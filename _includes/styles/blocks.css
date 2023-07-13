@@ -6,6 +6,7 @@
 @import "./blocks/faq.css";
 @import "./blocks/audit_form.css";
 @import "./blocks/image_grid.css";
+@import "./blocks/screenshot.css";
 
 .blocks-container {
   display: grid;
