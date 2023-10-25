@@ -25,10 +25,6 @@ menu:
       href: /cookies/
   - title: Support
     links:
-    - text: Help center
-      href: https://support.getbadger.io/
-  - title: Company
-    links:
     - text: hello@getbadger.io
       href: mailto:hello@getbadger.io
     - text: Twitter
