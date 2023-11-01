@@ -17,4 +17,10 @@
       <img src="{{ block.img }}" alt="{{ block.title }}">
     {{ /if }}
   </header>
+
+  {{ if block.blocks?.length }}
+  <div class="block-content">
+    {{ include "templates/blocks.vto" { blocks: block.blocks } }}
+  </div>
+  {{ /if }}
 </div>

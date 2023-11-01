@@ -6,7 +6,7 @@ tiers:
     price_year: 99
     features:
       - "**Only 1 project**"
-      - "Unlimited reports"
+      - "Unlimited audits<br>(during Beta)"
       - "Custom logo"
       - "PDF reports"
       - "Semrush integration"
@@ -18,7 +18,7 @@ tiers:
     price_year: 399
     features:
       - "**Up to 5 projects**"
-      - "Unlimited reports"
+      - "Unlimited audits<br>(during Beta)"
       - "Custom logo"
       - "PDF reports"
       - "Semrush integration"
@@ -29,7 +29,7 @@ tiers:
     price_year: 999
     features:
       - "**Up to 15 projects**"
-      - "Unlimited reports"
+      - "Unlimited audits<br>(during Beta)"
       - "Custom logo"
       - "PDF reports"
       - "Semrush integration"
