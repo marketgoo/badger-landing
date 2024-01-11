@@ -13,10 +13,6 @@ body_class: has-navbar
 
   <div class="landing-header-content">
     <p>{{ header.intro |> md }}</p>
-
-    <div class="button-group">
-      <a href="{{ header.cta.url }}" class="button is-primary is-responsive">{{ header.cta.text }}</a>
-    </div>
   </div>
 </header>
 
@@ -33,6 +29,4 @@ body_class: has-navbar
     {{ /if }}
   </section>
   {{ /for }}
-
-  {{ include "templates/blocks/highlight_cta2.vto" { block: demo } }}
 </div>

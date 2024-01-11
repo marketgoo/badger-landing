@@ -11,11 +11,6 @@ metas:
 header:
   title: Marketing<br>reports<br><strong>made easy</strong>
   intro: Connect all your data sources in one place—and generate custom reports that **save you hours and wow your clients!**
-  cta: 
-    text: Try it for free
-    url: https://app.getbadger.io/
-  demo: Schedule a demo now
-  calendly_url: https://calendly.com/drochmarketgoo/badgerproductdemo
 
 menu:
   links:
@@ -31,9 +26,7 @@ menu:
     - text: Log in
       class: button is-secondary
       href: https://app.getbadger.io/
-    - text: Try it for free
-      class: button is-primary
-      href: https://app.getbadger.io/
+
 steps:
   - title: One place for all your data
     class: is-connect
