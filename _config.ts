@@ -10,7 +10,7 @@ import vento from "lume/plugins/vento.ts";
 
 // Set to true to show all the content related to the closing of Badger:
 // the site-wide banner, the /closing/ page and its links in menus and footer.
-const CLOSING_ENABLED = false;
+const CLOSING_ENABLED = true;
 
 const site = lume({
   location: new URL("https://getbadger.io"),
