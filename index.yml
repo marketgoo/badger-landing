@@ -24,6 +24,7 @@ menu:
       href: "/pricing/"
     - text: Closing down
       href: "/closing/"
+      closing: true
   ctas:
     - text: Log in
       class: button is-secondary

@@ -5,11 +5,13 @@
 
   <ul class="navbar-menu has-links">
     {{ for item of menu.links }}
+    {{ if closing_enabled || !item.closing }}
     <li>
       <a class="{{ item.class }}" href="{{ item.href }}"{{ if item.href == url }} aria-current="page"{{ /if }}>
         {{ item.text }}
       </a>
     </li>
+    {{ /if }}
     {{ /for }}
   </ul>
   <ul class="navbar-menu has-ctas">
