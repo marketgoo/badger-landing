@@ -1,0 +1,26 @@
+.banner {
+  background: var(--highlight-200);
+  color: var(--black-900);
+  border-bottom: solid 1px var(--highlight-300);
+  padding: 1em 5vw;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+
+  & p {
+    margin: 0;
+    font: var(--font-0);
+    letter-spacing: var(--font-spacing-2);
+  }
+
+  & strong {
+    font-weight: var(--bold);
+  }
+
+  & a {
+    color: var(--primary-900);
+    font-weight: var(--bold);
+    margin-left: .5em;
+    white-space: nowrap;
+  }
+}

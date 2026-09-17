@@ -6,6 +6,8 @@ links:
     href: "https://badger.prodcamp.com/"
   - text: Pricing
     href: "/pricing/"
+  - text: Closing down
+    href: "/closing/"
 ctas:
   - text: Log in
     class: button is-secondary

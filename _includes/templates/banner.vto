@@ -1,0 +1,10 @@
+{{ if it.banner }}
+<div class="banner" role="status">
+  <p>
+    {{ banner.text |> md(true) }}
+    {{ if banner.link_href }}
+      <a href="{{ banner.link_href }}">{{ banner.link_text }}</a>
+    {{ /if }}
+  </p>
+</div>
+{{ /if }}

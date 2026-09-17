@@ -6,8 +6,6 @@ metas:
   robots: false
 ---
 
-# Privacy Policy
-
 Marketgoo Internet SL is committed to respecting the privacy of the users of the
 Badger application, and to the protection and security of the personal data they
 have provided therein. Accordingly, marketgoo has designed a Privacy Policy for

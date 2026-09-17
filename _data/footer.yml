@@ -11,6 +11,8 @@ menu:
     links:
     - text: Pricing
       href: /pricing/
+    - text: Closing down
+      href: /closing/
   - title: Trust
     links:
     - text: Privacy Policy

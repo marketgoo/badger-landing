@@ -6,7 +6,7 @@
   <ul class="navbar-menu has-links">
     {{ for item of menu.links }}
     <li>
-      <a class="{{ item.class }}" href="{{ item.href }}" {{ item.href == url && 'aria-current="page"' }}>
+      <a class="{{ item.class }}" href="{{ item.href }}"{{ if item.href == url }} aria-current="page"{{ /if }}>
         {{ item.text }}
       </a>
     </li>

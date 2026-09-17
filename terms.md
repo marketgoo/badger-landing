@@ -4,8 +4,6 @@ title: Terms of service
 url: /terms/
 ---
 
-# Terms of service
-
 ## General Conditions of Use and Contracting
 
 These General Conditions of Use and Contracting (hereinafter the “General
